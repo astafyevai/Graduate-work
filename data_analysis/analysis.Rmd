@@ -1,0 +1,25 @@
+#иняз общее
+
+library(stringr)
+library(tidyverse)
+library(dplyr)
+
+data = read.csv("analysis.csv") #грузим данные
+data$foreign = sapply(data$foreign, as.character) #выбираем, что хотим анализировать
+data [data$foreign %in% c('three','zero','six','one','two','four'),] %>% #расформировываем столбец в несколько на основании значений
+  na.omit() %>% #игнорируем NA
+  count(foreign,stimulus) %>% #выбираем даныые, которые нужно учесть при анализе
+  spread(key = foreign, value = n) %>% #key - имя столбца/позиции передается в value. value = считает?
+  mutate(zero = ifelse(is.na(`zero`), as.integer(0), `zero`),  #меняем таблицу: is.na() считаем 0 и вписываем нужные значения
+         one = ifelse(is.na(`one`), as.integer(0), `one`),
+         two = ifelse(is.na(`one`), as.integer(0), `two`),
+         three = ifelse(is.na(`three`), as.integer(0), `three`),
+         four = ifelse(is.na(`one`), as.integer(0), `four`),
+         six = ifelse(is.na(`six`), as.integer(0), `six`),
+         type = paste(stimulus)) %>% 
+  ungroup() %>% 
+  select(type, zero, one, two, three, four, six) ->
+  data_test
+data_test = data_test[2:3,-1]
+data_test
+fisher.test(data_test[,-1],simulate.p.value=TRUE,B=1e5)
