@@ -63,3 +63,22 @@ data [data$gender %in% c('f','m'),] %>%
 data_test = data_test[2:3,-1]
 data_test
 fisher.test(data_test,simulate.p.value=TRUE,B=1e5)
+
+#лингобр влияет на ответы
+
+data = read.csv("analysis.csv")
+data$ling = sapply(data$ling, as.character)
+data [data$ling %in% c('yes','no'),] %>%
+  na.omit() %>% 
+  count(ling,stimulus) %>% 
+  spread(key = ling, value = n) %>% 
+  mutate(yes = ifelse(is.na(`yes`), as.integer(0), `yes`),  
+         no = ifelse(is.na(`no`), as.integer(0), `no`),
+         type = paste(stimulus)) %>% 
+  ungroup() %>% 
+  select(type, yes, no) ->
+  data_test
+data_test = data_test[2:3,-1]
+data_test
+fisher.test(data_test,simulate.p.value=TRUE,B=1e5)
+
