@@ -102,3 +102,22 @@ data_test = data_test[2:3,-1]
 #data_test
 fisher.test(data_test,simulate.p.value=TRUE,B=1e5)
 
+
+#количество слогов влияет на ответы
+
+data = read.csv("analysis.csv")
+data$X = sapply(data$X, as.character)
+data [data$X %in% c('one.syll', 'two.syll'),] %>%
+  na.omit() %>% 
+  count(X,stimulus) %>% 
+  spread(key = X, value = n) %>% 
+  mutate(one.syll = ifelse(is.na(`one.syll`), as.integer(0), `one.syll`),  
+         two.syll = ifelse(is.na(`two.syll`), as.integer(0), `two.syll`),
+         type = paste(stimulus)) %>% 
+  ungroup() %>% 
+  select(type, one.syll, two.syll) ->
+  data_test
+data_test = data_test[2:3,-1]
+#data_test
+fisher.test(data_test,simulate.p.value=TRUE,B=1e5)
+
