@@ -149,3 +149,41 @@ na.omit() %>%
 data_test = data_test[2:3,-1]
 data_test
 fisher.test(data_test,simulate.p.value=TRUE,B=1e5)
+
+
+#связь длины и влияния состояния (один слог): нет
+
+data = read.csv("analysis.csv")
+data [data$real_condition %in% c('liquid','soft','hard') & data$X == "one.syll",]  %>% 
+  na.omit() %>% 
+  count(X, real_condition,stimulus) %>% 
+  spread(key = real_condition, value = n) %>% 
+  mutate(liquid = ifelse(is.na(`liquid`), as.integer(0), `liquid`),
+         soft = ifelse(is.na(`soft`), as.integer(0), `soft`),  
+         hard = ifelse(is.na(`hard`), as.integer(0), `hard`),
+         type = paste(stimulus)) %>% 
+  ungroup() %>% 
+  select(type, liquid, soft, hard) ->
+  data_test
+data_test = data_test[2:3,-1]
+data_test
+fisher.test(data_test,simulate.p.value=TRUE,B=1e5)
+
+#связь длины и влияния состояния (два слога): когдв люди произносят два слога, на слушающих влияет состояние, значит, не можем сказать, что влияет по отдельности
+
+data = read.csv("analysis.csv")
+data [data$real_condition %in% c('liquid','soft','hard') & data$X == "two.syll",]  %>% 
+  na.omit() %>% 
+  count(X, real_condition,stimulus) %>% 
+  spread(key = real_condition, value = n) %>% 
+  mutate(liquid = ifelse(is.na(`liquid`), as.integer(0), `liquid`),
+         soft = ifelse(is.na(`soft`), as.integer(0), `soft`),  
+         hard = ifelse(is.na(`hard`), as.integer(0), `hard`),
+         type = paste(stimulus)) %>% 
+  ungroup() %>% 
+  select(type, liquid, soft, hard) ->
+  data_test
+data_test = data_test[2:3,-1]
+data_test
+fisher.test(data_test,simulate.p.value=TRUE,B=1e5)
+
