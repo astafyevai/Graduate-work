@@ -1,3 +1,10 @@
+# график ответов (общий)
+
+data = read.csv("analysis.csv")
+barplot(table(data$stimulus), ylab='Number of responses', main='Same/Different Distribution', col = 'pink')
+
+# график ответов (отдельные пары стимулов)
+
 #иняз общее
 
 library(stringr)
