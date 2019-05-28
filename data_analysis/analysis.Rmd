@@ -1,7 +1,12 @@
 # график ответов (общий)
 
+
+We expected that all participants of the experiment would consider the stimuli pairs as one word. If at least one subject decides that there are two different words among the stimuli pairs, we will consider our hypothesis incorrect. 
+
 data = read.csv("analysis.csv")
 barplot(table(data$stimulus), ylab='Number of responses', main='Same/Different Distribution', col = 'pink')
+
+The barplot presents/indicates/manifests that...
 
 # график ответов (отдельные пары стимулов)
 
@@ -29,7 +34,12 @@ data [data$foreign %in% c('three','zero','six','one','two','four'),] %>% #рас
   data_test
 data_test = data_test[2:3,-1]
 data_test
-fisher.test(data_test[,-1],simulate.p.value=TRUE,B=1e5)
+fisher.test(data_test,simulate.p.value=TRUE,B=1e5)
+
+Fisher's Exact Test for Count Data with simulated p-value (based on 1e+05 replicates)
+data:  data_test
+p-value = 0.00052
+alternative hypothesis: two.sided
 
 #муз образование не влияет на ответы
 
@@ -53,6 +63,17 @@ data_test = data_test[2:3,-1]
 #data_test
 fisher.test(data_test,simulate.p.value=TRUE,B=1e5)
 
+	Fisher's Exact Test for Count Data
+
+data:  data_test
+p-value = 0.1165
+alternative hypothesis: true odds ratio is not equal to 1
+95 percent confidence interval:
+ 0.9257751 1.8994032
+sample estimates:
+odds ratio 
+  1.324402 
+
 #пол не влияет на ответы
 
 data = read.csv("analysis.csv")
@@ -71,6 +92,16 @@ data_test = data_test[2:3,-1]
 data_test
 fisher.test(data_test,simulate.p.value=TRUE,B=1e5)
 
+Fisher's Exact Test for Count Data
+data:  data_test
+p-value = 1
+alternative hypothesis: true odds ratio is not equal to 1
+95 percent confidence interval:
+ 0.7105923 1.3914761
+sample estimates:
+odds ratio 
+ 0.9945437 
+
 #лингобр влияет на ответы
 
 data = read.csv("analysis.csv")
@@ -88,6 +119,16 @@ data [data$ling %in% c('yes','no'),] %>%
 data_test = data_test[2:3,-1]
 data_test
 fisher.test(data_test,simulate.p.value=TRUE,B=1e5)
+
+Fisher's Exact Test for Count Data
+data:  data_test
+p-value = 0.0004936
+alternative hypothesis: true odds ratio is not equal to 1
+95 percent confidence interval:
+ 1.316252 2.932600
+sample estimates:
+odds ratio 
+  1.957039 
 
 
 #состояние влияет на ответы
@@ -109,6 +150,10 @@ data_test = data_test[2:3,-1]
 #data_test
 fisher.test(data_test,simulate.p.value=TRUE,B=1e5)
 
+	Fisher's Exact Test for Count Data with simulated p-value (based on 1e+05 replicates)
+data:  data_test
+p-value = 0.04941
+alternative hypothesis: two.sided
 
 #количество слогов влияет на ответы
 
@@ -128,13 +173,65 @@ data_test = data_test[2:3,-1]
 #data_test
 fisher.test(data_test,simulate.p.value=TRUE,B=1e5)
 
+	Fisher's Exact Test for Count Data with simulated p-value (based on 1e+05 replicates)
+
+data:  data_test
+p-value = 0.04998
+alternative hypothesis: two.sided
+
+#связь длины и влияния состояния (один слог): нет
+
+data = read.csv("analysis.csv")
+data [data$real_condition %in% c('liquid','soft','hard') & data$X == "one.syll",]  %>% 
+  na.omit() %>% 
+  count(X, real_condition,stimulus) %>% 
+  spread(key = real_condition, value = n) %>% 
+  mutate(liquid = ifelse(is.na(`liquid`), as.integer(0), `liquid`),
+         soft = ifelse(is.na(`soft`), as.integer(0), `soft`),  
+         hard = ifelse(is.na(`hard`), as.integer(0), `hard`),
+         type = paste(stimulus)) %>% 
+  ungroup() %>% 
+  select(type, liquid, soft, hard) ->
+  data_test
+data_test = data_test[2:3,-1]
+data_test
+fisher.test(data_test,simulate.p.value=TRUE,B=1e5)
+
+Fisher's Exact Test for Count Data with simulated p-value (based on 1e+05 replicates)
+data:  data_test
+p-value = 0.1128
+alternative hypothesis: two.sided
+
+#связь длины и влияния состояния (два слога): когдв люди произносят два слога, на слушающих влияет состояние, значит, не можем сказать, что влияет по отдельности (то есть влияет какой-то общий фактор)
+
+data = read.csv("analysis.csv")
+data [data$real_condition %in% c('liquid','soft','hard') & data$X == "two.syll",]  %>% 
+  na.omit() %>% 
+  count(X, real_condition,stimulus) %>% 
+  spread(key = real_condition, value = n) %>% 
+  mutate(liquid = ifelse(is.na(`liquid`), as.integer(0), `liquid`),
+         soft = ifelse(is.na(`soft`), as.integer(0), `soft`),  
+         hard = ifelse(is.na(`hard`), as.integer(0), `hard`),
+         type = paste(stimulus)) %>% 
+  ungroup() %>% 
+  select(type, liquid, soft, hard) ->
+  data_test
+data_test = data_test[2:3,-1]
+data_test
+fisher.test(data_test,simulate.p.value=TRUE,B=1e5)
+
+Fisher's Exact Test for Count Data with simulated p-value (based on 1e+05 replicates)
+
+data:  data_test
+p-value = 0.00418
+alternative hypothesis: two.sided
+
 #про отдельные слова
 
 library(stringr)
 library(tidyverse)
 library(ggplot2)
 library(dplyr)
-
 
 data = read.csv("analysis.csv")
 data$really = (sapply(data$really, as.character))
@@ -156,41 +253,3 @@ na.omit() %>%
 data_test = data_test[2:3,-1]
 data_test
 fisher.test(data_test,simulate.p.value=TRUE,B=1e5)
-
-
-#связь длины и влияния состояния (один слог): нет
-
-data = read.csv("analysis.csv")
-data [data$real_condition %in% c('liquid','soft','hard') & data$X == "one.syll",]  %>% 
-  na.omit() %>% 
-  count(X, real_condition,stimulus) %>% 
-  spread(key = real_condition, value = n) %>% 
-  mutate(liquid = ifelse(is.na(`liquid`), as.integer(0), `liquid`),
-         soft = ifelse(is.na(`soft`), as.integer(0), `soft`),  
-         hard = ifelse(is.na(`hard`), as.integer(0), `hard`),
-         type = paste(stimulus)) %>% 
-  ungroup() %>% 
-  select(type, liquid, soft, hard) ->
-  data_test
-data_test = data_test[2:3,-1]
-data_test
-fisher.test(data_test,simulate.p.value=TRUE,B=1e5)
-
-#связь длины и влияния состояния (два слога): когдв люди произносят два слога, на слушающих влияет состояние, значит, не можем сказать, что влияет по отдельности
-
-data = read.csv("analysis.csv")
-data [data$real_condition %in% c('liquid','soft','hard') & data$X == "two.syll",]  %>% 
-  na.omit() %>% 
-  count(X, real_condition,stimulus) %>% 
-  spread(key = real_condition, value = n) %>% 
-  mutate(liquid = ifelse(is.na(`liquid`), as.integer(0), `liquid`),
-         soft = ifelse(is.na(`soft`), as.integer(0), `soft`),  
-         hard = ifelse(is.na(`hard`), as.integer(0), `hard`),
-         type = paste(stimulus)) %>% 
-  ungroup() %>% 
-  select(type, liquid, soft, hard) ->
-  data_test
-data_test = data_test[2:3,-1]
-data_test
-fisher.test(data_test,simulate.p.value=TRUE,B=1e5)
-
