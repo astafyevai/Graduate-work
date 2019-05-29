@@ -1,9 +1,7 @@
 План анализа:
 
 + 1. Общий график + описание. Разных больше, чем одинаковых. Гипотеза не подтвердилась. 
-2. График и таблица по отдельным словам. Видно, что разница в ответах. Фишер говорит, что значимо. 
-Но если сравнивать похожие по ответам столбцы (например, два последних), то стат значимости нет. 
-Вывод: надо соединить столбики с похожими группами и посмотреть, будет ли стат значимость там. 
++ 2. График и таблица по отдельным словам. Видно, что разница в ответах. Фишер говорит, что значимо. Но если сравнивать похожие по ответам столбцы (например, два последних), то стат значимости нет. Вывод: надо соединить столбики с похожими группами и посмотреть, будет ли стат значимость там. 
 3. Проверка стат значимости из п. 2
 4. Когда станет понятно, посмотреть на ответы, которые участники эксперимента предлагают по отдельным стимулам
 4. Проверим, есть ли зависимость от муз образ (нет)
@@ -31,9 +29,6 @@ data = read.csv("analysis.csv")
 barplot(table(data$stimulus), ylab='Number of responses', main='Identical/Different Distribution', col = 'pink')
 
 The graph consists of three columns, which contain the answers of participants in the experiment. The abscissa axis contains the response options, and the ordinate axis indicates the number of responses from the participants. The barplot presents that in the total for stimuli the “different” answer option exceeds the “identical” option. Some subjects could not determine whether a pair of stimuli was different words or the same. On the graph, this is the first column without a title; it will not be taken into account with further analysis.
-
-(The barplot presents/indicates/manifests that...)
-
 
 # график ответов (отдельные пары стимулов). подумать, как смэтчить и трактовать результаты теста (отличается только? одно? слово, проверить всех носителей на понятность)
 
@@ -76,9 +71,7 @@ ggplot(test, aes(x=ind, y=values, fill=variant)) +
 
 #иняз общее
 
-library(stringr)
-library(tidyverse)
-library(dplyr)
+(The barplot presents/indicates/manifests that...)
 
 data = read.csv("analysis.csv") #грузим данные
 data$foreign = sapply(data$foreign, as.character) #выбираем, что хотим анализировать
