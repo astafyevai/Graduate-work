@@ -1,6 +1,6 @@
 План анализа:
 
-1. Общий график + описание. Разных больше, чем одинаковых. Гипотеза не подтвердилась. 
++ 1. Общий график + описание. Разных больше, чем одинаковых. Гипотеза не подтвердилась. 
 2. График и таблица по отдельным словам. Видно, что разница в ответах. Фишер говорит, что значимо. 
 Но если сравнивать похожие по ответам столбцы (например, два последних), то стат значимости нет. 
 Вывод: надо соединить столбики с похожими группами и посмотреть, будет ли стат значимость там. 
@@ -15,7 +15,12 @@
 10. Проверим, угадывают ли участники состояние (выше ли процент называния, чем случайная вероятность)
 
 
+0. Ставим пакеты 
 
+library(stringr)
+library(tidyverse)
+library(ggplot2)
+library(dplyr)
 
 
 # график ответов (общий)
@@ -33,10 +38,11 @@ The graph consists of three columns, which contain the answers of participants i
 
 # график ответов (отдельные пары стимулов). подумать, как смэтчить и трактовать результаты теста (отличается только? одно? слово, проверить всех носителей на понятность)
 
-library(stringr)
-library(tidyverse)
-library(ggplot2)
-library(dplyr)
+
+
+
+The following barplot manifests grouping responses by stimuli names. The abscissa axis contains names of stimuli pairs, and the ordinate axis presents the number of responses from the participants. It is clearly seen that the columns vary greatly in values.
+
 
 data = read.csv("analysis.csv")
 data$really = (sapply(data$really, as.character))
