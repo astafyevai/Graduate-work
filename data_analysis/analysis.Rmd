@@ -4,8 +4,8 @@
 + 2. График и таблица по отдельным словам. Видно, что разница в ответах. Фишер говорит, что значимо. Но если сравнивать похожие по ответам столбцы (например, два последних), то стат значимости нет. Вывод: надо соединить столбики с похожими группами и посмотреть, будет ли стат значимость там. 
 3. Проверка стат значимости из п. 2
 4. Когда станет понятно, посмотреть на ответы, которые участники эксперимента предлагают по отдельным стимулам
-5 от пола (нет)
-6. Проверим, есть ли зависимость от муз образ (нет)
++ 5 от пола (нет)
++ 6. Проверим, есть ли зависимость от муз образ (нет)
 7. Проверим, есть ли зависимость от линг образ (да)
 8. Проверим, есть ли зависимость от колич языков (да)
 9. Проверим, есть ли зависимость от длины слова (да)
@@ -70,6 +70,8 @@ ggplot(test, aes(x=ind, y=values, fill=variant)) +
 
 #пол не влияет на ответы
 
+The graph indicates distribution of responses by gender. The abscissa axis contains options of answer, and the ordinate axis presents the number of responses from the participants. By applying Fisher's Exact Test to the resulting contingency table, we obtained a very high p-value (p-value = 1 > 0.05); therefore, the differences are not statistically significant, and we have no reason to discard the alternative hypothesis. Thus, according to the data, gender does not affect respondents' answers. 
+
 data = read.csv("analysis.csv")
 data$gender = sapply(data$gender, as.character)
 data [data$gender %in% c('f','m'),] %>%
@@ -86,8 +88,6 @@ data_test = data_test[2:3,-1]
 data_test
 fisher.test(data_test,simulate.p.value=TRUE,B=1e5)
 
-
-
 Fisher's Exact Test for Count Data
 data:  data_test
 p-value = 1
@@ -97,7 +97,6 @@ alternative hypothesis: true odds ratio is not equal to 1
 sample estimates:
 odds ratio 
  0.9945437 
-
 
 test = data_test
 row.names(test)[1] <- 'Different'
@@ -109,6 +108,9 @@ ggplot(test, aes(x=ind, y=values, fill=variant)) +
   geom_bar(stat="identity", position=position_dodge())
   
 #муз образование не влияет на ответы
+
+
+The following bar plot manifests distribution of responses by musical experience. Subject thought that it was the main aim of current study. The abscissa axis contains options of answer, and the ordinate axis presents the number of responses from the participants. The graph presents slight difference between respondents with (left column) and without musical experience (right column). Subjects with musical education evaluate stimuli pairs more as two different words; and the answers of the participants without musical education are distributed approximately equally in two columns. By applying Fisher's Exact Test to the resulting contingency table, we acquired a high p-value (p-value = 0.1165 > 0.05); therefore, the differences are not statistically significant, and we have no reason to discard the alternative hypothesis. Thus, according to the data, musical experience does not affect respondents’ answers. 
 
 library(stringr)
 library(tidyverse)
