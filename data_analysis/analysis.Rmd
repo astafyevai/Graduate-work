@@ -25,7 +25,6 @@ library(dplyr)
 
 # график ответов (общий)
 
-
 We expected that all participants of the experiment would consider the stimuli pairs as one word. If at least one subject decides that there are two different words among the stimuli pairs, we will consider our hypothesis incorrect. 
 
 data = read.csv("analysis.csv")
@@ -38,11 +37,10 @@ The graph consists of three columns, which contain the answers of participants i
 
 # график ответов (отдельные пары стимулов). подумать, как смэтчить и трактовать результаты теста (отличается только? одно? слово, проверить всех носителей на понятность)
 
+The following barplot manifests grouping responses by stimuli names. The abscissa axis contains names of stimuli pairs, and the ordinate axis presents the number of responses from the participants. It is clearly seen that the columns vary greatly in values. By applying Fisher's Exact Test to the resulting contingency table, we obtained a low value of p-value (p-value = 6e-05 < 0.05). It allows to consider the difference between the columns statistically significant. However, if the test is applied to two random columns (for example, for tonus.konus and czaplya.kaplya), then p-value will be high (p-value = 0.2191 > 0.05) and will not indicate statistical significance.
 
 
-
-The following barplot manifests grouping responses by stimuli names. The abscissa axis contains names of stimuli pairs, and the ordinate axis presents the number of responses from the participants. It is clearly seen that the columns vary greatly in values.
-
+#расформировать и доделать
 
 data = read.csv("analysis.csv")
 data$really = (sapply(data$really, as.character))
