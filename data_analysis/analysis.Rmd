@@ -6,7 +6,7 @@ We expected that all participants of the experiment would consider the stimuli p
 data = read.csv("analysis.csv")
 barplot(table(data$stimulus), ylab='Number of responses', main='Identical/Different Distribution', col = 'pink')
 
-The barplot presents that in the total for stimuli the “different” answer option exceeds the “identical” option. Some subjects could not determine whether a pair of stimuli was different words or the same. On the graph, this is the first column without a title; it will not be taken into account with further analysis.
+The graph consists of three columns, which contain the answers of participants in the experiment. The abscissa axis contains the response options, and the ordinate axis indicates the number of responses from the participants. The barplot presents that in the total for stimuli the “different” answer option exceeds the “identical” option. Some subjects could not determine whether a pair of stimuli was different words or the same. On the graph, this is the first column without a title; it will not be taken into account with further analysis.
 
 (The barplot presents/indicates/manifests that...)
 
