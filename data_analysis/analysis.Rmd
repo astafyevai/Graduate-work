@@ -4,9 +4,12 @@
 We expected that all participants of the experiment would consider the stimuli pairs as one word. If at least one subject decides that there are two different words among the stimuli pairs, we will consider our hypothesis incorrect. 
 
 data = read.csv("analysis.csv")
-barplot(table(data$stimulus), ylab='Number of responses', main='Same/Different Distribution', col = 'pink')
+barplot(table(data$stimulus), ylab='Number of responses', main='Identical/Different Distribution', col = 'pink')
 
-The barplot presents/indicates/manifests that...
+The barplot presents that in the total for stimuli the “different” answer option exceeds the “identical” option. Some subjects could not determine whether a pair of stimuli was different words or the same. On the graph, this is the first column without a title; it will not be taken into account with further analysis.
+
+(The barplot presents/indicates/manifests that...)
+
 
 # график ответов (отдельные пары стимулов). подумать, как смэтчить и трактовать результаты теста (отличается только? одно? слово, проверить всех носителей на понятность)
 
