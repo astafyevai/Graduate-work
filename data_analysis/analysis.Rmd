@@ -295,3 +295,35 @@ data:  data_test
 p-value = 0.00418
 alternative hypothesis: two.sided
 
+
+#верно ли угадывают состояние (проверим двумя способами, получается одно число)
+
+(choose(3,3)/27) #веротность угадать три из трех
+((1-8/27)/27) #вероятность не угадать ничего
+
+prop.test(247,640,p=(choose(3,3)/27) ,correct=FALSE)
+
+1-sample proportions test without continuity correction
+
+data:  247 out of 640, null probability (choose(3, 3)/27)
+X-squared = 2184.4, df = 1, p-value < 2.2e-16
+alternative hypothesis: true p is not equal to 0.03703704
+95 percent confidence interval:
+ 0.3490088 0.4242273
+sample estimates:
+        p 
+0.3859375 
+
+
+prop.test(247,640,p=((1-8/27)/27) ,correct=FALSE)
+	
+1-sample proportions test without continuity correction
+
+data:  247 out of 640, null probability ((1 - 8/27)/27)
+X-squared = 3265.3, df = 1, p-value < 2.2e-16
+alternative hypothesis: true p is not equal to 0.0260631
+95 percent confidence interval:
+ 0.3490088 0.4242273
+sample estimates:
+        p 
+0.3859375 
