@@ -81,6 +81,15 @@ data:  data_test
 p-value = 0.00052
 alternative hypothesis: two.sided
 
+test = data_test
+row.names(test)[1] <- 'Different'
+row.names(test)[2] <- 'Identical'
+data.graph$names <- rownames(data.graph)
+test <- stack(test)
+test$variant <- rep(c('Different','Identical'),6)
+ggplot(test, aes(x=ind, y=values, fill=variant)) +
+  geom_bar(stat="identity", position=position_dodge())
+
 #муз образование не влияет на ответы
 
 library(stringr)
