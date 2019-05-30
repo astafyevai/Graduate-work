@@ -353,6 +353,36 @@ alternative hypothesis: two.sided
 
 (choose(3,3)/27) #веротность угадать три из трех
 ((1-8/27)/27) #вероятность не угадать ничего
+prop.test(247,640,p=(choose(3,3)/27), correct=FALSE)
+prop.test(247,640,p=((1-8/27)/27) ,correct=FALSE)
+
+data = read.csv("analysis.csv")
+data$condition = sapply(data$condition, as.character)
+data [data$condition %in% c('liquid', 'soft', 'hard'),] %>%
+  na.omit() %>% 
+  count(condition,real_condition) %>% 
+  spread(key = condition, value = n) %>% 
+  mutate(liquid = ifelse(is.na(`liquid`), as.integer(0), `liquid`),  
+         soft = ifelse(is.na(`soft`), as.integer(0), `soft`),
+         hard = ifelse(is.na(`hard`), as.integer(0), `hard`),
+         type = paste(real_condition)) %>% 
+  ungroup() %>% 
+  select(type, liquid, soft, hard) ->
+  data_test 
+
+test = data_test [,-1]
+row.names(test)[1] <- 'hard_real'
+row.names(test)[2] <- 'liquid_real'
+row.names(test)[3] <- 'soft_real'
+test <- stack(test)
+test$variant <- rep(c('liquid_real','soft_real', 'hard_real'),3)
+ggplot(test, aes(x=ind, y=values, fill=variant)) +
+  theme_bw()+
+  theme_set(theme_bw()+theme(text = element_text(size = 14))) +
+  geom_bar(stat="identity", position=position_dodge())
+
+(choose(3,3)/27) #веротность угадать три из трех
+((1-8/27)/27) #вероятность не угадать ничего
 
 prop.test(247,640,p=(choose(3,3)/27) ,correct=FALSE)
 
