@@ -40,8 +40,8 @@ The following barplot manifests grouping responses by stimuli names. The absciss
 
 data = read.csv("analysis.csv")
 data$really = (sapply(data$really, as.character))
-data [data$really %in% c('tot.kot','stol.skol','tort.kort','stolko.skolko','tomik.komik','tonus.konus', 'czaplya.kaplya'),]  %>% 
-na.omit() %>% 
+data [data$really %in% c('tot.kot','stol.skol','tort.kort','stolko.skolko','tomik.komik','tonus.konus', 'tsaplya.kaplya'),]  %>% 
+  na.omit() %>% 
   count(really,stimulus) %>% 
   spread(key = really, value = n) %>% 
   mutate(tot.kot = ifelse(is.na(`tot.kot`), as.integer(0), `tot.kot`),
@@ -50,15 +50,12 @@ na.omit() %>%
          stolko.skolko = ifelse(is.na(`stolko.skolko`), as.integer(0), `stolko.skolko`),  
          tomik.komik = ifelse(is.na(`tomik.komik`), as.integer(0), `tomik.komik`),  
          tonus.konus = ifelse(is.na(`tonus.konus`), as.integer(0), `tonus.konus`),  
-         czaplya.kaplya = ifelse(is.na(`czaplya.kaplya`), as.integer(0), `czaplya.kaplya`),  
+         tsaplya.kaplya = ifelse(is.na(`tsaplya.kaplya`), as.integer(0), `tsaplya.kaplya`),  
          type = paste(stimulus)) %>% 
   ungroup() %>% 
-  select(type, tot.kot, stol.skol, 	tort.kort, stolko.skolko, tomik.komik, 	tonus.konus, czaplya.kaplya) ->
+  select(type, tot.kot, stol.skol, 	tort.kort, stolko.skolko, tomik.komik, 	tonus.konus, tsaplya.kaplya) ->
   data_test
 data_test = data_test[2:3,-1]
-data_test
-fisher.test(data_test,simulate.p.value=TRUE,B=1e5)
-
 test = data_test
 row.names(test)[1] <- 'Different'
 row.names(test)[2] <- 'Identical'
