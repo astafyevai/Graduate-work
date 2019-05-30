@@ -59,13 +59,15 @@ data_test = data_test[2:3,-1]
 data_test
 fisher.test(data_test,simulate.p.value=TRUE,B=1e5)
 
-data.graph <- as.data.frame(t(data_test))
-data.graph$names <- rownames(data.graph)
 test = data_test
 row.names(test)[1] <- 'Different'
+row.names(test)[2] <- 'Identical'
 test <- stack(test)
-test$variant <- rep(c('Different','Same'),7)
+test$variant <- rep(c('Different','Identical'),7)
 ggplot(test, aes(x=ind, y=values, fill=variant)) +
+  coord_flip()+
+  theme_bw()+
+  theme_set(theme_bw()+theme(text = element_text(size = 13))) +
   geom_bar(stat="identity", position=position_dodge())
 
 #пол не влияет на ответы
@@ -101,7 +103,6 @@ odds ratio
 test = data_test
 row.names(test)[1] <- 'Different'
 row.names(test)[2] <- 'Identical'
-data.graph$names <- rownames(data.graph)
 test <- stack(test)
 test$variant <- rep(c('Different','Identical'),2)
 ggplot(test, aes(x=ind, y=values, fill=variant)) +
