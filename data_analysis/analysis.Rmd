@@ -103,6 +103,8 @@ row.names(test)[2] <- 'Identical'
 test <- stack(test)
 test$variant <- rep(c('Different','Identical'),2)
 ggplot(test, aes(x=ind, y=values, fill=variant)) +
+  theme_bw()+
+  theme_set(theme_bw()+theme(text = element_text(size = 14))) +
   geom_bar(stat="identity", position=position_dodge())
   
 #муз образование не влияет на ответы
@@ -144,11 +146,13 @@ odds ratio
 test = data_test
 row.names(test)[1] <- 'Different'
 row.names(test)[2] <- 'Identical'
-data.graph$names <- rownames(data.graph)
 test <- stack(test)
 test$variant <- rep(c('Different','Identical'),2)
 ggplot(test, aes(x=ind, y=values, fill=variant)) +
+  theme_bw()+
+  theme_set(theme_bw()+theme(text = element_text(size = 14))) +
   geom_bar(stat="identity", position=position_dodge())
+  
 
 #иняз общее
 
@@ -182,12 +186,13 @@ alternative hypothesis: two.sided
 test = data_test
 row.names(test)[1] <- 'Different'
 row.names(test)[2] <- 'Identical'
-data.graph$names <- rownames(data.graph)
 test <- stack(test)
 test$variant <- rep(c('Different','Identical'),6)
 ggplot(test, aes(x=ind, y=values, fill=variant)) +
+  theme_bw()+
+  theme_set(theme_bw()+theme(text = element_text(size = 14))) +
   geom_bar(stat="identity", position=position_dodge())
-
+  
   
 #лингобр влияет на ответы
 
@@ -220,10 +225,11 @@ odds ratio
 test = data_test
 row.names(test)[1] <- 'Different'
 row.names(test)[2] <- 'Identical'
-data.graph$names <- rownames(data.graph)
 test <- stack(test)
 test$variant <- rep(c('Different','Identical'),2)
 ggplot(test, aes(x=ind, y=values, fill=variant)) +
+  theme_bw()+
+  theme_set(theme_bw()+theme(text = element_text(size = 14))) +
   geom_bar(stat="identity", position=position_dodge())
 
 
@@ -251,6 +257,16 @@ data:  data_test
 p-value = 0.04941
 alternative hypothesis: two.sided
 
+test = data_test
+row.names(test)[1] <- 'Different'
+row.names(test)[2] <- 'Identical'
+test <- stack(test)
+test$variant <- rep(c('Different','Identical'),3)
+ggplot(test, aes(x=ind, y=values, fill=variant)) +
+  theme_bw()+
+  theme_set(theme_bw()+theme(text = element_text(size = 14))) +
+  geom_bar(stat="identity", position=position_dodge())
+
 #количество слогов влияет на ответы
 
 data = read.csv("analysis.csv")
@@ -274,6 +290,16 @@ fisher.test(data_test,simulate.p.value=TRUE,B=1e5)
 data:  data_test
 p-value = 0.04998
 alternative hypothesis: two.sided
+
+test = data_test
+row.names(test)[1] <- 'Different'
+row.names(test)[2] <- 'Identical'
+test <- stack(test)
+test$variant <- rep(c('Different','Identical'),2)
+ggplot(test, aes(x=ind, y=values, fill=variant)) +
+  theme_bw()+
+  theme_set(theme_bw()+theme(text = element_text(size = 14))) +
+  geom_bar(stat="identity", position=position_dodge())
 
 #связь длины и влияния состояния (один слог): нет
 
