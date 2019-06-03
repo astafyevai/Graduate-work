@@ -294,9 +294,9 @@ ggplot(test, aes(x=ind, y=values, fill=variant)) +
 #связь длины и влияния состояния (один слог): нет
 
 data = read.csv("analysis.csv")
-data [data$real_condition %in% c('liquid','soft','hard') & data$X == "one.syll",]  %>% 
+data [data$real_condition %in% c('liquid','soft','hard') & data$syllable == "1",]  %>% 
   na.omit() %>% 
-  count(X, real_condition,stimulus) %>% 
+  count(syllable, real_condition,stimulus) %>% 
   spread(key = real_condition, value = n) %>% 
   mutate(liquid = ifelse(is.na(`liquid`), as.integer(0), `liquid`),
          soft = ifelse(is.na(`soft`), as.integer(0), `soft`),  
@@ -308,18 +308,14 @@ data [data$real_condition %in% c('liquid','soft','hard') & data$X == "one.syll",
 data_test = data_test[2:3,-1]
 data_test
 fisher.test(data_test,simulate.p.value=TRUE,B=1e5)
-
-Fisher's Exact Test for Count Data with simulated p-value (based on 1e+05 replicates)
-data:  data_test
-p-value = 0.1128
-alternative hypothesis: two.sided
+#p-value = 0.1141
 
 #связь длины и влияния состояния (два слога): когдв люди произносят два слога, на слушающих влияет состояние, значит, не можем сказать, что влияет по отдельности (то есть влияет какой-то общий фактор)
 
 data = read.csv("analysis.csv")
-data [data$real_condition %in% c('liquid','soft','hard') & data$X == "two.syll",]  %>% 
+data [data$real_condition %in% c('liquid','soft','hard') & data$syllable == "2",]  %>% 
   na.omit() %>% 
-  count(X, real_condition,stimulus) %>% 
+  count(syllable, real_condition,stimulus) %>% 
   spread(key = real_condition, value = n) %>% 
   mutate(liquid = ifelse(is.na(`liquid`), as.integer(0), `liquid`),
          soft = ifelse(is.na(`soft`), as.integer(0), `soft`),  
@@ -331,12 +327,7 @@ data [data$real_condition %in% c('liquid','soft','hard') & data$X == "two.syll",
 data_test = data_test[2:3,-1]
 data_test
 fisher.test(data_test,simulate.p.value=TRUE,B=1e5)
-
-Fisher's Exact Test for Count Data with simulated p-value (based on 1e+05 replicates)
-
-data:  data_test
-p-value = 0.00418
-alternative hypothesis: two.sided
+#p-value = 0.00433
 
 
 #верно ли угадывают состояние (проверим двумя способами, получается одно число)
