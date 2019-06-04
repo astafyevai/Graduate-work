@@ -391,3 +391,47 @@ alternative hypothesis: true p is not equal to 0.0260631
 sample estimates:
         p 
 0.3859375 
+
+#логистическая регрессия, модель 
+
+library(tidyverse)
+library(dplyr)
+library(ggplot2)
+library(stringr)
+theme_bw()
+
+data_regression <- read.csv('analysis.csv',header=T,na.strings=c(""))
+data_regression <- data_regression[-c(232, 471, 617),]
+sapply(data_regression,function(x) sum(is.na(x)))
+sapply(data_regression, function(x) length(unique(x)))
+data <- subset(data_regression,select=c(3,4,5,6,8,15,16,17))
+data <- data[-c(230:234),]
+
+data_adjusted <- data %>%
+  group_by(really,foreign,music,gender,ling,real_condition_2,syllable,stimulus) %>%
+  summarise(n = n()) %>%
+  spread(stimulus, n)
+
+data_adjusted[is.na(data_adjusted)] <- 0
+model <- glm(cbind(same, different) ~ really * real_condition_2 + foreign,family=binomial(link='logit'),data=data_adjusted[!(data_adjusted$really %in% c('tonus.konus')),])
+model <- glm(cbind(same, different) ~ really * real_condition_2 + foreign,family=binomial(link='logit'),data=data_adjusted)
+summary(model)
+anova(model, test="Chisq")
+1 - pchisq(36, df=6)
+library(pscl)
+pR2(model)
+model$residuals
+
+
+library(ROCR)
+data_adjusted$prob <- predict(object = model, type = 'response')
+data_adjusted$prob = as.numeric(data_adjusted$prob)
+data_adjusted$same = as.numeric(data_adjusted$same)
+pred_model <- prediction(data_adjusted$prob, data_adjusted$same)
+#Error in prediction(data_adjusted$prob, data_adjusted$same) : 
+#Number of classes is not equal to 2.
+#ROCR currently supports only evaluation of binary classification tasks.
+#
+
+perf_model <- performance(pred_model, 'tpr', 'fpr')
+
