@@ -1,642 +1,642 @@
 participant,age,gender,ling,music,foreign,nickname,stimulus,answer,condition,real_condition,all_condition_tests,condition_count,image,really,real_condition_2,syllable,complex_var
-1,21,f,yes,no,four,Слива лиловая спелая садовая,same,,soft,hard,1,#N/A,1,tsaplya.kaplya,hard,two.syll,hardtwo.syll
-1,21,f,yes,no,four,Слива лиловая спелая садовая,same,,hard,liquid,1,#N/A,1,stol.skol,liquid,one.syll,liquidone.syll
-1,21,f,yes,no,four,Слива лиловая спелая садовая,different,"Столько, сколько",liquid,soft,1,#N/A,1,stolko.skolko,soft,two.syll,softtwo.syll
-1,21,f,yes,no,four,Слива лиловая спелая садовая,different,"-, комик",hard,liquid,1,#N/A,1,tomik.komik,liquid,two.syll,liquidtwo.syll
-1,21,f,yes,no,four,Слива лиловая спелая садовая,same,конус,liquid,soft,1,#N/A,1,tonus.konus,soft,two.syll,softtwo.syll
-1,21,f,yes,no,four,Слива лиловая спелая садовая,different,"карп, -",soft,hard,1,#N/A,1,tort.kort,hard,one.syll,hardone.syll
-1,21,f,yes,no,four,Слива лиловая спелая садовая,different,"торт, кость",hard,liquid,1,#N/A,1,tot.kot,liquid,one.syll,liquidone.syll
-2,23,f,yes,no,four,ok_diplodok,different,,soft,hard,1,#N/A,1,tsaplya.kaplya,hard,two.syll,hardtwo.syll
-2,23,f,yes,no,four,ok_diplodok,different,"-, школа",liquid,liquid,1,1,1,stol.skol,liquid,one.syll,liquidone.syll
-2,23,f,yes,no,four,ok_diplodok,different,"терка, койка",hard,soft,1,#N/A,1,stolko.skolko,soft,two.syll,softtwo.syll
-2,23,f,yes,no,four,ok_diplodok,same,комик,liquid,liquid,1,1,1,tomik.komik,liquid,two.syll,liquidtwo.syll
-2,23,f,yes,no,four,ok_diplodok,same,конус,hard,soft,1,#N/A,1,tonus.konus,soft,two.syll,softtwo.syll
-2,23,f,yes,no,four,ok_diplodok,different,,soft,hard,1,#N/A,1,tort.kort,hard,one.syll,hardone.syll
-3,22,f,no,no,two,-,same,,soft,hard,1,#N/A,1,tsaplya.kaplya,hard,two.syll,hardtwo.syll
-3,22,f,no,no,two,-,same,скол,hard,liquid,1,#N/A,1,stol.skol,liquid,one.syll,liquidone.syll
-3,22,f,no,no,two,-,same,,liquid,soft,1,#N/A,1,stolko.skolko,soft,two.syll,softtwo.syll
-3,22,f,no,no,two,-,same,комик,hard,liquid,1,#N/A,1,tomik.komik,liquid,two.syll,liquidtwo.syll
-3,22,f,no,no,two,-,same,колос,liquid,soft,1,#N/A,1,tonus.konus,soft,two.syll,softtwo.syll
-3,22,f,no,no,two,-,different,"колба, холм",soft,hard,1,#N/A,1,tort.kort,hard,one.syll,hardone.syll
-3,22,f,no,no,two,-,same,порт,liquid,liquid,1,1,1,tot.kot,liquid,one.syll,liquidone.syll
-3,22,f,no,no,two,-,different,,hard,liquid,1,#N/A,1,tot.kot,liquid,one.syll,liquidone.syll
-4,21,f,yes,no,two,daring_shark,same,хлопья,soft,hard,1,#N/A,1,tsaplya.kaplya,hard,two.syll,hardtwo.syll
-4,21,f,yes,no,two,daring_shark,same,скол,hard,liquid,1,#N/A,1,stol.skol,liquid,one.syll,liquidone.syll
-4,21,f,yes,no,two,daring_shark,same,,liquid,soft,1,#N/A,1,stolko.skolko,soft,two.syll,softtwo.syll
-4,21,f,yes,no,two,daring_shark,same,,hard,liquid,1,#N/A,1,tomik.komik,liquid,two.syll,liquidtwo.syll
-4,21,f,yes,no,two,daring_shark,same,колос,liquid,soft,1,#N/A,1,tonus.konus,soft,two.syll,softtwo.syll
-4,21,f,yes,no,two,daring_shark,same,,soft,hard,1,#N/A,1,tort.kort,hard,one.syll,hardone.syll
-4,21,f,yes,no,two,daring_shark,different,"торт, хумус",hard,liquid,1,#N/A,1,tot.kot,liquid,one.syll,liquidone.syll
-5,24,f,yes,no,two,кирименко,different,,hard,hard,1,1,1,tsaplya.kaplya,hard,two.syll,hardtwo.syll
-5,24,f,yes,no,two,кирименко,different,,hard,hard,1,1,1,tort.kort,hard,one.syll,hardone.syll
-6,21,f,no,no,one,-,different,,soft,hard,1,#N/A,1,tsaplya.kaplya,hard,two.syll,hardtwo.syll
-6,21,f,no,no,one,-,different,"стол, скол",hard,liquid,1,#N/A,1,stol.skol,liquid,one.syll,liquidone.syll
-6,21,f,no,no,one,-,different,"столько, сколько",liquid,soft,1,#N/A,1,stolko.skolko,soft,two.syll,softtwo.syll
-6,21,f,no,no,one,-,different,комет,hard,liquid,1,#N/A,1,tomik.komik,liquid,two.syll,liquidtwo.syll
-6,21,f,no,no,one,-,different,,liquid,soft,1,#N/A,1,tonus.konus,soft,two.syll,softtwo.syll
-6,21,f,no,no,one,-,different,"горб, холл",soft,hard,1,#N/A,1,tort.kort,hard,one.syll,hardone.syll
-6,21,f,no,no,one,-,same,торт,hard,liquid,1,#N/A,1,tot.kot,liquid,one.syll,liquidone.syll
-7,19,m,no,yes,two,BronTVoice,different,,hard,hard,1,1,1,tsaplya.kaplya,hard,two.syll,hardtwo.syll
-7,19,m,no,yes,two,BronTVoice,different,,hard,hard,1,1,1,tort.kort,hard,one.syll,hardone.syll
-8,21,f,no,no,one,oi,different,,soft,hard,1,#N/A,1,tsaplya.kaplya,hard,two.syll,hardtwo.syll
-8,21,f,no,no,one,oi,different,"for, school",hard,liquid,1,#N/A,1,stol.skol,liquid,one.syll,liquidone.syll
-8,21,f,no,no,one,oi,different,,soft,soft,1,1,1,stolko.skolko,soft,two.syll,softtwo.syll
-8,21,f,no,no,one,oi,same,promt,hard,liquid,1,#N/A,1,tomik.komik,liquid,two.syll,liquidtwo.syll
-8,21,f,no,no,one,oi,same,,soft,soft,1,1,1,tonus.konus,soft,two.syll,softtwo.syll
-8,21,f,no,no,one,oi,different,"ор, холл",soft,hard,1,#N/A,1,tort.kort,hard,one.syll,hardone.syll
-8,21,f,no,no,one,oi,different,,hard,liquid,1,#N/A,1,tot.kot,liquid,one.syll,liquidone.syll
-9,47,f,no,yes,zero,Ленка К,different,"каша, кофе",hard,hard,1,1,1,tsaplya.kaplya,hard,two.syll,hardtwo.syll
-9,47,f,no,yes,zero,Ленка К,same,стол,soft,liquid,1,#N/A,1,stol.skol,liquid,one.syll,liquidone.syll
-9,47,f,no,yes,zero,Ленка К,same,сколько,hard,soft,1,#N/A,1,stolko.skolko,soft,two.syll,softtwo.syll
-9,47,f,no,yes,zero,Ленка К,same,карлик,soft,liquid,1,#N/A,1,tomik.komik,liquid,two.syll,liquidtwo.syll
-9,47,f,no,yes,zero,Ленка К,same,колос,hard,soft,1,#N/A,1,tonus.konus,soft,two.syll,softtwo.syll
-9,47,f,no,yes,zero,Ленка К,same,,hard,hard,1,1,1,tort.kort,hard,one.syll,hardone.syll
-9,47,f,no,yes,zero,Ленка К,same,торт,soft,liquid,1,#N/A,1,tot.kot,liquid,one.syll,liquidone.syll
-10,37,f,no,no,one,Аниська,same,,liquid,hard,1,#N/A,1,tsaplya.kaplya,hard,two.syll,hardtwo.syll
-10,37,f,no,no,one,Аниська,different,,soft,soft,1,1,1,stolko.skolko,soft,two.syll,softtwo.syll
-10,37,f,no,no,one,Аниська,different,,soft,soft,1,1,1,tonus.konus,soft,two.syll,softtwo.syll
-10,37,f,no,no,one,Аниська,same,,liquid,hard,1,#N/A,1,tort.kort,hard,one.syll,hardone.syll
-11,45,m,no,no,zero,-,different,"каша, копия",soft,hard,1,#N/A,1,tsaplya.kaplya,hard,two.syll,hardtwo.syll
-11,45,m,no,no,zero,-,different,"-, школа",hard,liquid,1,#N/A,1,stol.skol,liquid,one.syll,liquidone.syll
-11,45,m,no,no,zero,-,same,,liquid,soft,1,#N/A,1,stolko.skolko,soft,two.syll,softtwo.syll
-11,45,m,no,no,zero,-,same,комик,hard,liquid,1,#N/A,1,tomik.komik,liquid,two.syll,liquidtwo.syll
-11,45,m,no,no,zero,-,same,колос,liquid,soft,1,#N/A,1,tonus.konus,soft,two.syll,softtwo.syll
-11,45,m,no,no,zero,-,same,кол,soft,hard,1,#N/A,1,tort.kort,hard,one.syll,hardone.syll
-11,45,m,no,no,zero,-,same,,hard,liquid,1,#N/A,1,tot.kot,liquid,one.syll,liquidone.syll
-12,22,f,no,no,one,Rtt124,different,,soft,hard,1,#N/A,1,tsaplya.kaplya,hard,two.syll,hardtwo.syll
-12,22,f,no,no,one,Rtt127,different,,liquid,liquid,1,1,1,stol.skol,liquid,one.syll,liquidone.syll
-12,22,f,no,no,one,Rtt126,different,,hard,soft,1,#N/A,1,stolko.skolko,soft,two.syll,softtwo.syll
-12,22,f,no,no,one,Rtt128,different,,liquid,liquid,1,1,1,tomik.komik,liquid,two.syll,liquidtwo.syll
-12,22,f,no,no,one,Rtt125,same,,hard,soft,1,#N/A,1,tonus.konus,soft,two.syll,softtwo.syll
-12,22,f,no,no,one,Rtt123,different,,soft,hard,1,#N/A,1,tort.kort,hard,one.syll,hardone.syll
-12,22,f,no,no,one,Rtt129,same,,liquid,liquid,1,1,1,tot.kot,liquid,one.syll,liquidone.syll
-13,20,f,no,no,two,Elka,different,,liquid,hard,1,#N/A,1,tsaplya.kaplya,hard,two.syll,hardtwo.syll
-13,20,f,no,no,two,Elka,same,,soft,liquid,1,#N/A,1,stol.skol,liquid,one.syll,liquidone.syll
-13,20,f,no,no,two,Elka,same,,liquid,soft,1,#N/A,1,stolko.skolko,soft,two.syll,softtwo.syll
-13,20,f,no,no,two,Elka,same,,soft,liquid,1,#N/A,1,tomik.komik,liquid,two.syll,liquidtwo.syll
-13,20,f,no,no,two,Elka,same,,liquid,soft,1,#N/A,1,tonus.konus,soft,two.syll,softtwo.syll
-13,20,f,no,no,two,Elka,same,,liquid,hard,1,#N/A,1,tort.kort,hard,one.syll,hardone.syll
-13,20,f,no,no,two,Elka,different,,soft,liquid,1,#N/A,1,tot.kot,liquid,one.syll,liquidone.syll
-14,23,f,no,no,two,-,same,,liquid,hard,1,#N/A,1,tsaplya.kaplya,hard,two.syll,hardtwo.syll
-14,23,f,no,no,two,-,same,,soft,soft,1,1,1,stolko.skolko,soft,two.syll,softtwo.syll
-14,23,f,no,no,two,-,same,,soft,soft,1,1,1,tonus.konus,soft,two.syll,softtwo.syll
-14,23,f,no,no,two,-,different,,liquid,hard,1,#N/A,1,tort.kort,hard,one.syll,hardone.syll
-15,21,f,yes,no,four,покемон,different,"папа, капля",hard,hard,1,1,4,tsaplya.kaplya,hard,two.syll,hardtwo.syll
-15,21,f,yes,no,four,покемон,different,"-, клоун",liquid,liquid,1,1,4,stol.skol,liquid,one.syll,liquidone.syll
-15,21,f,yes,no,four,покемон,different,"сколько, хохот",soft,soft,1,1,4,stolko.skolko,soft,two.syll,softtwo.syll
-15,21,f,yes,no,four,покемон,same,комик,liquid,liquid,1,1,4,tomik.komik,liquid,two.syll,liquidtwo.syll
-15,21,f,yes,no,four,покемон,different,"тонус, конус",soft,soft,1,1,4,tonus.konus,soft,two.syll,softtwo.syll
-15,21,f,yes,no,four,покемон,different,"торт, корж",hard,hard,1,1,4,tort.kort,hard,one.syll,hardone.syll
-15,21,f,yes,no,four,покемон,different,"тот, корж",liquid,liquid,1,1,4,tot.kot,liquid,one.syll,liquidone.syll
-16,20,f,no,yes,two,-,different,"папа, капля",liquid,hard,1,#N/A,4,tsaplya.kaplya,hard,two.syll,hardtwo.syll
-16,20,f,no,yes,two,-,different,"шторм, -",hard,liquid,1,#N/A,4,stol.skol,liquid,one.syll,liquidone.syll
-16,20,f,no,yes,two,-,different,"сколько, хохот",soft,soft,1,1,4,stolko.skolko,soft,two.syll,softtwo.syll
-16,20,f,no,yes,two,-,same,комик,hard,liquid,1,#N/A,4,tomik.komik,liquid,two.syll,liquidtwo.syll
-16,20,f,no,yes,two,-,different,"-, кровь",soft,soft,1,1,4,tonus.konus,soft,two.syll,softtwo.syll
-16,20,f,no,yes,two,-,different,"торт, корж",liquid,hard,1,#N/A,4,tort.kort,hard,one.syll,hardone.syll
-16,20,f,no,yes,two,-,different,"тот, корж",hard,liquid,1,#N/A,4,tot.kot,liquid,one.syll,liquidone.syll
-17,43,f,no,yes,one,-,same,капля,soft,hard,1,#N/A,4,tsaplya.kaplya,hard,two.syll,hardtwo.syll
-17,43,f,no,yes,one,-,same,,liquid,liquid,1,1,4,stol.skol,liquid,one.syll,liquidone.syll
-17,43,f,no,yes,one,-,same,,hard,soft,1,#N/A,4,stolko.skolko,soft,two.syll,softtwo.syll
-17,43,f,no,yes,one,-,same,комик,liquid,liquid,1,1,4,tomik.komik,liquid,two.syll,liquidtwo.syll
-17,43,f,no,yes,one,-,same,колос,hard,soft,1,#N/A,4,tonus.konus,soft,two.syll,softtwo.syll
-17,43,f,no,yes,one,-,same,кофе,soft,hard,1,#N/A,4,tort.kort,hard,one.syll,hardone.syll
-17,43,f,no,yes,one,-,same,кот,liquid,liquid,1,1,4,tot.kot,liquid,one.syll,liquidone.syll
-18,23,f,yes,yes,six,-,different,капля,liquid,hard,1,#N/A,4,tsaplya.kaplya,hard,two.syll,hardtwo.syll
-18,23,f,yes,yes,six,-,different,"стол, скол",hard,liquid,1,#N/A,4,stol.skol,liquid,one.syll,liquidone.syll
-18,23,f,yes,yes,six,-,different,"-, хохот",soft,soft,1,1,4,stolko.skolko,soft,two.syll,softtwo.syll
-18,23,f,yes,yes,six,-,different,"-, комик",hard,liquid,1,#N/A,4,tomik.komik,liquid,two.syll,liquidtwo.syll
-18,23,f,yes,yes,six,-,different,"тонус, -",soft,soft,1,1,4,tonus.konus,soft,two.syll,softtwo.syll
-18,23,f,yes,yes,six,-,different,"торт, корж",liquid,hard,1,#N/A,4,tort.kort,hard,one.syll,hardone.syll
-18,23,f,yes,yes,six,-,different,"тот, корж",hard,liquid,1,#N/A,4,tot.kot,liquid,one.syll,liquidone.syll
-19,22,f,yes,no,two,-,different,"папа, капля",hard,hard,1,1,4,tsaplya.kaplya,hard,two.syll,hardtwo.syll
-19,22,f,yes,no,two,-,same,,liquid,liquid,1,1,4,stol.skol,liquid,one.syll,liquidone.syll
-19,22,f,yes,no,two,-,different,"стройка, хохот",soft,soft,1,1,4,stolko.skolko,soft,two.syll,softtwo.syll
-19,22,f,yes,no,two,-,same,комик,liquid,liquid,1,1,4,tomik.komik,liquid,two.syll,liquidtwo.syll
-19,22,f,yes,no,two,-,same,,soft,soft,1,1,4,tonus.konus,soft,two.syll,softtwo.syll
-19,22,f,yes,no,two,-,different,"творог, -",hard,hard,1,1,4,tort.kort,hard,one.syll,hardone.syll
-19,22,f,yes,no,two,-,different,"тот, корж",liquid,liquid,1,1,4,tot.kot,liquid,one.syll,liquidone.syll
-20,25,f,yes,yes,one,-,different,"-, капля",hard,hard,1,1,4,tsaplya.kaplya,hard,two.syll,hardtwo.syll
-20,25,f,yes,yes,one,-,same,стол,liquid,liquid,1,1,4,stol.skol,liquid,one.syll,liquidone.syll
-20,25,f,yes,yes,one,-,different,,soft,soft,1,1,4,stolko.skolko,soft,two.syll,softtwo.syll
-20,25,f,yes,yes,one,-,different,"-, комик",liquid,liquid,1,1,4,tomik.komik,liquid,two.syll,liquidtwo.syll
-20,25,f,yes,yes,one,-,different,"тонус, конус",soft,soft,1,1,4,tonus.konus,soft,two.syll,softtwo.syll
-20,25,f,yes,yes,one,-,different,"-, корж",hard,hard,1,1,4,tort.kort,hard,one.syll,hardone.syll
-20,25,f,yes,yes,one,-,different,"тот, корж",liquid,liquid,1,1,4,tot.kot,liquid,one.syll,liquidone.syll
-21,24,f,no,yes,two,Svetulya stryukova,same,,liquid,hard,1,#N/A,4,tsaplya.kaplya,hard,two.syll,hardtwo.syll
-21,24,f,no,yes,two,Svetulya stryukova,same,,soft,soft,1,1,4,stolko.skolko,soft,two.syll,softtwo.syll
-21,24,f,no,yes,two,Svetulya stryukova,different,,soft,soft,1,1,4,tonus.konus,soft,two.syll,softtwo.syll
-21,24,f,no,yes,two,Svetulya stryukova,same,,liquid,hard,1,#N/A,4,tort.kort,hard,one.syll,hardone.syll
-22,21,f,no,yes,two,Руди,different,"-, капля",soft,hard,1,#N/A,4,tsaplya.kaplya,hard,two.syll,hardtwo.syll
-22,21,f,no,yes,two,Руди,different,"шторм, -",liquid,liquid,1,1,4,stol.skol,liquid,one.syll,liquidone.syll
-22,21,f,no,yes,two,Руди,different,"сколько, - ",hard,soft,1,#N/A,4,stolko.skolko,soft,two.syll,softtwo.syll
-22,21,f,no,yes,two,Руди,same,комик,liquid,liquid,1,1,4,tomik.komik,liquid,two.syll,liquidtwo.syll
-22,21,f,no,yes,two,Руди,different,"тонус, -",hard,soft,1,#N/A,4,tonus.konus,soft,two.syll,softtwo.syll
-22,21,f,no,yes,two,Руди,different,"торт, корж",soft,hard,1,#N/A,4,tort.kort,hard,one.syll,hardone.syll
-22,21,f,no,yes,two,Руди,different,"тот, корж",liquid,liquid,1,1,4,tot.kot,liquid,one.syll,liquidone.syll
-23,22,m,yes,yes,six,Женя,different,"стул, школа",liquid,soft,1,#N/A,2,stol.skol,soft,one.syll,softone.syll
-23,22,m,yes,yes,six,Женя,same,комик,liquid,soft,1,#N/A,2,tomik.komik,soft,two.syll,softtwo.syll
-23,22,m,yes,yes,six,Женя,different,,liquid,soft,1,#N/A,2,tort.kort,soft,one.syll,softone.syll
-24,20,f,yes,no,three,-,different,,soft,liquid,1,#N/A,2,tsaplya.kaplya,liquid,two.syll,liquidtwo.syll
-24,20,f,yes,no,three,-,different,,soft,soft,1,1,2,stol.skol,soft,one.syll,softone.syll
-24,20,f,yes,no,three,-,same,,soft,soft,1,1,2,tomik.komik,soft,two.syll,softtwo.syll
-24,20,f,yes,no,three,-,different,,soft,soft,1,1,2,tort.kort,soft,one.syll,softone.syll
-24,20,f,yes,no,three,-,different,,soft,liquid,1,#N/A,2,tot.kot,liquid,one.syll,liquidone.syll
-25,22,m,yes,yes,six,Женя Л.,different,"цапля, -",soft,liquid,1,#N/A,2,tsaplya.kaplya,liquid,two.syll,liquidtwo.syll
-25,22,m,yes,yes,six,Женя Л.,different,"стол, школа",hard,soft,1,#N/A,2,stol.skol,soft,one.syll,softone.syll
-25,22,m,yes,yes,six,Женя Л.,same,сколько,liquid,hard,1,#N/A,2,stolko.skolko,hard,two.syll,hardtwo.syll
-25,22,m,yes,yes,six,Женя Л.,different,"фоне, комик",hard,soft,1,#N/A,2,tomik.komik,soft,two.syll,softtwo.syll
-25,22,m,yes,yes,six,Женя Л.,different,"кванос, кар",liquid,hard,1,#N/A,2,tonus.konus,hard,two.syll,hardtwo.syll
-25,22,m,yes,yes,six,Женя Л.,different,"тарт, хоф",hard,soft,1,#N/A,2,tort.kort,soft,one.syll,softone.syll
-25,22,m,yes,yes,six,Женя Л.,different,"тост, кот",soft,liquid,1,#N/A,2,tot.kot,liquid,one.syll,liquidone.syll
-26,22,f,yes,yes,two,yoxfo,different,"цапля, -",soft,liquid,1,#N/A,2,tsaplya.kaplya,liquid,two.syll,liquidtwo.syll
-26,22,f,yes,yes,two,yoxfo,different,"-, школа",hard,soft,1,#N/A,2,stol.skol,soft,one.syll,softone.syll
-26,22,f,yes,yes,two,yoxfo,different,"свекла, сколько",liquid,hard,1,#N/A,2,stolko.skolko,hard,two.syll,hardtwo.syll
-26,22,f,yes,yes,two,yoxfo,same,комик,hard,soft,1,#N/A,2,tomik.komik,soft,two.syll,softtwo.syll
-26,22,f,yes,yes,two,yoxfo,same,,liquid,hard,1,#N/A,2,tonus.konus,hard,two.syll,hardtwo.syll
-26,22,f,yes,yes,two,yoxfo,different,,hard,soft,1,#N/A,2,tort.kort,soft,one.syll,softone.syll
-26,22,f,yes,yes,two,yoxfo,different,,soft,liquid,1,#N/A,2,tot.kot,liquid,one.syll,liquidone.syll
-27,20,f,no,no,one,Mari,same,,hard,liquid,1,#N/A,2,tsaplya.kaplya,liquid,two.syll,liquidtwo.syll
-27,20,f,no,no,one,Mari,same,,liquid,soft,1,#N/A,2,stol.skol,soft,one.syll,softone.syll
-27,20,f,no,no,one,Mari,different,,soft,hard,1,#N/A,2,stolko.skolko,hard,two.syll,hardtwo.syll
-27,20,f,no,no,one,Mari,different,,liquid,soft,1,#N/A,2,tomik.komik,soft,two.syll,softtwo.syll
-27,20,f,no,no,one,Mari,same,,soft,hard,1,#N/A,2,tonus.konus,hard,two.syll,hardtwo.syll
-27,20,f,no,no,one,Mari,different,,liquid,hard,1,#N/A,2,tort.kort,hard,one.syll,hardone.syll
-27,20,f,no,no,one,Mari,same,,hard,liquid,1,#N/A,2,tot.kot,liquid,one.syll,liquidone.syll
-28,17,m,no,no,one,abacusss,same,цапля,liquid,liquid,1,1,2,tsaplya.kaplya,liquid,two.syll,liquidtwo.syll
-28,17,m,no,no,one,abacusss,same,,liquid,soft,1,#N/A,2,stol.skol,soft,one.syll,softone.syll
-28,17,m,no,no,one,abacusss,same,комик,liquid,soft,1,#N/A,2,tomik.komik,soft,two.syll,softtwo.syll
-28,17,m,no,no,one,abacusss,different,,liquid,soft,1,#N/A,2,tort.kort,soft,one.syll,softone.syll
-28,17,m,no,no,one,abacusss,same,,liquid,liquid,1,1,2,tot.kot,liquid,one.syll,liquidone.syll
-29,21,f,yes,no,two,NifNif,different,"цапля, капля",liquid,liquid,1,1,2,tsaplya.kaplya,liquid,two.syll,liquidtwo.syll
-29,21,f,yes,no,two,NifNif,same,"стул, скорая",soft,soft,1,1,2,stol.skol,soft,one.syll,softone.syll
-29,21,f,yes,no,two,NifNif,same,комик,soft,soft,1,1,2,tomik.komik,soft,two.syll,softtwo.syll
-29,21,f,yes,no,two,NifNif,different,,soft,soft,1,1,2,tort.kort,soft,one.syll,softone.syll
-29,21,f,yes,no,two,NifNif,different,"кровь, корь",liquid,liquid,1,1,2,tot.kot,liquid,one.syll,liquidone.syll
-30,21,f,no,yes,two,Rombad,different,,liquid,soft,1,#N/A,2,stol.skol,soft,one.syll,softone.syll
-30,21,f,no,yes,two,Rombad,different,,liquid,soft,1,#N/A,2,tomik.komik,soft,two.syll,softtwo.syll
-30,21,f,no,yes,two,Rombad,different,,liquid,soft,1,#N/A,2,tort.kort,soft,one.syll,softone.syll
-31,22,m,no,no,one,DiMa,different,"цапля, квадрат",soft,liquid,1,#N/A,2,tsaplya.kaplya,liquid,two.syll,liquidtwo.syll
-31,22,m,no,no,one,DiMa,different,"fool , score",liquid,soft,1,#N/A,2,stol.skol,soft,one.syll,softone.syll
-31,22,m,no,no,one,DiMa,different,"свекла, сколько",hard,hard,1,1,2,stolko.skolko,hard,two.syll,hardtwo.syll
-31,22,m,no,no,one,DiMa,different,"foreign, комик",liquid,soft,1,#N/A,2,tomik.komik,soft,two.syll,softtwo.syll
-31,22,m,no,no,one,DiMa,different,"kond of, кровь",hard,hard,1,1,2,tonus.konus,hard,two.syll,hardtwo.syll
-31,22,m,no,no,one,DiMa,different,"sold, hof",liquid,soft,1,#N/A,2,tort.kort,soft,one.syll,softone.syll
-31,22,m,no,no,one,DiMa,different,"кровь, кот",soft,liquid,1,#N/A,2,tot.kot,liquid,one.syll,liquidone.syll
-32,21,m,no,no,one,Михаил Петрович Зубенко (мафиозник),different,"цапля, конопля",soft,liquid,1,#N/A,2,tsaplya.kaplya,liquid,two.syll,liquidtwo.syll
-32,21,m,no,no,one,Михаил Петрович Зубенко (мафиозник),different,"стол, скоро",liquid,soft,1,#N/A,2,stol.skol,soft,one.syll,softone.syll
-32,21,m,no,no,one,Михаил Петрович Зубенко (мафиозник),different,"свекла, сколько",liquid,hard,1,#N/A,2,stolko.skolko,hard,two.syll,hardtwo.syll
-32,21,m,no,no,one,Михаил Петрович Зубенко (мафиозник),different,"-, комик",liquid,soft,1,#N/A,2,tomik.komik,soft,two.syll,softtwo.syll
-32,21,m,no,no,one,Михаил Петрович Зубенко (мафиозник),different,"-, корж",liquid,hard,1,#N/A,2,tonus.konus,hard,two.syll,hardtwo.syll
-32,21,m,no,no,one,Михаил Петрович Зубенко (мафиозник),different,"торт, кофе",liquid,soft,1,#N/A,2,tort.kort,soft,one.syll,softone.syll
-32,21,m,no,no,one,Михаил Петрович Зубенко (мафиозник),different,"кровь, корж",soft,liquid,1,#N/A,2,tot.kot,liquid,one.syll,liquidone.syll
-33,24,m,no,no,one,-,different,,soft,liquid,1,#N/A,2,tsaplya.kaplya,liquid,two.syll,liquidtwo.syll
-33,24,m,no,no,one,-,different,,hard,soft,1,#N/A,2,stol.skol,soft,one.syll,softone.syll
-33,24,m,no,no,one,-,different,,soft,hard,1,#N/A,2,stolko.skolko,hard,two.syll,hardtwo.syll
-33,24,m,no,no,one,-,same,,hard,soft,1,#N/A,2,tomik.komik,soft,two.syll,softtwo.syll
-33,24,m,no,no,one,-,different,,soft,hard,1,#N/A,2,tonus.konus,hard,two.syll,hardtwo.syll
-33,24,m,no,no,one,-,different,,hard,soft,1,#N/A,2,tort.kort,soft,one.syll,softone.syll
-33,24,m,no,no,one,-,different,,soft,liquid,1,#N/A,2,tot.kot,liquid,one.syll,liquidone.syll
-34,22,m,no,yes,one,-,different,"цапля, квадрат",hard,liquid,1,#N/A,2,tsaplya.kaplya,liquid,two.syll,liquidtwo.syll
-34,22,m,no,yes,one,-,different,"стол, скол",soft,soft,1,1,2,stol.skol,soft,one.syll,softone.syll
-34,22,m,no,yes,one,-,different,"свекла, сколько",hard,hard,1,1,2,stolko.skolko,hard,two.syll,hardtwo.syll
-34,22,m,no,yes,one,-,same,комик,soft,soft,1,1,2,tomik.komik,soft,two.syll,softtwo.syll
-34,22,m,no,yes,one,-,same,,hard,hard,1,1,2,tonus.konus,hard,two.syll,hardtwo.syll
-34,22,m,no,yes,one,-,different,"торт, -",soft,soft,1,1,2,tort.kort,soft,one.syll,softone.syll
-34,22,m,no,yes,one,-,different,"кровь, корт",hard,liquid,1,#N/A,2,tot.kot,liquid,one.syll,liquidone.syll
-35,21,f,no,no,two,Софит,different,,hard,soft,1,#N/A,2,stol.skol,soft,one.syll,softone.syll
-35,21,f,no,no,two,Софит,different,,hard,soft,1,#N/A,2,tomik.komik,soft,two.syll,softtwo.syll
-35,21,f,no,no,two,Софит,different,,hard,soft,1,#N/A,2,tort.kort,soft,one.syll,softone.syll
-36,18,f,no,no,one,Tea____,same,,soft,liquid,1,#N/A,2,tsaplya.kaplya,liquid,two.syll,liquidtwo.syll
-36,18,f,no,no,one,Tea____,different,,soft,soft,1,1,2,stol.skol,soft,one.syll,softone.syll
-36,18,f,no,no,one,Tea____,same,,soft,hard,1,#N/A,2,stolko.skolko,hard,two.syll,hardtwo.syll
-36,18,f,no,no,one,Tea____,different,,soft,soft,1,1,2,tomik.komik,soft,two.syll,softtwo.syll
-36,18,f,no,no,one,Tea____,same,,soft,hard,1,#N/A,2,tonus.konus,hard,two.syll,hardtwo.syll
-36,18,f,no,no,one,Tea____,different,,soft,soft,1,1,2,tort.kort,soft,one.syll,softone.syll
-36,18,f,no,no,one,Tea____,different,,liquid,liquid,1,1,2,tot.kot,liquid,one.syll,liquidone.syll
-37,22,m,no,no,one,-,same,цапля,liquid,liquid,1,1,2,tsaplya.kaplya,liquid,two.syll,liquidtwo.syll
-37,22,m,no,no,one,-,different,"стул, -",hard,soft,1,#N/A,2,stol.skol,soft,one.syll,softone.syll
-37,22,m,no,no,one,-,same,сколько,soft,hard,1,#N/A,2,stolko.skolko,hard,two.syll,hardtwo.syll
-37,22,m,no,no,one,-,same,комик,hard,soft,1,#N/A,2,tomik.komik,soft,two.syll,softtwo.syll
-37,22,m,no,no,one,-,same,конус,soft,hard,1,#N/A,2,tonus.konus,hard,two.syll,hardtwo.syll
-37,22,m,no,no,one,-,different,"торт, -",hard,soft,1,#N/A,2,tort.kort,soft,one.syll,softone.syll
-37,22,m,no,no,one,-,different,,liquid,liquid,1,1,2,tot.kot,liquid,one.syll,liquidone.syll
-38,17,f,no,yes,one,psyna092,same,цапля,soft,liquid,1,#N/A,2,tsaplya.kaplya,liquid,two.syll,liquidtwo.syll
-38,17,f,no,yes,one,psyna092,same,школа,hard,soft,1,#N/A,2,stol.skol,soft,one.syll,softone.syll
-38,17,f,no,yes,one,psyna092,different,"-, сколько",soft,hard,1,#N/A,2,stolko.skolko,hard,two.syll,hardtwo.syll
-38,17,f,no,yes,one,psyna092,same,комик,hard,soft,1,#N/A,2,tomik.komik,soft,two.syll,softtwo.syll
-38,17,f,no,yes,one,psyna092,same,конус,soft,hard,1,#N/A,2,tonus.konus,hard,two.syll,hardtwo.syll
-38,17,f,no,yes,one,psyna092,different,sold,hard,soft,1,#N/A,2,tort.kort,soft,one.syll,softone.syll
-38,17,f,no,yes,one,psyna092,same,кот,soft,liquid,1,#N/A,2,tot.kot,liquid,one.syll,liquidone.syll
-39,51,,,,zero,-,same,цапля,soft,liquid,1,#N/A,2,tsaplya.kaplya,liquid,two.syll,liquidtwo.syll
-39,51,,,,zero,-,different,,hard,soft,1,#N/A,2,stol.skol,soft,one.syll,softone.syll
-39,51,,,,zero,-,same,,hard,soft,1,#N/A,2,tomik.komik,soft,two.syll,softtwo.syll
-39,51,,,,zero,-,different,,hard,soft,1,#N/A,2,tort.kort,soft,one.syll,softone.syll
-39,51,,,,zero,-,same,кот,soft,liquid,1,#N/A,2,tot.kot,liquid,one.syll,liquidone.syll
-40,16,f,no,no,one,-,same,цапля,soft,liquid,1,#N/A,2,tsaplya.kaplya,liquid,two.syll,liquidtwo.syll
-40,16,f,no,no,one,-,different,,hard,soft,1,#N/A,2,stol.skol,soft,one.syll,softone.syll
-40,16,f,no,no,one,-,same,сколько,hard,hard,1,1,2,stolko.skolko,hard,two.syll,hardtwo.syll
-40,16,f,no,no,one,-,same,комик,hard,soft,1,#N/A,2,tomik.komik,soft,two.syll,softtwo.syll
-40,16,f,no,no,one,-,same,конус,hard,hard,1,1,2,tonus.konus,hard,two.syll,hardtwo.syll
-40,16,f,no,no,one,-,different,"торт, -",hard,soft,1,#N/A,2,tort.kort,soft,one.syll,softone.syll
-40,16,f,no,no,one,-,different,"кровь, кор",soft,liquid,1,#N/A,2,tot.kot,liquid,one.syll,liquidone.syll
-41,16,f,no,yes,one,Фолклендская лиса,different,,hard,liquid,1,#N/A,2,tsaplya.kaplya,liquid,two.syll,liquidtwo.syll
-41,16,f,no,yes,one,Фолклендская лиса,different,,soft,soft,1,1,2,stol.skol,soft,one.syll,softone.syll
-41,16,f,no,yes,one,Фолклендская лиса,different,,hard,hard,1,1,2,stolko.skolko,hard,two.syll,hardtwo.syll
-41,16,f,no,yes,one,Фолклендская лиса,same,,soft,soft,1,1,2,tomik.komik,soft,two.syll,softtwo.syll
-41,16,f,no,yes,one,Фолклендская лиса,same,конус,hard,hard,1,1,2,tonus.konus,hard,two.syll,hardtwo.syll
-41,16,f,no,yes,one,Фолклендская лиса,different,,soft,soft,1,1,2,tort.kort,soft,one.syll,softone.syll
-41,16,f,no,yes,one,Фолклендская лиса,same,кот,hard,liquid,1,#N/A,2,tot.kot,liquid,one.syll,liquidone.syll
-42,16,m,no,no,two,CHVAS,same,,liquid,liquid,1,1,2,tsaplya.kaplya,liquid,two.syll,liquidtwo.syll
-42,16,m,no,no,two,CHVAS,different,,soft,soft,1,1,2,stol.skol,soft,one.syll,softone.syll
-42,16,m,no,no,two,CHVAS,same,,hard,hard,1,1,2,stolko.skolko,hard,two.syll,hardtwo.syll
-42,16,m,no,no,two,CHVAS,same,,soft,soft,1,1,2,tomik.komik,soft,two.syll,softtwo.syll
-42,16,m,no,no,two,CHVAS,same,,hard,hard,1,1,2,tonus.konus,hard,two.syll,hardtwo.syll
-42,16,m,no,no,two,CHVAS,different,,soft,soft,1,1,2,tort.kort,soft,one.syll,softone.syll
-42,16,m,no,no,two,CHVAS,same,,liquid,liquid,1,1,2,tot.kot,liquid,one.syll,liquidone.syll
-43,17,f,no,no,two,Katya,different,,liquid,liquid,1,1,2,tsaplya.kaplya,liquid,two.syll,liquidtwo.syll
-43,17,f,no,no,two,Katya,different,,soft,soft,1,1,2,stol.skol,soft,one.syll,softone.syll
-43,17,f,no,no,two,Katya,different,,hard,hard,1,1,2,stolko.skolko,hard,two.syll,hardtwo.syll
-43,17,f,no,no,two,Katya,same,,soft,soft,1,1,2,tomik.komik,soft,two.syll,softtwo.syll
-43,17,f,no,no,two,Katya,different,,hard,hard,1,1,2,tonus.konus,hard,two.syll,hardtwo.syll
-43,17,f,no,no,two,Katya,different,,soft,soft,1,1,2,tort.kort,soft,one.syll,softone.syll
-43,17,f,no,no,two,Katya,different,,liquid,liquid,1,1,2,tot.kot,liquid,one.syll,liquidone.syll
-44,16,f,no,no,one,rita,same,,liquid,liquid,1,1,2,tsaplya.kaplya,liquid,two.syll,liquidtwo.syll
-44,16,f,no,no,one,rita,different,,hard,soft,1,#N/A,2,stol.skol,soft,one.syll,softone.syll
-44,16,f,no,no,one,rita,different,,hard,hard,1,1,2,stolko.skolko,hard,two.syll,hardtwo.syll
-44,16,f,no,no,one,rita,different,,hard,soft,1,#N/A,2,tomik.komik,soft,two.syll,softtwo.syll
-44,16,f,no,no,one,rita,different,,hard,hard,1,1,2,tonus.konus,hard,two.syll,hardtwo.syll
-44,16,f,no,no,one,rita,different,,hard,soft,1,#N/A,2,tort.kort,soft,one.syll,softone.syll
-44,16,f,no,no,one,rita,different,,liquid,liquid,1,1,2,tot.kot,liquid,one.syll,liquidone.syll
-45,16,f,no,no,one,Ася,same,,liquid,liquid,1,1,2,tsaplya.kaplya,liquid,two.syll,liquidtwo.syll
-45,16,f,no,no,one,Ася,different,,soft,soft,1,1,2,stol.skol,soft,one.syll,softone.syll
-45,16,f,no,no,one,Ася,different,,hard,hard,1,1,2,stolko.skolko,hard,two.syll,hardtwo.syll
-45,16,f,no,no,one,Ася,different,,soft,soft,1,1,2,tomik.komik,soft,two.syll,softtwo.syll
-45,16,f,no,no,one,Ася,same,,hard,hard,1,1,2,tonus.konus,hard,two.syll,hardtwo.syll
-45,16,f,no,no,one,Ася,different,,soft,soft,1,1,2,tort.kort,soft,one.syll,softone.syll
-45,16,f,no,no,one,Ася,same,,liquid,liquid,1,1,2,tot.kot,liquid,one.syll,liquidone.syll
-46,39,f,no,yes,one,fly79,different,"цапля, -",liquid,liquid,1,1,2,tsaplya.kaplya,liquid,two.syll,liquidtwo.syll
-46,39,f,no,yes,one,fly79,different,"стол, скоро",hard,soft,1,#N/A,2,stol.skol,soft,one.syll,softone.syll
-46,39,f,no,yes,one,fly79,different,"свекла, сколько",soft,hard,1,#N/A,2,stolko.skolko,hard,two.syll,hardtwo.syll
-46,39,f,no,yes,one,fly79,different,"-, комик",hard,soft,1,#N/A,2,tomik.komik,soft,two.syll,softtwo.syll
-46,39,f,no,yes,one,fly79,different,"тонус, кровь",soft,hard,1,#N/A,2,tonus.konus,hard,two.syll,hardtwo.syll
-46,39,f,no,yes,one,fly79,different,"-, кот",hard,soft,1,#N/A,2,tort.kort,soft,one.syll,softone.syll
-46,39,f,no,yes,one,fly79,different,"кровь, кот",liquid,liquid,1,1,2,tot.kot,liquid,one.syll,liquidone.syll
-47,23,f,yes,no,three,-,same,,soft,soft,1,1,5,stol.skol,soft,one.syll,softone.syll
-47,23,f,yes,no,three,-,different,"фомэк, комэк",soft,soft,1,1,5,tomik.komik,soft,two.syll,softtwo.syll
-47,23,f,yes,no,three,-,different,,soft,soft,1,1,5,tort.kort,soft,one.syll,softone.syll
-48,23,f,yes,no,three,vi,different,"цапля, квадрат",soft,liquid,1,#N/A,5,tsaplya.kaplya,liquid,two.syll,liquidtwo.syll
-48,23,f,yes,no,three,vi,same,,soft,soft,1,1,5,stol.skol,soft,one.syll,softone.syll
-48,23,f,yes,no,three,vi,same,сколько,soft,hard,1,#N/A,5,stolko.skolko,hard,two.syll,hardtwo.syll
-48,23,f,yes,no,three,vi,different,,soft,soft,1,1,5,tomik.komik,soft,two.syll,softtwo.syll
-48,23,f,yes,no,three,vi,different,"пол, хумус",soft,hard,1,#N/A,5,tonus.konus,hard,two.syll,hardtwo.syll
-48,23,f,yes,no,three,vi,different,,soft,soft,1,1,5,tort.kort,soft,one.syll,softone.syll
-48,23,f,yes,no,three,vi,same,кровь,soft,liquid,1,#N/A,5,tot.kot,liquid,one.syll,liquidone.syll
-49,27,f,yes,no,two,-,different,"цапля, квадрат",liquid,liquid,1,1,5,tsaplya.kaplya,liquid,two.syll,liquidtwo.syll
-49,27,f,yes,no,two,-,same,скол,hard,soft,1,#N/A,5,stol.skol,soft,one.syll,softone.syll
-49,27,f,yes,no,two,-,different,"шорты, сколько",soft,hard,1,#N/A,5,stolko.skolko,hard,two.syll,hardtwo.syll
-49,27,f,yes,no,two,-,same,комик,hard,soft,1,#N/A,5,tomik.komik,soft,two.syll,softtwo.syll
-49,27,f,yes,no,two,-,different,"пол, хумус",soft,hard,1,#N/A,5,tonus.konus,hard,two.syll,hardtwo.syll
-49,27,f,yes,no,two,-,different,"холод, кровь",hard,soft,1,#N/A,5,tort.kort,soft,one.syll,softone.syll
-49,27,f,yes,no,two,-,same,кровь,liquid,liquid,1,1,5,tot.kot,liquid,one.syll,liquidone.syll
-50,23,m,no,no,two,-,different,"цапля, фуагра",liquid,liquid,1,1,5,tsaplya.kaplya,liquid,two.syll,liquidtwo.syll
-50,23,m,no,no,two,-,different,"-, кол",soft,soft,1,1,5,stol.skol,soft,one.syll,softone.syll
-50,23,m,no,no,two,-,same,сколько,soft,hard,1,#N/A,5,stolko.skolko,hard,two.syll,hardtwo.syll
-50,23,m,no,no,two,-,different,,soft,soft,1,1,5,tomik.komik,soft,two.syll,softtwo.syll
-50,23,m,no,no,two,-,different,"пол, -",soft,hard,1,#N/A,5,tonus.konus,hard,two.syll,hardtwo.syll
-50,23,m,no,no,two,-,different,,soft,soft,1,1,5,tort.kort,soft,one.syll,softone.syll
-50,23,m,no,no,two,-,different,"кросс, пост",liquid,liquid,1,1,5,tot.kot,liquid,one.syll,liquidone.syll
-51,21,f,yes,no,two,-,different,,hard,soft,1,#N/A,5,stol.skol,soft,one.syll,softone.syll
-51,21,f,yes,no,two,-,same,,hard,soft,1,#N/A,5,tomik.komik,soft,two.syll,softtwo.syll
-51,21,f,yes,no,two,-,same,,hard,soft,1,#N/A,5,tort.kort,soft,one.syll,softone.syll
-52,42,m,no,no,two,Droyd_0159,same,,hard,liquid,1,#N/A,5,tsaplya.kaplya,liquid,two.syll,liquidtwo.syll
-52,42,m,no,no,two,Droyd_0159,different,,soft,soft,1,1,5,stol.skol,soft,one.syll,softone.syll
-52,42,m,no,no,two,Droyd_0159,same,,hard,hard,1,1,5,stolko.skolko,hard,two.syll,hardtwo.syll
-52,42,m,no,no,two,Droyd_0159,same,,soft,soft,1,1,5,tomik.komik,soft,two.syll,softtwo.syll
-52,42,m,no,no,two,Droyd_0159,different,,hard,hard,1,1,5,tonus.konus,hard,two.syll,hardtwo.syll
-52,42,m,no,no,two,Droyd_0159,same,,soft,soft,1,1,5,tort.kort,soft,one.syll,softone.syll
-52,42,m,no,no,two,Droyd_0159,same,,hard,liquid,1,#N/A,5,tot.kot,liquid,one.syll,liquidone.syll
-53,23,f,no,no,one,-,same,,liquid,liquid,1,1,5,tsaplya.kaplya,liquid,two.syll,liquidtwo.syll
-53,23,f,no,no,one,-,different,,hard,soft,1,#N/A,5,stol.skol,soft,one.syll,softone.syll
-53,23,f,no,no,one,-,same,,hard,soft,1,#N/A,5,tomik.komik,soft,two.syll,softtwo.syll
-53,23,f,no,no,one,-,same,,hard,soft,1,#N/A,5,tort.kort,soft,one.syll,softone.syll
-53,23,f,no,no,one,-,same,,liquid,liquid,1,1,5,tot.kot,liquid,one.syll,liquidone.syll
-54,22,f,no,yes,two,barmaley,same,,soft,soft,1,1,5,stol.skol,soft,one.syll,softone.syll
-54,22,f,no,yes,two,barmaley,same,,soft,soft,1,1,5,tomik.komik,soft,two.syll,softtwo.syll
-54,22,f,no,yes,two,barmaley,same,,soft,soft,1,1,5,tort.kort,soft,one.syll,softone.syll
-55,49,f,no,no,one,-,same,,liquid,liquid,1,1,5,tsaplya.kaplya,liquid,two.syll,liquidtwo.syll
-55,49,f,no,no,one,-,same,,hard,soft,1,#N/A,5,stol.skol,soft,one.syll,softone.syll
-55,49,f,no,no,one,-,different,,soft,hard,1,#N/A,5,stolko.skolko,hard,two.syll,hardtwo.syll
-55,49,f,no,no,one,-,same,,hard,soft,1,#N/A,5,tomik.komik,soft,two.syll,softtwo.syll
-55,49,f,no,no,one,-,same,,soft,hard,1,#N/A,5,tonus.konus,hard,two.syll,hardtwo.syll
-55,49,f,no,no,one,-,same,,hard,soft,1,#N/A,5,tort.kort,soft,one.syll,softone.syll
-55,49,f,no,no,one,-,different,,liquid,liquid,1,1,5,tot.kot,liquid,one.syll,liquidone.syll
-56,45,f,no,no,one,Orzu,same,,hard,liquid,1,#N/A,5,tsaplya.kaplya,liquid,two.syll,liquidtwo.syll
-56,45,f,no,no,one,Orzu,same,,soft,soft,1,1,5,stol.skol,soft,one.syll,softone.syll
-56,45,f,no,no,one,Orzu,same,,liquid,hard,1,#N/A,5,stolko.skolko,hard,two.syll,hardtwo.syll
-56,45,f,no,no,one,Orzu,same,,soft,soft,1,1,5,tomik.komik,soft,two.syll,softtwo.syll
-56,45,f,no,no,one,Orzu,different,,liquid,soft,1,#N/A,5,tonus.konus,soft,two.syll,softtwo.syll
-56,45,f,no,no,one,Orzu,same,,soft,soft,1,1,5,tort.kort,soft,one.syll,softone.syll
-56,45,f,no,no,one,Orzu,same,,hard,liquid,1,#N/A,5,tot.kot,liquid,one.syll,liquidone.syll
-57,16,f,no,no,two,марина,different,,hard,liquid,1,#N/A,5,tsaplya.kaplya,liquid,two.syll,liquidtwo.syll
-57,16,f,no,no,two,марина,same,,soft,soft,1,1,5,stol.skol,soft,one.syll,softone.syll
-57,16,f,no,no,two,марина,same,сколько,hard,hard,1,1,5,stolko.skolko,hard,two.syll,hardtwo.syll
-57,16,f,no,no,two,марина,same,,soft,soft,1,1,5,tomik.komik,soft,two.syll,softtwo.syll
-57,16,f,no,no,two,марина,same,,hard,hard,1,1,5,tonus.konus,hard,two.syll,hardtwo.syll
-57,16,f,no,no,two,марина,different,,soft,soft,1,1,5,tort.kort,soft,one.syll,softone.syll
-57,16,f,no,no,two,марина,different,,liquid,liquid,1,1,5,tot.kot,liquid,one.syll,liquidone.syll
-58,16,m,no,yes,one,-,same,,soft,liquid,1,#N/A,5,tsaplya.kaplya,liquid,two.syll,liquidtwo.syll
-58,16,m,no,yes,one,-,same,,soft,soft,1,1,5,stol.skol,soft,one.syll,softone.syll
-58,16,m,no,yes,one,-,same,,soft,hard,1,#N/A,5,stolko.skolko,hard,two.syll,hardtwo.syll
-58,16,m,no,yes,one,-,different,,soft,soft,1,1,5,tomik.komik,soft,two.syll,softtwo.syll
-58,16,m,no,yes,one,-,different,,soft,hard,1,#N/A,5,tonus.konus,hard,two.syll,hardtwo.syll
-58,16,m,no,yes,one,-,same,,soft,soft,1,1,5,tort.kort,soft,one.syll,softone.syll
-58,16,m,no,yes,one,-,different,,soft,liquid,1,#N/A,5,tot.kot,liquid,one.syll,liquidone.syll
-59,21,f,yes,yes,two,Татандр,same,school,soft,soft,1,1,5,stol.skol,soft,one.syll,softone.syll
-59,21,f,yes,yes,two,Татандр,different,,soft,soft,1,1,5,tomik.komik,soft,two.syll,softtwo.syll
-59,21,f,yes,yes,two,Татандр,same,,soft,soft,1,1,5,tort.kort,soft,one.syll,softone.syll
-60,17,m,no,no,one,-,same,,hard,liquid,1,#N/A,5,tsaplya.kaplya,liquid,two.syll,liquidtwo.syll
-60,17,m,no,no,one,-,same,,soft,soft,1,1,5,stol.skol,soft,one.syll,softone.syll
-60,17,m,no,no,one,-,same,сколько,hard,hard,1,1,5,stolko.skolko,hard,two.syll,hardtwo.syll
-60,17,m,no,no,one,-,different,,soft,soft,1,1,5,tomik.komik,soft,two.syll,softtwo.syll
-60,17,m,no,no,one,-,different,,hard,hard,1,1,5,tonus.konus,hard,two.syll,hardtwo.syll
-60,17,m,no,no,one,-,same,,soft,soft,1,1,5,tort.kort,soft,one.syll,softone.syll
-60,17,m,no,no,one,-,same,,hard,liquid,1,#N/A,5,tot.kot,liquid,one.syll,liquidone.syll
-61,16,f,no,yes,three,-,different,"цапля, квадра",liquid,liquid,1,1,5,tsaplya.kaplya,liquid,two.syll,liquidtwo.syll
-61,16,f,no,yes,three,-,same,стол,soft,soft,1,1,5,stol.skol,soft,one.syll,softone.syll
-61,16,f,no,yes,three,-,same,сколько,hard,hard,1,1,5,stolko.skolko,hard,two.syll,hardtwo.syll
-61,16,f,no,yes,three,-,different,"формат, кормит",soft,soft,1,1,5,tomik.komik,soft,two.syll,softtwo.syll
-61,16,f,no,yes,three,-,different,"порох, хумус",hard,hard,1,1,5,tonus.konus,hard,two.syll,hardtwo.syll
-61,16,f,no,yes,three,-,same,соус,soft,soft,1,1,5,tort.kort,soft,one.syll,softone.syll
-61,16,f,no,yes,three,-,same,корж,liquid,liquid,1,1,5,tot.kot,liquid,one.syll,liquidone.syll
-62,68,m,no,no,one,pit,same,капля,hard,liquid,1,#N/A,5,tsaplya.kaplya,liquid,two.syll,liquidtwo.syll
-62,68,m,no,no,one,pit,same,стол,soft,soft,1,1,5,stol.skol,soft,one.syll,softone.syll
-62,68,m,no,no,one,pit,same,сколько,hard,hard,1,1,5,stolko.skolko,hard,two.syll,hardtwo.syll
-62,68,m,no,no,one,pit,different,"фонот, конот",soft,soft,1,1,5,tomik.komik,soft,two.syll,softtwo.syll
-62,68,m,no,no,one,pit,different,"кол, -",hard,hard,1,1,5,tonus.konus,hard,two.syll,hardtwo.syll
-62,68,m,no,no,one,pit,different,"о, оф",soft,soft,1,1,5,tort.kort,soft,one.syll,softone.syll
-62,68,m,no,no,one,pit,different,,hard,liquid,1,#N/A,5,tot.kot,liquid,one.syll,liquidone.syll
-63,22,f,no,yes,two,besotvetstvennaya,same,цапля,hard,soft,1,#N/A,6,tsaplya.kaplya,soft,two.syll,softtwo.syll
-63,22,f,no,yes,two,besotvetstvennaya,different,,hard,hard,1,1,6,stol.skol,hard,one.syll,hardone.syll
-63,22,f,no,yes,two,besotvetstvennaya,same,сколько,soft,liquid,1,#N/A,6,stolko.skolko,liquid,two.syll,liquidtwo.syll
-63,22,f,no,yes,two,besotvetstvennaya,different,,hard,hard,1,1,6,tomik.komik,hard,two.syll,hardtwo.syll
-63,22,f,no,yes,two,besotvetstvennaya,different,,hard,soft,1,#N/A,6,tonus.konus,soft,two.syll,softtwo.syll
-63,22,f,no,yes,two,besotvetstvennaya,different,"торт, ор",soft,liquid,1,#N/A,6,tort.kort,liquid,one.syll,liquidone.syll
-63,22,f,no,yes,two,besotvetstvennaya,different,,hard,hard,1,1,6,tot.kot,hard,one.syll,hardone.syll
-64,21,f,no,no,one,Liza,same,цапля,soft,soft,1,1,6,tsaplya.kaplya,soft,two.syll,softtwo.syll
-64,21,f,no,no,one,Liza,same,соль,liquid,hard,1,#N/A,6,stol.skol,hard,one.syll,hardone.syll
-64,20,f,no,no,two,Кристина,same,сколько,soft,liquid,1,#N/A,6,stolko.skolko,liquid,two.syll,liquidtwo.syll
-64,21,f,no,no,one,Liza,same,сколько,soft,liquid,1,#N/A,6,stolko.skolko,liquid,two.syll,liquidtwo.syll
-64,21,f,no,no,one,Liza,same,,liquid,hard,1,#N/A,6,tomik.komik,hard,two.syll,hardtwo.syll
-64,21,f,no,no,one,Liza,different,,soft,soft,1,1,6,tonus.konus,soft,two.syll,softtwo.syll
-64,20,f,no,no,two,Кристина,same,торт,soft,liquid,1,#N/A,6,tort.kort,liquid,one.syll,liquidone.syll
-64,21,f,no,no,one,Liza,same,торт,soft,liquid,1,#N/A,6,tort.kort,liquid,one.syll,liquidone.syll
-64,21,f,no,no,one,Liza,same,,liquid,hard,1,#N/A,6,tot.kot,hard,one.syll,hardone.syll
-65,21,f,no,no,two,Llaa,same,,soft,liquid,1,#N/A,6,stolko.skolko,liquid,two.syll,liquidtwo.syll
-65,21,f,no,no,two,Llaa,same,,soft,liquid,1,#N/A,6,tort.kort,liquid,one.syll,liquidone.syll
-66,46,f,no,no,one,-,different,"цапля, капля",soft,soft,1,1,6,tsaplya.kaplya,soft,two.syll,softtwo.syll
-66,46,f,no,no,one,-,same,стол,liquid,hard,1,#N/A,6,stol.skol,hard,one.syll,hardone.syll
-66,46,f,no,no,one,-,same,сколько,soft,liquid,1,#N/A,6,stolko.skolko,liquid,two.syll,liquidtwo.syll
-66,46,f,no,no,one,-,different,,liquid,hard,1,#N/A,6,tomik.komik,hard,two.syll,hardtwo.syll
-66,46,f,no,no,one,-,different,,soft,soft,1,1,6,tonus.konus,soft,two.syll,softtwo.syll
-66,46,f,no,no,one,-,same,торт,soft,liquid,1,#N/A,6,tort.kort,liquid,one.syll,liquidone.syll
-66,46,f,no,no,one,-,different,"торт, кот",liquid,hard,1,#N/A,6,tot.kot,hard,one.syll,hardone.syll
-67,22,m,no,no,one,Дима П. ,different,"цапля, капля",hard,soft,1,#N/A,6,tsaplya.kaplya,soft,two.syll,softtwo.syll
-67,22,m,no,no,one,Дима П. ,same,стол,soft,hard,1,#N/A,6,stol.skol,hard,one.syll,hardone.syll
-67,22,m,no,no,one,Дима П. ,same,сколько,soft,hard,1,#N/A,6,stolko.skolko,hard,two.syll,hardtwo.syll
-67,22,m,no,no,one,Дима П. ,different,,soft,hard,1,#N/A,6,tomik.komik,hard,two.syll,hardtwo.syll
-67,22,m,no,no,one,Дима П. ,different,"самолет, -",hard,soft,1,#N/A,6,tonus.konus,soft,two.syll,softtwo.syll
-67,22,m,no,no,one,Дима П. ,different,"торт, -",liquid,liquid,1,1,6,tort.kort,liquid,one.syll,liquidone.syll
-67,22,m,no,no,one,Дима П. ,different,,soft,hard,1,#N/A,6,tot.kot,hard,one.syll,hardone.syll
-68,21,f,no,no,two,Taaanik,same,цапля,soft,soft,1,1,6,tsaplya.kaplya,soft,two.syll,softtwo.syll
-68,21,f,no,no,two,Taaanik,same,стол,liquid,hard,1,#N/A,6,stol.skol,hard,one.syll,hardone.syll
-68,21,f,no,no,two,Taaanik,same,сколько,soft,liquid,1,#N/A,6,stolko.skolko,liquid,two.syll,liquidtwo.syll
-68,21,f,no,no,two,Taaanik,same,,liquid,hard,1,#N/A,6,tomik.komik,hard,two.syll,hardtwo.syll
-68,21,f,no,no,two,Taaanik,different,"-, клоуз",soft,soft,1,1,6,tonus.konus,soft,two.syll,softtwo.syll
-68,21,f,no,no,two,Taaanik,different,"торс, ор",soft,liquid,1,#N/A,6,tort.kort,liquid,one.syll,liquidone.syll
-68,21,f,no,no,two,Taaanik,different,"-, корт",liquid,hard,1,#N/A,6,tot.kot,hard,one.syll,hardone.syll
-69,18,f,no,yes,two,marvelouspoke,different,"цапля, капля",hard,soft,1,#N/A,6,tsaplya.kaplya,soft,two.syll,softtwo.syll
-69,18,f,no,yes,two,marvelouspoke,same,что,liquid,hard,1,#N/A,6,stol.skol,hard,one.syll,hardone.syll
-69,18,f,no,yes,two,marvelouspoke,same,сколько,soft,liquid,1,#N/A,6,stolko.skolko,liquid,two.syll,liquidtwo.syll
-69,18,f,no,yes,two,marvelouspoke,same,комик,liquid,hard,1,#N/A,6,tomik.komik,hard,two.syll,hardtwo.syll
-69,18,f,no,yes,two,marvelouspoke,different,"твой нос, гольф",hard,soft,1,#N/A,6,tonus.konus,soft,two.syll,softtwo.syll
-69,18,f,no,yes,two,marvelouspoke,different,"торт, -",soft,liquid,1,#N/A,6,tort.kort,liquid,one.syll,liquidone.syll
-69,18,f,no,yes,two,marvelouspoke,different,"-, ложка",liquid,hard,1,#N/A,6,tot.kot,hard,one.syll,hardone.syll
-70,25,f,yes,no,two,пыр,same,сколько,soft,liquid,1,#N/A,6,stolko.skolko,liquid,two.syll,liquidtwo.syll
-70,25,f,yes,no,two,пыр,different,"торф, ор",soft,liquid,1,#N/A,6,tort.kort,liquid,one.syll,liquidone.syll
-71,16,f,no,no,two,,same,цапля,soft,soft,1,1,6,tsaplya.kaplya,soft,two.syll,softtwo.syll
-71,16,f,no,no,two,,same,,soft,hard,1,#N/A,6,stol.skol,hard,one.syll,hardone.syll
-71,16,f,no,no,two,,different,"-, сколько",soft,liquid,1,#N/A,6,stolko.skolko,liquid,two.syll,liquidtwo.syll
-71,16,f,no,no,two,,same,комик,soft,hard,1,#N/A,6,tomik.komik,hard,two.syll,hardtwo.syll
-71,16,f,no,no,two,,different,,soft,soft,1,1,6,tonus.konus,soft,two.syll,softtwo.syll
-71,16,f,no,no,two,,same,,soft,liquid,1,#N/A,6,tort.kort,liquid,one.syll,liquidone.syll
-71,16,f,no,no,two,,different,,soft,hard,1,#N/A,6,tot.kot,hard,one.syll,hardone.syll
-72,16,m,no,yes,two,,different,,soft,soft,1,1,6,tsaplya.kaplya,soft,two.syll,softtwo.syll
-72,16,m,no,yes,two,,same,,liquid,hard,1,#N/A,6,stol.skol,hard,one.syll,hardone.syll
-72,16,m,no,yes,two,,different,,soft,liquid,1,#N/A,6,stolko.skolko,liquid,two.syll,liquidtwo.syll
-72,16,m,no,yes,two,,same,,liquid,hard,1,#N/A,6,tomik.komik,hard,two.syll,hardtwo.syll
-72,16,m,no,yes,two,,different,,soft,soft,1,1,6,tonus.konus,soft,two.syll,softtwo.syll
-72,16,m,no,yes,two,,different,,soft,liquid,1,#N/A,6,tort.kort,liquid,one.syll,liquidone.syll
-72,16,m,no,yes,two,,different,,liquid,hard,1,#N/A,6,tot.kot,hard,one.syll,hardone.syll
-73,16,m,no,no,one,Герсей,same,цапля,hard,soft,1,#N/A,6,tsaplya.kaplya,soft,two.syll,softtwo.syll
-73,16,m,no,no,one,Герсей,same,,hard,hard,1,1,6,stol.skol,hard,one.syll,hardone.syll
-73,16,m,no,no,one,Герсей,same,сколько,liquid,liquid,1,1,6,stolko.skolko,liquid,two.syll,liquidtwo.syll
-73,16,m,no,no,one,Герсей,same,,hard,hard,1,1,6,tomik.komik,hard,two.syll,hardtwo.syll
-73,16,m,no,no,one,Герсей,different,,hard,soft,1,#N/A,6,tonus.konus,soft,two.syll,softtwo.syll
-73,16,m,no,no,one,Герсей,different,,liquid,liquid,1,1,6,tort.kort,liquid,one.syll,liquidone.syll
-73,16,m,no,no,one,Герсей,different,,hard,hard,1,1,6,tot.kot,hard,one.syll,hardone.syll
-74,17,m,no,no,one,Qweaper,same,сколько,soft,liquid,1,#N/A,6,stolko.skolko,liquid,two.syll,liquidtwo.syll
-74,17,m,no,no,one,Qweaper,different,,soft,liquid,1,#N/A,6,tort.kort,liquid,one.syll,liquidone.syll
-75,16,m,no,no,one,-,same,,soft,soft,1,1,6,tsaplya.kaplya,soft,two.syll,softtwo.syll
-75,16,m,no,no,one,-,same,,liquid,hard,1,#N/A,6,stol.skol,hard,one.syll,hardone.syll
-75,16,m,no,no,one,-,same,,hard,liquid,1,#N/A,6,stolko.skolko,liquid,two.syll,liquidtwo.syll
-75,16,m,no,no,one,-,same,,liquid,hard,1,#N/A,6,tomik.komik,hard,two.syll,hardtwo.syll
-75,16,m,no,no,one,-,different,,soft,soft,1,1,6,tonus.konus,soft,two.syll,softtwo.syll
-75,16,m,no,no,one,-,different,,hard,liquid,1,#N/A,6,tort.kort,liquid,one.syll,liquidone.syll
-75,16,m,no,no,one,-,different,,liquid,hard,1,#N/A,6,tot.kot,hard,one.syll,hardone.syll
-76,18,m,no,no,one,His,same,,liquid,liquid,1,1,6,stolko.skolko,liquid,two.syll,liquidtwo.syll
-76,18,m,no,no,one,His,same,,liquid,liquid,1,1,6,tort.kort,liquid,one.syll,liquidone.syll
-77,34,m,no,no,one,Алекс,same,капля,hard,soft,1,#N/A,6,tsaplya.kaplya,soft,two.syll,softtwo.syll
-77,34,m,no,no,one,Алекс,same,,soft,hard,1,#N/A,6,stol.skol,hard,one.syll,hardone.syll
-77,34,m,no,no,one,Алекс,same,сколько,liquid,liquid,1,1,6,stolko.skolko,liquid,two.syll,liquidtwo.syll
-77,34,m,no,no,one,Алекс,same,,soft,hard,1,#N/A,6,tomik.komik,hard,two.syll,hardtwo.syll
-77,34,m,no,no,one,Алекс,same,колос,hard,soft,1,#N/A,6,tonus.konus,soft,two.syll,softtwo.syll
-77,34,m,no,no,one,Алекс,same,торт,liquid,liquid,1,1,6,tort.kort,liquid,one.syll,liquidone.syll
-77,34,m,no,no,one,Алекс,same,,soft,hard,1,#N/A,6,tot.kot,hard,one.syll,hardone.syll
-78,16,f,no,no,two,,same,капля,liquid,soft,1,#N/A,6,tsaplya.kaplya,soft,two.syll,softtwo.syll
-78,16,f,no,no,two,,same,,hard,hard,1,1,6,stol.skol,hard,one.syll,hardone.syll
-78,16,f,no,no,two,,same,сколько,soft,liquid,1,#N/A,6,stolko.skolko,liquid,two.syll,liquidtwo.syll
-78,16,f,no,no,two,,different,,hard,hard,1,1,6,tomik.komik,hard,two.syll,hardtwo.syll
-78,16,f,no,no,two,,different,,liquid,soft,1,#N/A,6,tonus.konus,soft,two.syll,softtwo.syll
-78,16,f,no,no,two,,different,,soft,liquid,1,#N/A,6,tort.kort,liquid,one.syll,liquidone.syll
-78,16,f,no,no,two,,,,hard,hard,1,1,6,tot.kot,hard,one.syll,hardone.syll
-79,17,f,no,yes,one,Ну Погодивович Что,same,,hard,soft,1,#N/A,6,tsaplya.kaplya,soft,two.syll,softtwo.syll
-79,17,f,no,yes,one,Ну Погодивович Что,same,,liquid,hard,1,#N/A,6,stol.skol,hard,one.syll,hardone.syll
-79,17,f,no,yes,one,Ну Погодивович Что,same,,soft,liquid,1,#N/A,6,stolko.skolko,liquid,two.syll,liquidtwo.syll
-79,17,f,no,yes,one,Ну Погодивович Что,same,,liquid,hard,1,#N/A,6,tomik.komik,hard,two.syll,hardtwo.syll
-79,17,f,no,yes,one,Ну Погодивович Что,different,,hard,soft,1,#N/A,6,tonus.konus,soft,two.syll,softtwo.syll
-79,17,f,no,yes,one,Ну Погодивович Что,different,,soft,liquid,1,#N/A,6,tort.kort,liquid,one.syll,liquidone.syll
-79,17,f,no,yes,one,Ну Погодивович Что,different,,liquid,hard,1,#N/A,6,tot.kot,hard,one.syll,hardone.syll
-80,16,m,no,no,two,Максимка,same,цапля,hard,soft,1,#N/A,6,tsaplya.kaplya,soft,two.syll,softtwo.syll
-80,16,m,no,no,two,Максимка,different,,liquid,hard,1,#N/A,6,stol.skol,hard,one.syll,hardone.syll
-80,16,m,no,no,two,Максимка,same,сколько,soft,liquid,1,#N/A,6,stolko.skolko,liquid,two.syll,liquidtwo.syll
-80,16,m,no,no,two,Максимка,same,,liquid,hard,1,#N/A,6,tomik.komik,hard,two.syll,hardtwo.syll
-80,16,m,no,no,two,Максимка,different,"-, корж",hard,soft,1,#N/A,6,tonus.konus,soft,two.syll,softtwo.syll
-80,16,m,no,no,two,Максимка,different,,soft,liquid,1,#N/A,6,tort.kort,liquid,one.syll,liquidone.syll
-80,16,m,no,no,two,Максимка,different,,liquid,hard,1,#N/A,6,tot.kot,hard,one.syll,hardone.syll
-81,16,m,no,yes,one,InfinityZ,same,капля,hard,soft,1,#N/A,6,tsaplya.kaplya,soft,two.syll,softtwo.syll
-81,16,m,no,yes,one,InfinityZ,same,,hard,hard,1,1,6,stol.skol,hard,one.syll,hardone.syll
-81,16,m,no,yes,one,InfinityZ,different,"арфа, сколько",soft,liquid,1,#N/A,6,stolko.skolko,liquid,two.syll,liquidtwo.syll
-81,16,m,no,yes,one,InfinityZ,same,,hard,hard,1,1,6,tomik.komik,hard,two.syll,hardtwo.syll
-81,16,m,no,yes,one,InfinityZ,different,"-, кровь",hard,soft,1,#N/A,6,tonus.konus,soft,two.syll,softtwo.syll
-81,16,m,no,yes,one,InfinityZ,same,торф,soft,liquid,1,#N/A,6,tort.kort,liquid,one.syll,liquidone.syll
-81,16,m,no,yes,one,InfinityZ,same,,hard,hard,1,1,6,tot.kot,hard,one.syll,hardone.syll
-82,17,m,no,no,one,Gossp,same,цапля,soft,soft,1,1,6,tsaplya.kaplya,soft,two.syll,softtwo.syll
-82,17,m,no,no,one,Gossp,different,"хол, -",hard,hard,1,1,6,stol.skol,hard,one.syll,hardone.syll
-82,17,m,no,no,one,Gossp,same,сколько,soft,liquid,1,#N/A,6,stolko.skolko,liquid,two.syll,liquidtwo.syll
-82,17,m,no,no,one,Gossp,same,"компе, комак",hard,hard,1,1,6,tomik.komik,hard,two.syll,hardtwo.syll
-82,17,m,no,no,one,Gossp,different,,soft,soft,1,1,6,tonus.konus,soft,two.syll,softtwo.syll
-82,17,m,no,no,one,Gossp,different,"торт, корт",soft,liquid,1,#N/A,6,tort.kort,liquid,one.syll,liquidone.syll
-82,17,m,no,no,one,Gossp,different,"торт, корт",hard,hard,1,1,6,tot.kot,hard,one.syll,hardone.syll
-83,17,m,no,yes,two,waises,different,"цапля, капля",hard,soft,1,#N/A,6,tsaplya.kaplya,soft,two.syll,softtwo.syll
-83,17,m,no,yes,two,waises,same,стол,liquid,hard,1,#N/A,6,stol.skol,hard,one.syll,hardone.syll
-83,17,m,no,yes,two,waises,same,сколько,soft,liquid,1,#N/A,6,stolko.skolko,liquid,two.syll,liquidtwo.syll
-83,17,m,no,yes,two,waises,same,комик,liquid,hard,1,#N/A,6,tomik.komik,hard,two.syll,hardtwo.syll
-83,17,m,no,yes,two,waises,different,"-, кровь",hard,soft,1,#N/A,6,tonus.konus,soft,two.syll,softtwo.syll
-83,17,m,no,yes,two,waises,different,"-, горб",soft,liquid,1,#N/A,6,tort.kort,liquid,one.syll,liquidone.syll
-83,17,m,no,yes,two,waises,same,кот,liquid,hard,1,#N/A,6,tot.kot,hard,one.syll,hardone.syll
-84,16,f,no,no,one,Y,same,капля,soft,soft,1,1,6,tsaplya.kaplya,soft,two.syll,softtwo.syll
-84,16,f,no,no,one,Y,same,кол,hard,hard,1,1,6,stol.skol,hard,one.syll,hardone.syll
-84,16,f,no,no,one,Y,same,сколько,soft,liquid,1,#N/A,6,stolko.skolko,liquid,two.syll,liquidtwo.syll
-84,16,f,no,no,one,Y,same,конюх,hard,hard,1,1,6,tomik.komik,hard,two.syll,hardtwo.syll
-84,16,f,no,no,one,Y,different,"-, гольф",soft,soft,1,1,6,tonus.konus,soft,two.syll,softtwo.syll
-84,16,f,no,no,one,Y,different,"-, ор",soft,liquid,1,#N/A,6,tort.kort,liquid,one.syll,liquidone.syll
-84,16,f,no,no,one,Y,same,,hard,hard,1,1,6,tot.kot,hard,one.syll,hardone.syll
-85,56,m,no,no,one,,different,"цапля, капля",hard,soft,1,#N/A,6,tsaplya.kaplya,soft,two.syll,softtwo.syll
-85,56,m,no,no,one,,same,стол,hard,hard,1,1,6,stol.skol,hard,one.syll,hardone.syll
-85,56,m,no,no,one,,same,сколько,soft,liquid,1,#N/A,6,stolko.skolko,liquid,two.syll,liquidtwo.syll
-85,56,m,no,no,one,,same,,hard,hard,1,1,6,tomik.komik,hard,two.syll,hardtwo.syll
-85,56,m,no,no,one,,different,,hard,soft,1,#N/A,6,tonus.konus,soft,two.syll,softtwo.syll
-85,56,m,no,no,one,,same,торт,soft,liquid,1,#N/A,6,tort.kort,liquid,one.syll,liquidone.syll
-85,56,m,no,no,one,,different,,hard,hard,1,1,6,tot.kot,hard,one.syll,hardone.syll
-86,67,f,no,no,two,мм,different,"цапля, капля",hard,soft,1,#N/A,6,tsaplya.kaplya,soft,two.syll,softtwo.syll
-86,67,f,no,no,two,мм,same,гол,hard,hard,1,1,6,stol.skol,hard,one.syll,hardone.syll
-86,67,f,no,no,two,мм,same,сколько,soft,liquid,1,#N/A,6,stolko.skolko,liquid,two.syll,liquidtwo.syll
-86,67,f,no,no,two,мм,same,,hard,hard,1,1,6,tomik.komik,hard,two.syll,hardtwo.syll
-86,67,f,no,no,two,мм,different,"планер, кол",hard,soft,1,#N/A,6,tonus.konus,soft,two.syll,softtwo.syll
-86,67,f,no,no,two,мм,same,торт,soft,liquid,1,#N/A,6,tort.kort,liquid,one.syll,liquidone.syll
-86,67,f,no,no,two,мм,different,,hard,hard,1,1,6,tot.kot,hard,one.syll,hardone.syll
-87,23,f,no,yes,one,Нелля,same,,soft,soft,1,1,6,tsaplya.kaplya,soft,two.syll,softtwo.syll
-87,23,f,no,yes,one,Нелля,same,,hard,hard,1,1,6,stol.skol,hard,one.syll,hardone.syll
-87,23,f,no,yes,one,Нелля,same,,hard,liquid,1,#N/A,6,stolko.skolko,liquid,two.syll,liquidtwo.syll
-87,23,f,no,yes,one,Нелля,same,,hard,hard,1,1,6,tomik.komik,hard,two.syll,hardtwo.syll
-87,23,f,no,yes,one,Нелля,different,,soft,soft,1,1,6,tonus.konus,soft,two.syll,softtwo.syll
-87,23,f,no,yes,one,Нелля,different,,hard,liquid,1,#N/A,6,tort.kort,liquid,one.syll,liquidone.syll
-87,23,f,no,yes,one,Нелля,same,,hard,hard,1,1,6,tot.kot,hard,one.syll,hardone.syll
-88,49,f,no,no,zero,-,same,капля,hard,soft,1,#N/A,6,tsaplya.kaplya,soft,two.syll,softtwo.syll
-88,49,f,no,no,zero,-,different,,liquid,hard,1,#N/A,6,stol.skol,hard,one.syll,hardone.syll
-88,49,f,no,no,zero,-,same,сколько,soft,liquid,1,#N/A,6,stolko.skolko,liquid,two.syll,liquidtwo.syll
-88,49,f,no,no,zero,-,same,,liquid,hard,1,#N/A,6,tomik.komik,hard,two.syll,hardtwo.syll
-88,49,f,no,no,zero,-,different,,hard,soft,1,#N/A,6,tonus.konus,soft,two.syll,softtwo.syll
-88,49,f,no,no,zero,-,same,,soft,liquid,1,#N/A,6,tort.kort,liquid,one.syll,liquidone.syll
-88,49,f,no,no,zero,-,same,кот,liquid,hard,1,#N/A,6,tot.kot,hard,one.syll,hardone.syll
-89,21,f,yes,no,two,рысь,same,цапля,hard,soft,1,#N/A,6,tsaplya.kaplya,soft,two.syll,softtwo.syll
-89,21,f,yes,no,two,рысь,different,"дом, ком",soft,hard,1,#N/A,6,stol.skol,hard,one.syll,hardone.syll
-89,21,f,yes,no,two,рысь,same,сколько,liquid,liquid,1,1,6,stolko.skolko,liquid,two.syll,liquidtwo.syll
-89,21,f,yes,no,two,рысь,different,"комок, комик",soft,hard,1,#N/A,6,tomik.komik,hard,two.syll,hardtwo.syll
-89,21,f,yes,no,two,рысь,same,,hard,soft,1,#N/A,6,tonus.konus,soft,two.syll,softtwo.syll
-89,21,f,yes,no,two,рысь,different,,liquid,liquid,1,1,6,tort.kort,liquid,one.syll,liquidone.syll
-89,21,f,yes,no,two,рысь,same,рот,soft,hard,1,#N/A,6,tot.kot,hard,one.syll,hardone.syll
-90,21,f,yes,no,two,kozenasheva,same,,soft,soft,1,1,3,tsaplya.kaplya,soft,two.syll,softtwo.syll
-90,21,f,yes,no,two,kozenasheva,different,,soft,hard,1,#N/A,3,stol.skol,hard,one.syll,hardone.syll
-90,21,f,yes,no,two,kozenasheva,same,,hard,liquid,1,#N/A,3,stolko.skolko,liquid,two.syll,liquidtwo.syll
-90,21,f,yes,no,two,kozenasheva,same,,soft,hard,1,#N/A,3,tomik.komik,hard,two.syll,hardtwo.syll
-90,21,f,yes,no,two,kozenasheva,same,,soft,soft,1,1,3,tonus.konus,soft,two.syll,softtwo.syll
-90,21,f,yes,no,two,kozenasheva,same,,hard,liquid,1,#N/A,3,tort.kort,liquid,one.syll,liquidone.syll
-90,21,f,yes,no,two,kozenasheva,same,,soft,hard,1,#N/A,3,tot.kot,hard,one.syll,hardone.syll
-91,22,f,yes,no,two,panteleeva,different,"холл, -",soft,soft,1,1,3,stol.skol,soft,one.syll,softone.syll
-91,22,f,yes,no,two,panteleeva,different,,liquid,liquid,1,1,3,stolko.skolko,liquid,two.syll,liquidtwo.syll
-91,22,f,yes,no,two,panteleeva,different,,soft,soft,1,1,3,tomik.komik,soft,two.syll,softtwo.syll
-91,22,f,yes,no,two,panteleeva,different,"-, корт",liquid,liquid,1,1,3,tort.kort,liquid,one.syll,liquidone.syll
-91,22,f,yes,no,two,panteleeva,different,,soft,soft,1,1,3,tot.kot,soft,one.syll,softone.syll
-92,20,f,yes,yes,two,anapanifica,different,"цапля, капля",soft,soft,1,1,3,tsaplya.kaplya,soft,two.syll,softtwo.syll
-92,20,f,yes,yes,two,anapanifica,different,"хол, вкус",soft,hard,1,#N/A,3,stol.skol,hard,one.syll,hardone.syll
-92,20,f,yes,yes,two,anapanifica,same,сколько,hard,liquid,1,#N/A,3,stolko.skolko,liquid,two.syll,liquidtwo.syll
-92,20,f,yes,yes,two,anapanifica,different,"хобот, -",soft,hard,1,#N/A,3,tomik.komik,hard,two.syll,hardtwo.syll
-92,20,f,yes,yes,two,anapanifica,different,"сторож, конус",soft,soft,1,1,3,tonus.konus,soft,two.syll,softtwo.syll
-92,20,f,yes,yes,two,anapanifica,same,корт,hard,liquid,1,#N/A,3,tort.kort,liquid,one.syll,liquidone.syll
-92,20,f,yes,yes,two,anapanifica,same,корт,soft,hard,1,#N/A,3,tot.kot,hard,one.syll,hardone.syll
-93,22,f,yes,no,two,Kate,same,холл,hard,hard,1,1,3,stol.skol,hard,one.syll,hardone.syll
-93,22,f,yes,no,two,Kate,same,сколько,soft,liquid,1,#N/A,3,stolko.skolko,liquid,two.syll,liquidtwo.syll
-93,22,f,yes,no,two,Kate,different,,hard,hard,1,1,3,tomik.komik,hard,two.syll,hardtwo.syll
-93,22,f,yes,no,two,Kate,different,"лоб, корт",soft,liquid,1,#N/A,3,tort.kort,liquid,one.syll,liquidone.syll
-93,22,f,yes,no,two,Kate,same,торт,hard,hard,1,1,3,tot.kot,hard,one.syll,hardone.syll
-94,21,m,no,no,one,Георгий П.,different,"цапля, капля",hard,soft,1,#N/A,3,tsaplya.kaplya,soft,two.syll,softtwo.syll
-94,21,m,no,no,one,Георгий П.,same,холл,hard,hard,1,1,3,stol.skol,hard,one.syll,hardone.syll
-94,21,m,no,no,one,Георгий П.,same,сколько,soft,liquid,1,#N/A,3,stolko.skolko,liquid,two.syll,liquidtwo.syll
-94,21,m,no,no,one,Георгий П.,same,замок,hard,hard,1,1,3,tomik.komik,hard,two.syll,hardtwo.syll
-94,21,m,no,no,one,Георгий П.,same,конус,hard,soft,1,#N/A,3,tonus.konus,soft,two.syll,softtwo.syll
-94,21,m,no,no,one,Георгий П.,same,корт,soft,liquid,1,#N/A,3,tort.kort,liquid,one.syll,liquidone.syll
-94,21,m,no,no,one,Георгий П.,different,"-, класс",hard,hard,1,1,3,tot.kot,hard,one.syll,hardone.syll
-95,22,f,yes,no,two,Пантелеева,different,"цапля, капля",hard,soft,1,#N/A,3,tsaplya.kaplya,soft,two.syll,softtwo.syll
-95,22,f,yes,no,two,Пантелеева,different,"холл, в холод",soft,hard,1,#N/A,3,stol.skol,hard,one.syll,hardone.syll
-95,22,f,yes,no,two,Пантелеева,different,"свекла, сколько",liquid,liquid,1,1,3,stolko.skolko,liquid,two.syll,liquidtwo.syll
-95,22,f,yes,no,two,Пантелеева,different,"хобот, комик",soft,hard,1,#N/A,3,tomik.komik,hard,two.syll,hardtwo.syll
-95,22,f,yes,no,two,Пантелеева,different,"поезд, конус",hard,soft,1,#N/A,3,tonus.konus,soft,two.syll,softtwo.syll
-95,22,f,yes,no,two,Пантелеева,different,"-, корт",liquid,liquid,1,1,3,tort.kort,liquid,one.syll,liquidone.syll
-95,22,f,yes,no,two,Пантелеева,different,"плоть, кот",soft,hard,1,#N/A,3,tot.kot,hard,one.syll,hardone.syll
-96,25,m,no,no,one,Kirilsuperstar,different,,hard,liquid,1,#N/A,3,stolko.skolko,liquid,two.syll,liquidtwo.syll
-96,25,m,no,no,one,Kirilsuperstar,different,,hard,liquid,1,#N/A,3,tort.kort,liquid,one.syll,liquidone.syll
-97,22,m,no,yes,zero,Сань хуй саси,same,,soft,soft,1,1,3,tsaplya.kaplya,soft,two.syll,softtwo.syll
-97,22,m,no,yes,zero,Сань хуй саси,same,,liquid,hard,1,#N/A,3,stol.skol,hard,one.syll,hardone.syll
-97,22,m,no,yes,zero,Сань хуй саси,same,,hard,liquid,1,#N/A,3,stolko.skolko,liquid,two.syll,liquidtwo.syll
-97,22,m,no,yes,zero,Сань хуй саси,different,,liquid,hard,1,#N/A,3,tomik.komik,hard,two.syll,hardtwo.syll
-97,22,m,no,yes,zero,Сань хуй саси,same,,soft,soft,1,1,3,tonus.konus,soft,two.syll,softtwo.syll
-97,22,m,no,yes,zero,Сань хуй саси,same,,hard,liquid,1,#N/A,3,tort.kort,liquid,one.syll,liquidone.syll
-97,22,m,no,yes,zero,Сань хуй саси,different,,liquid,hard,1,#N/A,3,tot.kot,hard,one.syll,hardone.syll
-98,21,f,no,no,one,Псина,same,сколько,hard,liquid,1,#N/A,3,stolko.skolko,liquid,two.syll,liquidtwo.syll
-98,21,f,no,no,one,Псина,same,корт,hard,liquid,1,#N/A,3,tort.kort,liquid,one.syll,liquidone.syll
-99,25,m,no,no,one,-,same,,hard,soft,1,#N/A,3,tsaplya.kaplya,soft,two.syll,softtwo.syll
-99,25,m,no,no,one,-,same,,soft,hard,1,#N/A,3,stol.skol,hard,one.syll,hardone.syll
-99,25,m,no,no,one,-,same,,hard,liquid,1,#N/A,3,stolko.skolko,liquid,two.syll,liquidtwo.syll
-99,25,m,no,no,one,-,same,,soft,hard,1,#N/A,3,tomik.komik,hard,two.syll,hardtwo.syll
-99,25,m,no,no,one,-,same,,hard,soft,1,#N/A,3,tonus.konus,soft,two.syll,softtwo.syll
-99,25,m,no,no,one,-,different,,hard,liquid,1,#N/A,3,tort.kort,liquid,one.syll,liquidone.syll
-99,25,m,no,no,one,-,different,,soft,hard,1,#N/A,3,tot.kot,hard,one.syll,hardone.syll
-100,10,m,no,no,zero,no,different,,liquid,soft,1,#N/A,3,tsaplya.kaplya,soft,two.syll,softtwo.syll
-100,10,m,no,no,zero,no,same,,soft,hard,1,#N/A,3,stol.skol,hard,one.syll,hardone.syll
-100,10,m,no,no,zero,no,same,,hard,liquid,1,#N/A,3,stolko.skolko,liquid,two.syll,liquidtwo.syll
-100,10,m,no,no,zero,no,different,,soft,hard,1,#N/A,3,tomik.komik,hard,two.syll,hardtwo.syll
-100,10,m,no,no,zero,no,different,,liquid,soft,1,#N/A,3,tonus.konus,soft,two.syll,softtwo.syll
-100,10,m,no,no,zero,no,different,,hard,liquid,1,#N/A,3,tort.kort,liquid,one.syll,liquidone.syll
-100,10,m,no,no,zero,no,different,,soft,hard,1,#N/A,3,tot.kot,hard,one.syll,hardone.syll
-101,17,m,no,no,one,-,same,сколько,soft,liquid,1,#N/A,3,stolko.skolko,liquid,two.syll,liquidtwo.syll
-101,17,m,no,no,one,-,same,горб,soft,liquid,1,#N/A,3,tort.kort,liquid,one.syll,liquidone.syll
-102,16,m,no,no,one,-,same,,soft,soft,1,1,3,tsaplya.kaplya,soft,two.syll,softtwo.syll
-102,16,m,no,no,one,-,different,"hope, -",hard,hard,1,1,3,stol.skol,hard,one.syll,hardone.syll
-102,16,m,no,no,one,-,same,сколько,liquid,liquid,1,1,3,stolko.skolko,liquid,two.syll,liquidtwo.syll
-102,16,m,no,no,one,-,,,hard,hard,1,1,3,tomik.komik,hard,two.syll,hardtwo.syll
-102,16,m,no,no,one,-,same,,soft,soft,1,1,3,tonus.konus,soft,two.syll,softtwo.syll
-102,16,m,no,no,one,-,different,"-, горб",liquid,liquid,1,1,3,tort.kort,liquid,one.syll,liquidone.syll
-102,16,m,no,no,one,-,different,"work, -",hard,hard,1,1,3,tot.kot,hard,one.syll,hardone.syll
-103,16,m,no,no,one,kanishev2003,same,,hard,soft,1,#N/A,3,tsaplya.kaplya,soft,two.syll,softtwo.syll
-103,16,m,no,no,one,kanishev2006,different,,liquid,hard,1,#N/A,3,stol.skol,hard,one.syll,hardone.syll
-103,16,m,no,no,one,kanishev2005,different,"-, сколько",liquid,liquid,1,1,3,stolko.skolko,liquid,two.syll,liquidtwo.syll
-103,16,m,no,no,one,kanishev2007,same,,liquid,hard,1,#N/A,3,tomik.komik,hard,two.syll,hardtwo.syll
-103,16,m,no,no,one,kanishev2004,same,,hard,soft,1,#N/A,3,tonus.konus,soft,two.syll,softtwo.syll
-103,16,m,no,no,one,kanishev2002,same,корт,liquid,liquid,1,1,3,tort.kort,liquid,one.syll,liquidone.syll
-103,16,m,no,no,one,kanishev2008,same,,liquid,hard,1,#N/A,3,tot.kot,hard,one.syll,hardone.syll
-104,16,m,no,no,one,Zaziza,different,"цапля, капля",liquid,soft,1,#N/A,3,tsaplya.kaplya,soft,two.syll,softtwo.syll
-104,16,m,no,no,one,Zaziza,different,,soft,hard,1,#N/A,3,stol.skol,hard,one.syll,hardone.syll
-104,16,m,no,no,one,Zaziza,same,,hard,liquid,1,#N/A,3,stolko.skolko,liquid,two.syll,liquidtwo.syll
-104,16,m,no,no,one,Zaziza,different,,soft,hard,1,#N/A,3,tomik.komik,hard,two.syll,hardtwo.syll
-104,16,m,no,no,one,Zaziza,same,конус,liquid,soft,1,#N/A,3,tonus.konus,soft,two.syll,softtwo.syll
-104,16,m,no,no,one,Zaziza,different,"-, корт",hard,liquid,1,#N/A,3,tort.kort,liquid,one.syll,liquidone.syll
-104,16,m,no,no,one,Zaziza,different,,soft,hard,1,#N/A,3,tot.kot,hard,one.syll,hardone.syll
-105,22,m,yes,yes,six,Женя Л.,different,"цапля, -",soft,liquid,1,#N/A,2,tsaplya.kaplya,liquid,two.syll,liquidtwo.syll
-105,22,m,yes,yes,six,Женя Л.,different,"стол, школа",hard,soft,1,#N/A,2,stol.skol,soft,one.syll,softone.syll
-105,22,m,yes,yes,six,Женя Л.,same,сколько,liquid,hard,1,#N/A,2,stolko.skolko,hard,two.syll,hardtwo.syll
-105,22,m,yes,yes,six,Женя Л.,different,"фоне, комик",hard,soft,1,#N/A,2,tomik.komik,soft,two.syll,softtwo.syll
-105,22,m,yes,yes,six,Женя Л.,different,"кванос, кар",liquid,hard,1,#N/A,2,tonus.konus,hard,two.syll,hardtwo.syll
-105,22,m,yes,yes,six,Женя Л.,different,"тарт, хоф",hard,soft,1,#N/A,2,tort.kort,soft,one.syll,softone.syll
-105,22,m,yes,yes,six,Женя Л.,different,"тост, кот",soft,liquid,1,#N/A,2,tot.kot,liquid,one.syll,liquidone.syll
+1,21,f,yes,no,4,Слива лиловая спелая садовая,same,,soft,hard,1,#N/A,1,tsaplya.kaplya,hard,2,hard2
+1,21,f,yes,no,4,Слива лиловая спелая садовая,same,,hard,liquid,1,#N/A,1,stol.skol,liquid,1,liquid1
+1,21,f,yes,no,4,Слива лиловая спелая садовая,different,"Столько, сколько",liquid,soft,1,#N/A,1,stolko.skolko,soft,2,soft2
+1,21,f,yes,no,4,Слива лиловая спелая садовая,different,"-, комик",hard,liquid,1,#N/A,1,tomik.komik,liquid,2,liquid2
+1,21,f,yes,no,4,Слива лиловая спелая садовая,same,конус,liquid,soft,1,#N/A,1,tonus.konus,soft,2,soft2
+1,21,f,yes,no,4,Слива лиловая спелая садовая,different,"карп, -",soft,hard,1,#N/A,1,tort.kort,hard,1,hard1
+1,21,f,yes,no,4,Слива лиловая спелая садовая,different,"торт, кость",hard,liquid,1,#N/A,1,tot.kot,liquid,1,liquid1
+2,23,f,yes,no,4,ok_diplodok,different,,soft,hard,1,#N/A,1,tsaplya.kaplya,hard,2,hard2
+2,23,f,yes,no,4,ok_diplodok,different,"-, школа",liquid,liquid,1,1,1,stol.skol,liquid,1,liquid1
+2,23,f,yes,no,4,ok_diplodok,different,"терка, койка",hard,soft,1,#N/A,1,stolko.skolko,soft,2,soft2
+2,23,f,yes,no,4,ok_diplodok,same,комик,liquid,liquid,1,1,1,tomik.komik,liquid,2,liquid2
+2,23,f,yes,no,4,ok_diplodok,same,конус,hard,soft,1,#N/A,1,tonus.konus,soft,2,soft2
+2,23,f,yes,no,4,ok_diplodok,different,,soft,hard,1,#N/A,1,tort.kort,hard,1,hard1
+3,22,f,no,no,2,-,same,,soft,hard,1,#N/A,1,tsaplya.kaplya,hard,2,hard2
+3,22,f,no,no,2,-,same,скол,hard,liquid,1,#N/A,1,stol.skol,liquid,1,liquid1
+3,22,f,no,no,2,-,same,,liquid,soft,1,#N/A,1,stolko.skolko,soft,2,soft2
+3,22,f,no,no,2,-,same,комик,hard,liquid,1,#N/A,1,tomik.komik,liquid,2,liquid2
+3,22,f,no,no,2,-,same,колос,liquid,soft,1,#N/A,1,tonus.konus,soft,2,soft2
+3,22,f,no,no,2,-,different,"колба, холм",soft,hard,1,#N/A,1,tort.kort,hard,1,hard1
+3,22,f,no,no,2,-,same,порт,liquid,liquid,1,1,1,tot.kot,liquid,1,liquid1
+3,22,f,no,no,2,-,different,,hard,liquid,1,#N/A,1,tot.kot,liquid,1,liquid1
+4,21,f,yes,no,2,daring_shark,same,хлопья,soft,hard,1,#N/A,1,tsaplya.kaplya,hard,2,hard2
+4,21,f,yes,no,2,daring_shark,same,скол,hard,liquid,1,#N/A,1,stol.skol,liquid,1,liquid1
+4,21,f,yes,no,2,daring_shark,same,,liquid,soft,1,#N/A,1,stolko.skolko,soft,2,soft2
+4,21,f,yes,no,2,daring_shark,same,,hard,liquid,1,#N/A,1,tomik.komik,liquid,2,liquid2
+4,21,f,yes,no,2,daring_shark,same,колос,liquid,soft,1,#N/A,1,tonus.konus,soft,2,soft2
+4,21,f,yes,no,2,daring_shark,same,,soft,hard,1,#N/A,1,tort.kort,hard,1,hard1
+4,21,f,yes,no,2,daring_shark,different,"торт, хумус",hard,liquid,1,#N/A,1,tot.kot,liquid,1,liquid1
+5,24,f,yes,no,2,кирименко,different,,hard,hard,1,1,1,tsaplya.kaplya,hard,2,hard2
+5,24,f,yes,no,2,кирименко,different,,hard,hard,1,1,1,tort.kort,hard,1,hard1
+6,21,f,no,no,1,-,different,,soft,hard,1,#N/A,1,tsaplya.kaplya,hard,2,hard2
+6,21,f,no,no,1,-,different,"стол, скол",hard,liquid,1,#N/A,1,stol.skol,liquid,1,liquid1
+6,21,f,no,no,1,-,different,"столько, сколько",liquid,soft,1,#N/A,1,stolko.skolko,soft,2,soft2
+6,21,f,no,no,1,-,different,комет,hard,liquid,1,#N/A,1,tomik.komik,liquid,2,liquid2
+6,21,f,no,no,1,-,different,,liquid,soft,1,#N/A,1,tonus.konus,soft,2,soft2
+6,21,f,no,no,1,-,different,"горб, холл",soft,hard,1,#N/A,1,tort.kort,hard,1,hard1
+6,21,f,no,no,1,-,same,торт,hard,liquid,1,#N/A,1,tot.kot,liquid,1,liquid1
+7,19,m,no,yes,2,BronTVoice,different,,hard,hard,1,1,1,tsaplya.kaplya,hard,2,hard2
+7,19,m,no,yes,2,BronTVoice,different,,hard,hard,1,1,1,tort.kort,hard,1,hard1
+8,21,f,no,no,1,oi,different,,soft,hard,1,#N/A,1,tsaplya.kaplya,hard,2,hard2
+8,21,f,no,no,1,oi,different,"for, school",hard,liquid,1,#N/A,1,stol.skol,liquid,1,liquid1
+8,21,f,no,no,1,oi,different,,soft,soft,1,1,1,stolko.skolko,soft,2,soft2
+8,21,f,no,no,1,oi,same,promt,hard,liquid,1,#N/A,1,tomik.komik,liquid,2,liquid2
+8,21,f,no,no,1,oi,same,,soft,soft,1,1,1,tonus.konus,soft,2,soft2
+8,21,f,no,no,1,oi,different,"ор, холл",soft,hard,1,#N/A,1,tort.kort,hard,1,hard1
+8,21,f,no,no,1,oi,different,,hard,liquid,1,#N/A,1,tot.kot,liquid,1,liquid1
+9,47,f,no,yes,0,Ленка К,different,"каша, кофе",hard,hard,1,1,1,tsaplya.kaplya,hard,2,hard2
+9,47,f,no,yes,0,Ленка К,same,стол,soft,liquid,1,#N/A,1,stol.skol,liquid,1,liquid1
+9,47,f,no,yes,0,Ленка К,same,сколько,hard,soft,1,#N/A,1,stolko.skolko,soft,2,soft2
+9,47,f,no,yes,0,Ленка К,same,карлик,soft,liquid,1,#N/A,1,tomik.komik,liquid,2,liquid2
+9,47,f,no,yes,0,Ленка К,same,колос,hard,soft,1,#N/A,1,tonus.konus,soft,2,soft2
+9,47,f,no,yes,0,Ленка К,same,,hard,hard,1,1,1,tort.kort,hard,1,hard1
+9,47,f,no,yes,0,Ленка К,same,торт,soft,liquid,1,#N/A,1,tot.kot,liquid,1,liquid1
+10,37,f,no,no,1,Аниська,same,,liquid,hard,1,#N/A,1,tsaplya.kaplya,hard,2,hard2
+10,37,f,no,no,1,Аниська,different,,soft,soft,1,1,1,stolko.skolko,soft,2,soft2
+10,37,f,no,no,1,Аниська,different,,soft,soft,1,1,1,tonus.konus,soft,2,soft2
+10,37,f,no,no,1,Аниська,same,,liquid,hard,1,#N/A,1,tort.kort,hard,1,hard1
+11,45,m,no,no,0,-,different,"каша, копия",soft,hard,1,#N/A,1,tsaplya.kaplya,hard,2,hard2
+11,45,m,no,no,0,-,different,"-, школа",hard,liquid,1,#N/A,1,stol.skol,liquid,1,liquid1
+11,45,m,no,no,0,-,same,,liquid,soft,1,#N/A,1,stolko.skolko,soft,2,soft2
+11,45,m,no,no,0,-,same,комик,hard,liquid,1,#N/A,1,tomik.komik,liquid,2,liquid2
+11,45,m,no,no,0,-,same,колос,liquid,soft,1,#N/A,1,tonus.konus,soft,2,soft2
+11,45,m,no,no,0,-,same,кол,soft,hard,1,#N/A,1,tort.kort,hard,1,hard1
+11,45,m,no,no,0,-,same,,hard,liquid,1,#N/A,1,tot.kot,liquid,1,liquid1
+12,22,f,no,no,1,Rtt124,different,,soft,hard,1,#N/A,1,tsaplya.kaplya,hard,2,hard2
+12,22,f,no,no,1,Rtt127,different,,liquid,liquid,1,1,1,stol.skol,liquid,1,liquid1
+12,22,f,no,no,1,Rtt126,different,,hard,soft,1,#N/A,1,stolko.skolko,soft,2,soft2
+12,22,f,no,no,1,Rtt128,different,,liquid,liquid,1,1,1,tomik.komik,liquid,2,liquid2
+12,22,f,no,no,1,Rtt125,same,,hard,soft,1,#N/A,1,tonus.konus,soft,2,soft2
+12,22,f,no,no,1,Rtt123,different,,soft,hard,1,#N/A,1,tort.kort,hard,1,hard1
+12,22,f,no,no,1,Rtt129,same,,liquid,liquid,1,1,1,tot.kot,liquid,1,liquid1
+13,20,f,no,no,2,Elka,different,,liquid,hard,1,#N/A,1,tsaplya.kaplya,hard,2,hard2
+13,20,f,no,no,2,Elka,same,,soft,liquid,1,#N/A,1,stol.skol,liquid,1,liquid1
+13,20,f,no,no,2,Elka,same,,liquid,soft,1,#N/A,1,stolko.skolko,soft,2,soft2
+13,20,f,no,no,2,Elka,same,,soft,liquid,1,#N/A,1,tomik.komik,liquid,2,liquid2
+13,20,f,no,no,2,Elka,same,,liquid,soft,1,#N/A,1,tonus.konus,soft,2,soft2
+13,20,f,no,no,2,Elka,same,,liquid,hard,1,#N/A,1,tort.kort,hard,1,hard1
+13,20,f,no,no,2,Elka,different,,soft,liquid,1,#N/A,1,tot.kot,liquid,1,liquid1
+14,23,f,no,no,2,-,same,,liquid,hard,1,#N/A,1,tsaplya.kaplya,hard,2,hard2
+14,23,f,no,no,2,-,same,,soft,soft,1,1,1,stolko.skolko,soft,2,soft2
+14,23,f,no,no,2,-,same,,soft,soft,1,1,1,tonus.konus,soft,2,soft2
+14,23,f,no,no,2,-,different,,liquid,hard,1,#N/A,1,tort.kort,hard,1,hard1
+15,21,f,yes,no,4,покемон,different,"папа, капля",hard,hard,1,1,4,tsaplya.kaplya,hard,2,hard2
+15,21,f,yes,no,4,покемон,different,"-, клоун",liquid,liquid,1,1,4,stol.skol,liquid,1,liquid1
+15,21,f,yes,no,4,покемон,different,"сколько, хохот",soft,soft,1,1,4,stolko.skolko,soft,2,soft2
+15,21,f,yes,no,4,покемон,same,комик,liquid,liquid,1,1,4,tomik.komik,liquid,2,liquid2
+15,21,f,yes,no,4,покемон,different,"тонус, конус",soft,soft,1,1,4,tonus.konus,soft,2,soft2
+15,21,f,yes,no,4,покемон,different,"торт, корж",hard,hard,1,1,4,tort.kort,hard,1,hard1
+15,21,f,yes,no,4,покемон,different,"тот, корж",liquid,liquid,1,1,4,tot.kot,liquid,1,liquid1
+16,20,f,no,yes,2,-,different,"папа, капля",liquid,hard,1,#N/A,4,tsaplya.kaplya,hard,2,hard2
+16,20,f,no,yes,2,-,different,"шторм, -",hard,liquid,1,#N/A,4,stol.skol,liquid,1,liquid1
+16,20,f,no,yes,2,-,different,"сколько, хохот",soft,soft,1,1,4,stolko.skolko,soft,2,soft2
+16,20,f,no,yes,2,-,same,комик,hard,liquid,1,#N/A,4,tomik.komik,liquid,2,liquid2
+16,20,f,no,yes,2,-,different,"-, кровь",soft,soft,1,1,4,tonus.konus,soft,2,soft2
+16,20,f,no,yes,2,-,different,"торт, корж",liquid,hard,1,#N/A,4,tort.kort,hard,1,hard1
+16,20,f,no,yes,2,-,different,"тот, корж",hard,liquid,1,#N/A,4,tot.kot,liquid,1,liquid1
+17,43,f,no,yes,1,-,same,капля,soft,hard,1,#N/A,4,tsaplya.kaplya,hard,2,hard2
+17,43,f,no,yes,1,-,same,,liquid,liquid,1,1,4,stol.skol,liquid,1,liquid1
+17,43,f,no,yes,1,-,same,,hard,soft,1,#N/A,4,stolko.skolko,soft,2,soft2
+17,43,f,no,yes,1,-,same,комик,liquid,liquid,1,1,4,tomik.komik,liquid,2,liquid2
+17,43,f,no,yes,1,-,same,колос,hard,soft,1,#N/A,4,tonus.konus,soft,2,soft2
+17,43,f,no,yes,1,-,same,кофе,soft,hard,1,#N/A,4,tort.kort,hard,1,hard1
+17,43,f,no,yes,1,-,same,кот,liquid,liquid,1,1,4,tot.kot,liquid,1,liquid1
+18,23,f,yes,yes,6,-,different,капля,liquid,hard,1,#N/A,4,tsaplya.kaplya,hard,2,hard2
+18,23,f,yes,yes,6,-,different,"стол, скол",hard,liquid,1,#N/A,4,stol.skol,liquid,1,liquid1
+18,23,f,yes,yes,6,-,different,"-, хохот",soft,soft,1,1,4,stolko.skolko,soft,2,soft2
+18,23,f,yes,yes,6,-,different,"-, комик",hard,liquid,1,#N/A,4,tomik.komik,liquid,2,liquid2
+18,23,f,yes,yes,6,-,different,"тонус, -",soft,soft,1,1,4,tonus.konus,soft,2,soft2
+18,23,f,yes,yes,6,-,different,"торт, корж",liquid,hard,1,#N/A,4,tort.kort,hard,1,hard1
+18,23,f,yes,yes,6,-,different,"тот, корж",hard,liquid,1,#N/A,4,tot.kot,liquid,1,liquid1
+19,22,f,yes,no,2,-,different,"папа, капля",hard,hard,1,1,4,tsaplya.kaplya,hard,2,hard2
+19,22,f,yes,no,2,-,same,,liquid,liquid,1,1,4,stol.skol,liquid,1,liquid1
+19,22,f,yes,no,2,-,different,"стройка, хохот",soft,soft,1,1,4,stolko.skolko,soft,2,soft2
+19,22,f,yes,no,2,-,same,комик,liquid,liquid,1,1,4,tomik.komik,liquid,2,liquid2
+19,22,f,yes,no,2,-,same,,soft,soft,1,1,4,tonus.konus,soft,2,soft2
+19,22,f,yes,no,2,-,different,"творог, -",hard,hard,1,1,4,tort.kort,hard,1,hard1
+19,22,f,yes,no,2,-,different,"тот, корж",liquid,liquid,1,1,4,tot.kot,liquid,1,liquid1
+20,25,f,yes,yes,1,-,different,"-, капля",hard,hard,1,1,4,tsaplya.kaplya,hard,2,hard2
+20,25,f,yes,yes,1,-,same,стол,liquid,liquid,1,1,4,stol.skol,liquid,1,liquid1
+20,25,f,yes,yes,1,-,different,,soft,soft,1,1,4,stolko.skolko,soft,2,soft2
+20,25,f,yes,yes,1,-,different,"-, комик",liquid,liquid,1,1,4,tomik.komik,liquid,2,liquid2
+20,25,f,yes,yes,1,-,different,"тонус, конус",soft,soft,1,1,4,tonus.konus,soft,2,soft2
+20,25,f,yes,yes,1,-,different,"-, корж",hard,hard,1,1,4,tort.kort,hard,1,hard1
+20,25,f,yes,yes,1,-,different,"тот, корж",liquid,liquid,1,1,4,tot.kot,liquid,1,liquid1
+21,24,f,no,yes,2,Svetulya stryukova,same,,liquid,hard,1,#N/A,4,tsaplya.kaplya,hard,2,hard2
+21,24,f,no,yes,2,Svetulya stryukova,same,,soft,soft,1,1,4,stolko.skolko,soft,2,soft2
+21,24,f,no,yes,2,Svetulya stryukova,different,,soft,soft,1,1,4,tonus.konus,soft,2,soft2
+21,24,f,no,yes,2,Svetulya stryukova,same,,liquid,hard,1,#N/A,4,tort.kort,hard,1,hard1
+22,21,f,no,yes,2,Руди,different,"-, капля",soft,hard,1,#N/A,4,tsaplya.kaplya,hard,2,hard2
+22,21,f,no,yes,2,Руди,different,"шторм, -",liquid,liquid,1,1,4,stol.skol,liquid,1,liquid1
+22,21,f,no,yes,2,Руди,different,"сколько, - ",hard,soft,1,#N/A,4,stolko.skolko,soft,2,soft2
+22,21,f,no,yes,2,Руди,same,комик,liquid,liquid,1,1,4,tomik.komik,liquid,2,liquid2
+22,21,f,no,yes,2,Руди,different,"тонус, -",hard,soft,1,#N/A,4,tonus.konus,soft,2,soft2
+22,21,f,no,yes,2,Руди,different,"торт, корж",soft,hard,1,#N/A,4,tort.kort,hard,1,hard1
+22,21,f,no,yes,2,Руди,different,"тот, корж",liquid,liquid,1,1,4,tot.kot,liquid,1,liquid1
+23,22,m,yes,yes,6,Женя,different,"стул, школа",liquid,soft,1,#N/A,2,stol.skol,soft,1,soft1
+23,22,m,yes,yes,6,Женя,same,комик,liquid,soft,1,#N/A,2,tomik.komik,soft,2,soft2
+23,22,m,yes,yes,6,Женя,different,,liquid,soft,1,#N/A,2,tort.kort,soft,1,soft1
+24,20,f,yes,no,3,-,different,,soft,liquid,1,#N/A,2,tsaplya.kaplya,liquid,2,liquid2
+24,20,f,yes,no,3,-,different,,soft,soft,1,1,2,stol.skol,soft,1,soft1
+24,20,f,yes,no,3,-,same,,soft,soft,1,1,2,tomik.komik,soft,2,soft2
+24,20,f,yes,no,3,-,different,,soft,soft,1,1,2,tort.kort,soft,1,soft1
+24,20,f,yes,no,3,-,different,,soft,liquid,1,#N/A,2,tot.kot,liquid,1,liquid1
+25,22,m,yes,yes,6,Женя Л.,different,"цапля, -",soft,liquid,1,#N/A,2,tsaplya.kaplya,liquid,2,liquid2
+25,22,m,yes,yes,6,Женя Л.,different,"стол, школа",hard,soft,1,#N/A,2,stol.skol,soft,1,soft1
+25,22,m,yes,yes,6,Женя Л.,same,сколько,liquid,hard,1,#N/A,2,stolko.skolko,hard,2,hard2
+25,22,m,yes,yes,6,Женя Л.,different,"фоне, комик",hard,soft,1,#N/A,2,tomik.komik,soft,2,soft2
+25,22,m,yes,yes,6,Женя Л.,different,"кванос, кар",liquid,hard,1,#N/A,2,tonus.konus,hard,2,hard2
+25,22,m,yes,yes,6,Женя Л.,different,"тарт, хоф",hard,soft,1,#N/A,2,tort.kort,soft,1,soft1
+25,22,m,yes,yes,6,Женя Л.,different,"тост, кот",soft,liquid,1,#N/A,2,tot.kot,liquid,1,liquid1
+26,22,f,yes,yes,2,yoxfo,different,"цапля, -",soft,liquid,1,#N/A,2,tsaplya.kaplya,liquid,2,liquid2
+26,22,f,yes,yes,2,yoxfo,different,"-, школа",hard,soft,1,#N/A,2,stol.skol,soft,1,soft1
+26,22,f,yes,yes,2,yoxfo,different,"свекла, сколько",liquid,hard,1,#N/A,2,stolko.skolko,hard,2,hard2
+26,22,f,yes,yes,2,yoxfo,same,комик,hard,soft,1,#N/A,2,tomik.komik,soft,2,soft2
+26,22,f,yes,yes,2,yoxfo,same,,liquid,hard,1,#N/A,2,tonus.konus,hard,2,hard2
+26,22,f,yes,yes,2,yoxfo,different,,hard,soft,1,#N/A,2,tort.kort,soft,1,soft1
+26,22,f,yes,yes,2,yoxfo,different,,soft,liquid,1,#N/A,2,tot.kot,liquid,1,liquid1
+27,20,f,no,no,1,Mari,same,,hard,liquid,1,#N/A,2,tsaplya.kaplya,liquid,2,liquid2
+27,20,f,no,no,1,Mari,same,,liquid,soft,1,#N/A,2,stol.skol,soft,1,soft1
+27,20,f,no,no,1,Mari,different,,soft,hard,1,#N/A,2,stolko.skolko,hard,2,hard2
+27,20,f,no,no,1,Mari,different,,liquid,soft,1,#N/A,2,tomik.komik,soft,2,soft2
+27,20,f,no,no,1,Mari,same,,soft,hard,1,#N/A,2,tonus.konus,hard,2,hard2
+27,20,f,no,no,1,Mari,different,,liquid,hard,1,#N/A,2,tort.kort,hard,1,hard1
+27,20,f,no,no,1,Mari,same,,hard,liquid,1,#N/A,2,tot.kot,liquid,1,liquid1
+28,17,m,no,no,1,abacusss,same,цапля,liquid,liquid,1,1,2,tsaplya.kaplya,liquid,2,liquid2
+28,17,m,no,no,1,abacusss,same,,liquid,soft,1,#N/A,2,stol.skol,soft,1,soft1
+28,17,m,no,no,1,abacusss,same,комик,liquid,soft,1,#N/A,2,tomik.komik,soft,2,soft2
+28,17,m,no,no,1,abacusss,different,,liquid,soft,1,#N/A,2,tort.kort,soft,1,soft1
+28,17,m,no,no,1,abacusss,same,,liquid,liquid,1,1,2,tot.kot,liquid,1,liquid1
+29,21,f,yes,no,2,NifNif,different,"цапля, капля",liquid,liquid,1,1,2,tsaplya.kaplya,liquid,2,liquid2
+29,21,f,yes,no,2,NifNif,same,"стул, скорая",soft,soft,1,1,2,stol.skol,soft,1,soft1
+29,21,f,yes,no,2,NifNif,same,комик,soft,soft,1,1,2,tomik.komik,soft,2,soft2
+29,21,f,yes,no,2,NifNif,different,,soft,soft,1,1,2,tort.kort,soft,1,soft1
+29,21,f,yes,no,2,NifNif,different,"кровь, корь",liquid,liquid,1,1,2,tot.kot,liquid,1,liquid1
+30,21,f,no,yes,2,Rombad,different,,liquid,soft,1,#N/A,2,stol.skol,soft,1,soft1
+30,21,f,no,yes,2,Rombad,different,,liquid,soft,1,#N/A,2,tomik.komik,soft,2,soft2
+30,21,f,no,yes,2,Rombad,different,,liquid,soft,1,#N/A,2,tort.kort,soft,1,soft1
+31,22,m,no,no,1,DiMa,different,"цапля, квадрат",soft,liquid,1,#N/A,2,tsaplya.kaplya,liquid,2,liquid2
+31,22,m,no,no,1,DiMa,different,"fool , score",liquid,soft,1,#N/A,2,stol.skol,soft,1,soft1
+31,22,m,no,no,1,DiMa,different,"свекла, сколько",hard,hard,1,1,2,stolko.skolko,hard,2,hard2
+31,22,m,no,no,1,DiMa,different,"foreign, комик",liquid,soft,1,#N/A,2,tomik.komik,soft,2,soft2
+31,22,m,no,no,1,DiMa,different,"kond of, кровь",hard,hard,1,1,2,tonus.konus,hard,2,hard2
+31,22,m,no,no,1,DiMa,different,"sold, hof",liquid,soft,1,#N/A,2,tort.kort,soft,1,soft1
+31,22,m,no,no,1,DiMa,different,"кровь, кот",soft,liquid,1,#N/A,2,tot.kot,liquid,1,liquid1
+32,21,m,no,no,1,Михаил Петрович Зубенко (мафиозник),different,"цапля, конопля",soft,liquid,1,#N/A,2,tsaplya.kaplya,liquid,2,liquid2
+32,21,m,no,no,1,Михаил Петрович Зубенко (мафиозник),different,"стол, скоро",liquid,soft,1,#N/A,2,stol.skol,soft,1,soft1
+32,21,m,no,no,1,Михаил Петрович Зубенко (мафиозник),different,"свекла, сколько",liquid,hard,1,#N/A,2,stolko.skolko,hard,2,hard2
+32,21,m,no,no,1,Михаил Петрович Зубенко (мафиозник),different,"-, комик",liquid,soft,1,#N/A,2,tomik.komik,soft,2,soft2
+32,21,m,no,no,1,Михаил Петрович Зубенко (мафиозник),different,"-, корж",liquid,hard,1,#N/A,2,tonus.konus,hard,2,hard2
+32,21,m,no,no,1,Михаил Петрович Зубенко (мафиозник),different,"торт, кофе",liquid,soft,1,#N/A,2,tort.kort,soft,1,soft1
+32,21,m,no,no,1,Михаил Петрович Зубенко (мафиозник),different,"кровь, корж",soft,liquid,1,#N/A,2,tot.kot,liquid,1,liquid1
+33,24,m,no,no,1,-,different,,soft,liquid,1,#N/A,2,tsaplya.kaplya,liquid,2,liquid2
+33,24,m,no,no,1,-,different,,hard,soft,1,#N/A,2,stol.skol,soft,1,soft1
+33,24,m,no,no,1,-,different,,soft,hard,1,#N/A,2,stolko.skolko,hard,2,hard2
+33,24,m,no,no,1,-,same,,hard,soft,1,#N/A,2,tomik.komik,soft,2,soft2
+33,24,m,no,no,1,-,different,,soft,hard,1,#N/A,2,tonus.konus,hard,2,hard2
+33,24,m,no,no,1,-,different,,hard,soft,1,#N/A,2,tort.kort,soft,1,soft1
+33,24,m,no,no,1,-,different,,soft,liquid,1,#N/A,2,tot.kot,liquid,1,liquid1
+34,22,m,no,yes,1,-,different,"цапля, квадрат",hard,liquid,1,#N/A,2,tsaplya.kaplya,liquid,2,liquid2
+34,22,m,no,yes,1,-,different,"стол, скол",soft,soft,1,1,2,stol.skol,soft,1,soft1
+34,22,m,no,yes,1,-,different,"свекла, сколько",hard,hard,1,1,2,stolko.skolko,hard,2,hard2
+34,22,m,no,yes,1,-,same,комик,soft,soft,1,1,2,tomik.komik,soft,2,soft2
+34,22,m,no,yes,1,-,same,,hard,hard,1,1,2,tonus.konus,hard,2,hard2
+34,22,m,no,yes,1,-,different,"торт, -",soft,soft,1,1,2,tort.kort,soft,1,soft1
+34,22,m,no,yes,1,-,different,"кровь, корт",hard,liquid,1,#N/A,2,tot.kot,liquid,1,liquid1
+35,21,f,no,no,2,Софит,different,,hard,soft,1,#N/A,2,stol.skol,soft,1,soft1
+35,21,f,no,no,2,Софит,different,,hard,soft,1,#N/A,2,tomik.komik,soft,2,soft2
+35,21,f,no,no,2,Софит,different,,hard,soft,1,#N/A,2,tort.kort,soft,1,soft1
+36,18,f,no,no,1,Tea____,same,,soft,liquid,1,#N/A,2,tsaplya.kaplya,liquid,2,liquid2
+36,18,f,no,no,1,Tea____,different,,soft,soft,1,1,2,stol.skol,soft,1,soft1
+36,18,f,no,no,1,Tea____,same,,soft,hard,1,#N/A,2,stolko.skolko,hard,2,hard2
+36,18,f,no,no,1,Tea____,different,,soft,soft,1,1,2,tomik.komik,soft,2,soft2
+36,18,f,no,no,1,Tea____,same,,soft,hard,1,#N/A,2,tonus.konus,hard,2,hard2
+36,18,f,no,no,1,Tea____,different,,soft,soft,1,1,2,tort.kort,soft,1,soft1
+36,18,f,no,no,1,Tea____,different,,liquid,liquid,1,1,2,tot.kot,liquid,1,liquid1
+37,22,m,no,no,1,-,same,цапля,liquid,liquid,1,1,2,tsaplya.kaplya,liquid,2,liquid2
+37,22,m,no,no,1,-,different,"стул, -",hard,soft,1,#N/A,2,stol.skol,soft,1,soft1
+37,22,m,no,no,1,-,same,сколько,soft,hard,1,#N/A,2,stolko.skolko,hard,2,hard2
+37,22,m,no,no,1,-,same,комик,hard,soft,1,#N/A,2,tomik.komik,soft,2,soft2
+37,22,m,no,no,1,-,same,конус,soft,hard,1,#N/A,2,tonus.konus,hard,2,hard2
+37,22,m,no,no,1,-,different,"торт, -",hard,soft,1,#N/A,2,tort.kort,soft,1,soft1
+37,22,m,no,no,1,-,different,,liquid,liquid,1,1,2,tot.kot,liquid,1,liquid1
+38,17,f,no,yes,1,psyna092,same,цапля,soft,liquid,1,#N/A,2,tsaplya.kaplya,liquid,2,liquid2
+38,17,f,no,yes,1,psyna092,same,школа,hard,soft,1,#N/A,2,stol.skol,soft,1,soft1
+38,17,f,no,yes,1,psyna092,different,"-, сколько",soft,hard,1,#N/A,2,stolko.skolko,hard,2,hard2
+38,17,f,no,yes,1,psyna092,same,комик,hard,soft,1,#N/A,2,tomik.komik,soft,2,soft2
+38,17,f,no,yes,1,psyna092,same,конус,soft,hard,1,#N/A,2,tonus.konus,hard,2,hard2
+38,17,f,no,yes,1,psyna092,different,sold,hard,soft,1,#N/A,2,tort.kort,soft,1,soft1
+38,17,f,no,yes,1,psyna092,same,кот,soft,liquid,1,#N/A,2,tot.kot,liquid,1,liquid1
+39,51,,,,0,-,same,цапля,soft,liquid,1,#N/A,2,tsaplya.kaplya,liquid,2,liquid2
+39,51,,,,0,-,different,,hard,soft,1,#N/A,2,stol.skol,soft,1,soft1
+39,51,,,,0,-,same,,hard,soft,1,#N/A,2,tomik.komik,soft,2,soft2
+39,51,,,,0,-,different,,hard,soft,1,#N/A,2,tort.kort,soft,1,soft1
+39,51,,,,0,-,same,кот,soft,liquid,1,#N/A,2,tot.kot,liquid,1,liquid1
+40,16,f,no,no,1,-,same,цапля,soft,liquid,1,#N/A,2,tsaplya.kaplya,liquid,2,liquid2
+40,16,f,no,no,1,-,different,,hard,soft,1,#N/A,2,stol.skol,soft,1,soft1
+40,16,f,no,no,1,-,same,сколько,hard,hard,1,1,2,stolko.skolko,hard,2,hard2
+40,16,f,no,no,1,-,same,комик,hard,soft,1,#N/A,2,tomik.komik,soft,2,soft2
+40,16,f,no,no,1,-,same,конус,hard,hard,1,1,2,tonus.konus,hard,2,hard2
+40,16,f,no,no,1,-,different,"торт, -",hard,soft,1,#N/A,2,tort.kort,soft,1,soft1
+40,16,f,no,no,1,-,different,"кровь, кор",soft,liquid,1,#N/A,2,tot.kot,liquid,1,liquid1
+41,16,f,no,yes,1,Фолклендская лиса,different,,hard,liquid,1,#N/A,2,tsaplya.kaplya,liquid,2,liquid2
+41,16,f,no,yes,1,Фолклендская лиса,different,,soft,soft,1,1,2,stol.skol,soft,1,soft1
+41,16,f,no,yes,1,Фолклендская лиса,different,,hard,hard,1,1,2,stolko.skolko,hard,2,hard2
+41,16,f,no,yes,1,Фолклендская лиса,same,,soft,soft,1,1,2,tomik.komik,soft,2,soft2
+41,16,f,no,yes,1,Фолклендская лиса,same,конус,hard,hard,1,1,2,tonus.konus,hard,2,hard2
+41,16,f,no,yes,1,Фолклендская лиса,different,,soft,soft,1,1,2,tort.kort,soft,1,soft1
+41,16,f,no,yes,1,Фолклендская лиса,same,кот,hard,liquid,1,#N/A,2,tot.kot,liquid,1,liquid1
+42,16,m,no,no,2,CHVAS,same,,liquid,liquid,1,1,2,tsaplya.kaplya,liquid,2,liquid2
+42,16,m,no,no,2,CHVAS,different,,soft,soft,1,1,2,stol.skol,soft,1,soft1
+42,16,m,no,no,2,CHVAS,same,,hard,hard,1,1,2,stolko.skolko,hard,2,hard2
+42,16,m,no,no,2,CHVAS,same,,soft,soft,1,1,2,tomik.komik,soft,2,soft2
+42,16,m,no,no,2,CHVAS,same,,hard,hard,1,1,2,tonus.konus,hard,2,hard2
+42,16,m,no,no,2,CHVAS,different,,soft,soft,1,1,2,tort.kort,soft,1,soft1
+42,16,m,no,no,2,CHVAS,same,,liquid,liquid,1,1,2,tot.kot,liquid,1,liquid1
+43,17,f,no,no,2,Katya,different,,liquid,liquid,1,1,2,tsaplya.kaplya,liquid,2,liquid2
+43,17,f,no,no,2,Katya,different,,soft,soft,1,1,2,stol.skol,soft,1,soft1
+43,17,f,no,no,2,Katya,different,,hard,hard,1,1,2,stolko.skolko,hard,2,hard2
+43,17,f,no,no,2,Katya,same,,soft,soft,1,1,2,tomik.komik,soft,2,soft2
+43,17,f,no,no,2,Katya,different,,hard,hard,1,1,2,tonus.konus,hard,2,hard2
+43,17,f,no,no,2,Katya,different,,soft,soft,1,1,2,tort.kort,soft,1,soft1
+43,17,f,no,no,2,Katya,different,,liquid,liquid,1,1,2,tot.kot,liquid,1,liquid1
+44,16,f,no,no,1,rita,same,,liquid,liquid,1,1,2,tsaplya.kaplya,liquid,2,liquid2
+44,16,f,no,no,1,rita,different,,hard,soft,1,#N/A,2,stol.skol,soft,1,soft1
+44,16,f,no,no,1,rita,different,,hard,hard,1,1,2,stolko.skolko,hard,2,hard2
+44,16,f,no,no,1,rita,different,,hard,soft,1,#N/A,2,tomik.komik,soft,2,soft2
+44,16,f,no,no,1,rita,different,,hard,hard,1,1,2,tonus.konus,hard,2,hard2
+44,16,f,no,no,1,rita,different,,hard,soft,1,#N/A,2,tort.kort,soft,1,soft1
+44,16,f,no,no,1,rita,different,,liquid,liquid,1,1,2,tot.kot,liquid,1,liquid1
+45,16,f,no,no,1,Ася,same,,liquid,liquid,1,1,2,tsaplya.kaplya,liquid,2,liquid2
+45,16,f,no,no,1,Ася,different,,soft,soft,1,1,2,stol.skol,soft,1,soft1
+45,16,f,no,no,1,Ася,different,,hard,hard,1,1,2,stolko.skolko,hard,2,hard2
+45,16,f,no,no,1,Ася,different,,soft,soft,1,1,2,tomik.komik,soft,2,soft2
+45,16,f,no,no,1,Ася,same,,hard,hard,1,1,2,tonus.konus,hard,2,hard2
+45,16,f,no,no,1,Ася,different,,soft,soft,1,1,2,tort.kort,soft,1,soft1
+45,16,f,no,no,1,Ася,same,,liquid,liquid,1,1,2,tot.kot,liquid,1,liquid1
+46,39,f,no,yes,1,fly79,different,"цапля, -",liquid,liquid,1,1,2,tsaplya.kaplya,liquid,2,liquid2
+46,39,f,no,yes,1,fly79,different,"стол, скоро",hard,soft,1,#N/A,2,stol.skol,soft,1,soft1
+46,39,f,no,yes,1,fly79,different,"свекла, сколько",soft,hard,1,#N/A,2,stolko.skolko,hard,2,hard2
+46,39,f,no,yes,1,fly79,different,"-, комик",hard,soft,1,#N/A,2,tomik.komik,soft,2,soft2
+46,39,f,no,yes,1,fly79,different,"тонус, кровь",soft,hard,1,#N/A,2,tonus.konus,hard,2,hard2
+46,39,f,no,yes,1,fly79,different,"-, кот",hard,soft,1,#N/A,2,tort.kort,soft,1,soft1
+46,39,f,no,yes,1,fly79,different,"кровь, кот",liquid,liquid,1,1,2,tot.kot,liquid,1,liquid1
+47,23,f,yes,no,3,-,same,,soft,soft,1,1,5,stol.skol,soft,1,soft1
+47,23,f,yes,no,3,-,different,"фомэк, комэк",soft,soft,1,1,5,tomik.komik,soft,2,soft2
+47,23,f,yes,no,3,-,different,,soft,soft,1,1,5,tort.kort,soft,1,soft1
+48,23,f,yes,no,3,vi,different,"цапля, квадрат",soft,liquid,1,#N/A,5,tsaplya.kaplya,liquid,2,liquid2
+48,23,f,yes,no,3,vi,same,,soft,soft,1,1,5,stol.skol,soft,1,soft1
+48,23,f,yes,no,3,vi,same,сколько,soft,hard,1,#N/A,5,stolko.skolko,hard,2,hard2
+48,23,f,yes,no,3,vi,different,,soft,soft,1,1,5,tomik.komik,soft,2,soft2
+48,23,f,yes,no,3,vi,different,"пол, хумус",soft,hard,1,#N/A,5,tonus.konus,hard,2,hard2
+48,23,f,yes,no,3,vi,different,,soft,soft,1,1,5,tort.kort,soft,1,soft1
+48,23,f,yes,no,3,vi,same,кровь,soft,liquid,1,#N/A,5,tot.kot,liquid,1,liquid1
+49,27,f,yes,no,2,-,different,"цапля, квадрат",liquid,liquid,1,1,5,tsaplya.kaplya,liquid,2,liquid2
+49,27,f,yes,no,2,-,same,скол,hard,soft,1,#N/A,5,stol.skol,soft,1,soft1
+49,27,f,yes,no,2,-,different,"шорты, сколько",soft,hard,1,#N/A,5,stolko.skolko,hard,2,hard2
+49,27,f,yes,no,2,-,same,комик,hard,soft,1,#N/A,5,tomik.komik,soft,2,soft2
+49,27,f,yes,no,2,-,different,"пол, хумус",soft,hard,1,#N/A,5,tonus.konus,hard,2,hard2
+49,27,f,yes,no,2,-,different,"холод, кровь",hard,soft,1,#N/A,5,tort.kort,soft,1,soft1
+49,27,f,yes,no,2,-,same,кровь,liquid,liquid,1,1,5,tot.kot,liquid,1,liquid1
+50,23,m,no,no,2,-,different,"цапля, фуагра",liquid,liquid,1,1,5,tsaplya.kaplya,liquid,2,liquid2
+50,23,m,no,no,2,-,different,"-, кол",soft,soft,1,1,5,stol.skol,soft,1,soft1
+50,23,m,no,no,2,-,same,сколько,soft,hard,1,#N/A,5,stolko.skolko,hard,2,hard2
+50,23,m,no,no,2,-,different,,soft,soft,1,1,5,tomik.komik,soft,2,soft2
+50,23,m,no,no,2,-,different,"пол, -",soft,hard,1,#N/A,5,tonus.konus,hard,2,hard2
+50,23,m,no,no,2,-,different,,soft,soft,1,1,5,tort.kort,soft,1,soft1
+50,23,m,no,no,2,-,different,"кросс, пост",liquid,liquid,1,1,5,tot.kot,liquid,1,liquid1
+51,21,f,yes,no,2,-,different,,hard,soft,1,#N/A,5,stol.skol,soft,1,soft1
+51,21,f,yes,no,2,-,same,,hard,soft,1,#N/A,5,tomik.komik,soft,2,soft2
+51,21,f,yes,no,2,-,same,,hard,soft,1,#N/A,5,tort.kort,soft,1,soft1
+52,42,m,no,no,2,Droyd_0159,same,,hard,liquid,1,#N/A,5,tsaplya.kaplya,liquid,2,liquid2
+52,42,m,no,no,2,Droyd_0159,different,,soft,soft,1,1,5,stol.skol,soft,1,soft1
+52,42,m,no,no,2,Droyd_0159,same,,hard,hard,1,1,5,stolko.skolko,hard,2,hard2
+52,42,m,no,no,2,Droyd_0159,same,,soft,soft,1,1,5,tomik.komik,soft,2,soft2
+52,42,m,no,no,2,Droyd_0159,different,,hard,hard,1,1,5,tonus.konus,hard,2,hard2
+52,42,m,no,no,2,Droyd_0159,same,,soft,soft,1,1,5,tort.kort,soft,1,soft1
+52,42,m,no,no,2,Droyd_0159,same,,hard,liquid,1,#N/A,5,tot.kot,liquid,1,liquid1
+53,23,f,no,no,1,-,same,,liquid,liquid,1,1,5,tsaplya.kaplya,liquid,2,liquid2
+53,23,f,no,no,1,-,different,,hard,soft,1,#N/A,5,stol.skol,soft,1,soft1
+53,23,f,no,no,1,-,same,,hard,soft,1,#N/A,5,tomik.komik,soft,2,soft2
+53,23,f,no,no,1,-,same,,hard,soft,1,#N/A,5,tort.kort,soft,1,soft1
+53,23,f,no,no,1,-,same,,liquid,liquid,1,1,5,tot.kot,liquid,1,liquid1
+54,22,f,no,yes,2,barmaley,same,,soft,soft,1,1,5,stol.skol,soft,1,soft1
+54,22,f,no,yes,2,barmaley,same,,soft,soft,1,1,5,tomik.komik,soft,2,soft2
+54,22,f,no,yes,2,barmaley,same,,soft,soft,1,1,5,tort.kort,soft,1,soft1
+55,49,f,no,no,1,-,same,,liquid,liquid,1,1,5,tsaplya.kaplya,liquid,2,liquid2
+55,49,f,no,no,1,-,same,,hard,soft,1,#N/A,5,stol.skol,soft,1,soft1
+55,49,f,no,no,1,-,different,,soft,hard,1,#N/A,5,stolko.skolko,hard,2,hard2
+55,49,f,no,no,1,-,same,,hard,soft,1,#N/A,5,tomik.komik,soft,2,soft2
+55,49,f,no,no,1,-,same,,soft,hard,1,#N/A,5,tonus.konus,hard,2,hard2
+55,49,f,no,no,1,-,same,,hard,soft,1,#N/A,5,tort.kort,soft,1,soft1
+55,49,f,no,no,1,-,different,,liquid,liquid,1,1,5,tot.kot,liquid,1,liquid1
+56,45,f,no,no,1,Orzu,same,,hard,liquid,1,#N/A,5,tsaplya.kaplya,liquid,2,liquid2
+56,45,f,no,no,1,Orzu,same,,soft,soft,1,1,5,stol.skol,soft,1,soft1
+56,45,f,no,no,1,Orzu,same,,liquid,hard,1,#N/A,5,stolko.skolko,hard,2,hard2
+56,45,f,no,no,1,Orzu,same,,soft,soft,1,1,5,tomik.komik,soft,2,soft2
+56,45,f,no,no,1,Orzu,different,,liquid,soft,1,#N/A,5,tonus.konus,soft,2,soft2
+56,45,f,no,no,1,Orzu,same,,soft,soft,1,1,5,tort.kort,soft,1,soft1
+56,45,f,no,no,1,Orzu,same,,hard,liquid,1,#N/A,5,tot.kot,liquid,1,liquid1
+57,16,f,no,no,2,марина,different,,hard,liquid,1,#N/A,5,tsaplya.kaplya,liquid,2,liquid2
+57,16,f,no,no,2,марина,same,,soft,soft,1,1,5,stol.skol,soft,1,soft1
+57,16,f,no,no,2,марина,same,сколько,hard,hard,1,1,5,stolko.skolko,hard,2,hard2
+57,16,f,no,no,2,марина,same,,soft,soft,1,1,5,tomik.komik,soft,2,soft2
+57,16,f,no,no,2,марина,same,,hard,hard,1,1,5,tonus.konus,hard,2,hard2
+57,16,f,no,no,2,марина,different,,soft,soft,1,1,5,tort.kort,soft,1,soft1
+57,16,f,no,no,2,марина,different,,liquid,liquid,1,1,5,tot.kot,liquid,1,liquid1
+58,16,m,no,yes,1,-,same,,soft,liquid,1,#N/A,5,tsaplya.kaplya,liquid,2,liquid2
+58,16,m,no,yes,1,-,same,,soft,soft,1,1,5,stol.skol,soft,1,soft1
+58,16,m,no,yes,1,-,same,,soft,hard,1,#N/A,5,stolko.skolko,hard,2,hard2
+58,16,m,no,yes,1,-,different,,soft,soft,1,1,5,tomik.komik,soft,2,soft2
+58,16,m,no,yes,1,-,different,,soft,hard,1,#N/A,5,tonus.konus,hard,2,hard2
+58,16,m,no,yes,1,-,same,,soft,soft,1,1,5,tort.kort,soft,1,soft1
+58,16,m,no,yes,1,-,different,,soft,liquid,1,#N/A,5,tot.kot,liquid,1,liquid1
+59,21,f,yes,yes,2,Татандр,same,school,soft,soft,1,1,5,stol.skol,soft,1,soft1
+59,21,f,yes,yes,2,Татандр,different,,soft,soft,1,1,5,tomik.komik,soft,2,soft2
+59,21,f,yes,yes,2,Татандр,same,,soft,soft,1,1,5,tort.kort,soft,1,soft1
+60,17,m,no,no,1,-,same,,hard,liquid,1,#N/A,5,tsaplya.kaplya,liquid,2,liquid2
+60,17,m,no,no,1,-,same,,soft,soft,1,1,5,stol.skol,soft,1,soft1
+60,17,m,no,no,1,-,same,сколько,hard,hard,1,1,5,stolko.skolko,hard,2,hard2
+60,17,m,no,no,1,-,different,,soft,soft,1,1,5,tomik.komik,soft,2,soft2
+60,17,m,no,no,1,-,different,,hard,hard,1,1,5,tonus.konus,hard,2,hard2
+60,17,m,no,no,1,-,same,,soft,soft,1,1,5,tort.kort,soft,1,soft1
+60,17,m,no,no,1,-,same,,hard,liquid,1,#N/A,5,tot.kot,liquid,1,liquid1
+61,16,f,no,yes,3,-,different,"цапля, квадра",liquid,liquid,1,1,5,tsaplya.kaplya,liquid,2,liquid2
+61,16,f,no,yes,3,-,same,стол,soft,soft,1,1,5,stol.skol,soft,1,soft1
+61,16,f,no,yes,3,-,same,сколько,hard,hard,1,1,5,stolko.skolko,hard,2,hard2
+61,16,f,no,yes,3,-,different,"формат, кормит",soft,soft,1,1,5,tomik.komik,soft,2,soft2
+61,16,f,no,yes,3,-,different,"порох, хумус",hard,hard,1,1,5,tonus.konus,hard,2,hard2
+61,16,f,no,yes,3,-,same,соус,soft,soft,1,1,5,tort.kort,soft,1,soft1
+61,16,f,no,yes,3,-,same,корж,liquid,liquid,1,1,5,tot.kot,liquid,1,liquid1
+62,68,m,no,no,1,pit,same,капля,hard,liquid,1,#N/A,5,tsaplya.kaplya,liquid,2,liquid2
+62,68,m,no,no,1,pit,same,стол,soft,soft,1,1,5,stol.skol,soft,1,soft1
+62,68,m,no,no,1,pit,same,сколько,hard,hard,1,1,5,stolko.skolko,hard,2,hard2
+62,68,m,no,no,1,pit,different,"фонот, конот",soft,soft,1,1,5,tomik.komik,soft,2,soft2
+62,68,m,no,no,1,pit,different,"кол, -",hard,hard,1,1,5,tonus.konus,hard,2,hard2
+62,68,m,no,no,1,pit,different,"о, оф",soft,soft,1,1,5,tort.kort,soft,1,soft1
+62,68,m,no,no,1,pit,different,,hard,liquid,1,#N/A,5,tot.kot,liquid,1,liquid1
+63,22,f,no,yes,2,besotvetstvennaya,same,цапля,hard,soft,1,#N/A,6,tsaplya.kaplya,soft,2,soft2
+63,22,f,no,yes,2,besotvetstvennaya,different,,hard,hard,1,1,6,stol.skol,hard,1,hard1
+63,22,f,no,yes,2,besotvetstvennaya,same,сколько,soft,liquid,1,#N/A,6,stolko.skolko,liquid,2,liquid2
+63,22,f,no,yes,2,besotvetstvennaya,different,,hard,hard,1,1,6,tomik.komik,hard,2,hard2
+63,22,f,no,yes,2,besotvetstvennaya,different,,hard,soft,1,#N/A,6,tonus.konus,soft,2,soft2
+63,22,f,no,yes,2,besotvetstvennaya,different,"торт, ор",soft,liquid,1,#N/A,6,tort.kort,liquid,1,liquid1
+63,22,f,no,yes,2,besotvetstvennaya,different,,hard,hard,1,1,6,tot.kot,hard,1,hard1
+64,21,f,no,no,1,Liza,same,цапля,soft,soft,1,1,6,tsaplya.kaplya,soft,2,soft2
+64,21,f,no,no,1,Liza,same,соль,liquid,hard,1,#N/A,6,stol.skol,hard,1,hard1
+64,20,f,no,no,2,Кристина,same,сколько,soft,liquid,1,#N/A,6,stolko.skolko,liquid,2,liquid2
+64,21,f,no,no,1,Liza,same,сколько,soft,liquid,1,#N/A,6,stolko.skolko,liquid,2,liquid2
+64,21,f,no,no,1,Liza,same,,liquid,hard,1,#N/A,6,tomik.komik,hard,2,hard2
+64,21,f,no,no,1,Liza,different,,soft,soft,1,1,6,tonus.konus,soft,2,soft2
+64,20,f,no,no,2,Кристина,same,торт,soft,liquid,1,#N/A,6,tort.kort,liquid,1,liquid1
+64,21,f,no,no,1,Liza,same,торт,soft,liquid,1,#N/A,6,tort.kort,liquid,1,liquid1
+64,21,f,no,no,1,Liza,same,,liquid,hard,1,#N/A,6,tot.kot,hard,1,hard1
+65,21,f,no,no,2,Llaa,same,,soft,liquid,1,#N/A,6,stolko.skolko,liquid,2,liquid2
+65,21,f,no,no,2,Llaa,same,,soft,liquid,1,#N/A,6,tort.kort,liquid,1,liquid1
+66,46,f,no,no,1,-,different,"цапля, капля",soft,soft,1,1,6,tsaplya.kaplya,soft,2,soft2
+66,46,f,no,no,1,-,same,стол,liquid,hard,1,#N/A,6,stol.skol,hard,1,hard1
+66,46,f,no,no,1,-,same,сколько,soft,liquid,1,#N/A,6,stolko.skolko,liquid,2,liquid2
+66,46,f,no,no,1,-,different,,liquid,hard,1,#N/A,6,tomik.komik,hard,2,hard2
+66,46,f,no,no,1,-,different,,soft,soft,1,1,6,tonus.konus,soft,2,soft2
+66,46,f,no,no,1,-,same,торт,soft,liquid,1,#N/A,6,tort.kort,liquid,1,liquid1
+66,46,f,no,no,1,-,different,"торт, кот",liquid,hard,1,#N/A,6,tot.kot,hard,1,hard1
+67,22,m,no,no,1,Дима П. ,different,"цапля, капля",hard,soft,1,#N/A,6,tsaplya.kaplya,soft,2,soft2
+67,22,m,no,no,1,Дима П. ,same,стол,soft,hard,1,#N/A,6,stol.skol,hard,1,hard1
+67,22,m,no,no,1,Дима П. ,same,сколько,soft,hard,1,#N/A,6,stolko.skolko,hard,2,hard2
+67,22,m,no,no,1,Дима П. ,different,,soft,hard,1,#N/A,6,tomik.komik,hard,2,hard2
+67,22,m,no,no,1,Дима П. ,different,"самолет, -",hard,soft,1,#N/A,6,tonus.konus,soft,2,soft2
+67,22,m,no,no,1,Дима П. ,different,"торт, -",liquid,liquid,1,1,6,tort.kort,liquid,1,liquid1
+67,22,m,no,no,1,Дима П. ,different,,soft,hard,1,#N/A,6,tot.kot,hard,1,hard1
+68,21,f,no,no,2,Taaanik,same,цапля,soft,soft,1,1,6,tsaplya.kaplya,soft,2,soft2
+68,21,f,no,no,2,Taaanik,same,стол,liquid,hard,1,#N/A,6,stol.skol,hard,1,hard1
+68,21,f,no,no,2,Taaanik,same,сколько,soft,liquid,1,#N/A,6,stolko.skolko,liquid,2,liquid2
+68,21,f,no,no,2,Taaanik,same,,liquid,hard,1,#N/A,6,tomik.komik,hard,2,hard2
+68,21,f,no,no,2,Taaanik,different,"-, клоуз",soft,soft,1,1,6,tonus.konus,soft,2,soft2
+68,21,f,no,no,2,Taaanik,different,"торс, ор",soft,liquid,1,#N/A,6,tort.kort,liquid,1,liquid1
+68,21,f,no,no,2,Taaanik,different,"-, корт",liquid,hard,1,#N/A,6,tot.kot,hard,1,hard1
+69,18,f,no,yes,2,marvelouspoke,different,"цапля, капля",hard,soft,1,#N/A,6,tsaplya.kaplya,soft,2,soft2
+69,18,f,no,yes,2,marvelouspoke,same,что,liquid,hard,1,#N/A,6,stol.skol,hard,1,hard1
+69,18,f,no,yes,2,marvelouspoke,same,сколько,soft,liquid,1,#N/A,6,stolko.skolko,liquid,2,liquid2
+69,18,f,no,yes,2,marvelouspoke,same,комик,liquid,hard,1,#N/A,6,tomik.komik,hard,2,hard2
+69,18,f,no,yes,2,marvelouspoke,different,"твой нос, гольф",hard,soft,1,#N/A,6,tonus.konus,soft,2,soft2
+69,18,f,no,yes,2,marvelouspoke,different,"торт, -",soft,liquid,1,#N/A,6,tort.kort,liquid,1,liquid1
+69,18,f,no,yes,2,marvelouspoke,different,"-, ложка",liquid,hard,1,#N/A,6,tot.kot,hard,1,hard1
+70,25,f,yes,no,2,пыр,same,сколько,soft,liquid,1,#N/A,6,stolko.skolko,liquid,2,liquid2
+70,25,f,yes,no,2,пыр,different,"торф, ор",soft,liquid,1,#N/A,6,tort.kort,liquid,1,liquid1
+71,16,f,no,no,2,,same,цапля,soft,soft,1,1,6,tsaplya.kaplya,soft,2,soft2
+71,16,f,no,no,2,,same,,soft,hard,1,#N/A,6,stol.skol,hard,1,hard1
+71,16,f,no,no,2,,different,"-, сколько",soft,liquid,1,#N/A,6,stolko.skolko,liquid,2,liquid2
+71,16,f,no,no,2,,same,комик,soft,hard,1,#N/A,6,tomik.komik,hard,2,hard2
+71,16,f,no,no,2,,different,,soft,soft,1,1,6,tonus.konus,soft,2,soft2
+71,16,f,no,no,2,,same,,soft,liquid,1,#N/A,6,tort.kort,liquid,1,liquid1
+71,16,f,no,no,2,,different,,soft,hard,1,#N/A,6,tot.kot,hard,1,hard1
+72,16,m,no,yes,2,,different,,soft,soft,1,1,6,tsaplya.kaplya,soft,2,soft2
+72,16,m,no,yes,2,,same,,liquid,hard,1,#N/A,6,stol.skol,hard,1,hard1
+72,16,m,no,yes,2,,different,,soft,liquid,1,#N/A,6,stolko.skolko,liquid,2,liquid2
+72,16,m,no,yes,2,,same,,liquid,hard,1,#N/A,6,tomik.komik,hard,2,hard2
+72,16,m,no,yes,2,,different,,soft,soft,1,1,6,tonus.konus,soft,2,soft2
+72,16,m,no,yes,2,,different,,soft,liquid,1,#N/A,6,tort.kort,liquid,1,liquid1
+72,16,m,no,yes,2,,different,,liquid,hard,1,#N/A,6,tot.kot,hard,1,hard1
+73,16,m,no,no,1,Герсей,same,цапля,hard,soft,1,#N/A,6,tsaplya.kaplya,soft,2,soft2
+73,16,m,no,no,1,Герсей,same,,hard,hard,1,1,6,stol.skol,hard,1,hard1
+73,16,m,no,no,1,Герсей,same,сколько,liquid,liquid,1,1,6,stolko.skolko,liquid,2,liquid2
+73,16,m,no,no,1,Герсей,same,,hard,hard,1,1,6,tomik.komik,hard,2,hard2
+73,16,m,no,no,1,Герсей,different,,hard,soft,1,#N/A,6,tonus.konus,soft,2,soft2
+73,16,m,no,no,1,Герсей,different,,liquid,liquid,1,1,6,tort.kort,liquid,1,liquid1
+73,16,m,no,no,1,Герсей,different,,hard,hard,1,1,6,tot.kot,hard,1,hard1
+74,17,m,no,no,1,Qweaper,same,сколько,soft,liquid,1,#N/A,6,stolko.skolko,liquid,2,liquid2
+74,17,m,no,no,1,Qweaper,different,,soft,liquid,1,#N/A,6,tort.kort,liquid,1,liquid1
+75,16,m,no,no,1,-,same,,soft,soft,1,1,6,tsaplya.kaplya,soft,2,soft2
+75,16,m,no,no,1,-,same,,liquid,hard,1,#N/A,6,stol.skol,hard,1,hard1
+75,16,m,no,no,1,-,same,,hard,liquid,1,#N/A,6,stolko.skolko,liquid,2,liquid2
+75,16,m,no,no,1,-,same,,liquid,hard,1,#N/A,6,tomik.komik,hard,2,hard2
+75,16,m,no,no,1,-,different,,soft,soft,1,1,6,tonus.konus,soft,2,soft2
+75,16,m,no,no,1,-,different,,hard,liquid,1,#N/A,6,tort.kort,liquid,1,liquid1
+75,16,m,no,no,1,-,different,,liquid,hard,1,#N/A,6,tot.kot,hard,1,hard1
+76,18,m,no,no,1,His,same,,liquid,liquid,1,1,6,stolko.skolko,liquid,2,liquid2
+76,18,m,no,no,1,His,same,,liquid,liquid,1,1,6,tort.kort,liquid,1,liquid1
+77,34,m,no,no,1,Алекс,same,капля,hard,soft,1,#N/A,6,tsaplya.kaplya,soft,2,soft2
+77,34,m,no,no,1,Алекс,same,,soft,hard,1,#N/A,6,stol.skol,hard,1,hard1
+77,34,m,no,no,1,Алекс,same,сколько,liquid,liquid,1,1,6,stolko.skolko,liquid,2,liquid2
+77,34,m,no,no,1,Алекс,same,,soft,hard,1,#N/A,6,tomik.komik,hard,2,hard2
+77,34,m,no,no,1,Алекс,same,колос,hard,soft,1,#N/A,6,tonus.konus,soft,2,soft2
+77,34,m,no,no,1,Алекс,same,торт,liquid,liquid,1,1,6,tort.kort,liquid,1,liquid1
+77,34,m,no,no,1,Алекс,same,,soft,hard,1,#N/A,6,tot.kot,hard,1,hard1
+78,16,f,no,no,2,,same,капля,liquid,soft,1,#N/A,6,tsaplya.kaplya,soft,2,soft2
+78,16,f,no,no,2,,same,,hard,hard,1,1,6,stol.skol,hard,1,hard1
+78,16,f,no,no,2,,same,сколько,soft,liquid,1,#N/A,6,stolko.skolko,liquid,2,liquid2
+78,16,f,no,no,2,,different,,hard,hard,1,1,6,tomik.komik,hard,2,hard2
+78,16,f,no,no,2,,different,,liquid,soft,1,#N/A,6,tonus.konus,soft,2,soft2
+78,16,f,no,no,2,,different,,soft,liquid,1,#N/A,6,tort.kort,liquid,1,liquid1
+78,16,f,no,no,2,,,,hard,hard,1,1,6,tot.kot,hard,1,hard1
+79,17,f,no,yes,1,Ну Погодивович Что,same,,hard,soft,1,#N/A,6,tsaplya.kaplya,soft,2,soft2
+79,17,f,no,yes,1,Ну Погодивович Что,same,,liquid,hard,1,#N/A,6,stol.skol,hard,1,hard1
+79,17,f,no,yes,1,Ну Погодивович Что,same,,soft,liquid,1,#N/A,6,stolko.skolko,liquid,2,liquid2
+79,17,f,no,yes,1,Ну Погодивович Что,same,,liquid,hard,1,#N/A,6,tomik.komik,hard,2,hard2
+79,17,f,no,yes,1,Ну Погодивович Что,different,,hard,soft,1,#N/A,6,tonus.konus,soft,2,soft2
+79,17,f,no,yes,1,Ну Погодивович Что,different,,soft,liquid,1,#N/A,6,tort.kort,liquid,1,liquid1
+79,17,f,no,yes,1,Ну Погодивович Что,different,,liquid,hard,1,#N/A,6,tot.kot,hard,1,hard1
+80,16,m,no,no,2,Максимка,same,цапля,hard,soft,1,#N/A,6,tsaplya.kaplya,soft,2,soft2
+80,16,m,no,no,2,Максимка,different,,liquid,hard,1,#N/A,6,stol.skol,hard,1,hard1
+80,16,m,no,no,2,Максимка,same,сколько,soft,liquid,1,#N/A,6,stolko.skolko,liquid,2,liquid2
+80,16,m,no,no,2,Максимка,same,,liquid,hard,1,#N/A,6,tomik.komik,hard,2,hard2
+80,16,m,no,no,2,Максимка,different,"-, корж",hard,soft,1,#N/A,6,tonus.konus,soft,2,soft2
+80,16,m,no,no,2,Максимка,different,,soft,liquid,1,#N/A,6,tort.kort,liquid,1,liquid1
+80,16,m,no,no,2,Максимка,different,,liquid,hard,1,#N/A,6,tot.kot,hard,1,hard1
+81,16,m,no,yes,1,InfinityZ,same,капля,hard,soft,1,#N/A,6,tsaplya.kaplya,soft,2,soft2
+81,16,m,no,yes,1,InfinityZ,same,,hard,hard,1,1,6,stol.skol,hard,1,hard1
+81,16,m,no,yes,1,InfinityZ,different,"арфа, сколько",soft,liquid,1,#N/A,6,stolko.skolko,liquid,2,liquid2
+81,16,m,no,yes,1,InfinityZ,same,,hard,hard,1,1,6,tomik.komik,hard,2,hard2
+81,16,m,no,yes,1,InfinityZ,different,"-, кровь",hard,soft,1,#N/A,6,tonus.konus,soft,2,soft2
+81,16,m,no,yes,1,InfinityZ,same,торф,soft,liquid,1,#N/A,6,tort.kort,liquid,1,liquid1
+81,16,m,no,yes,1,InfinityZ,same,,hard,hard,1,1,6,tot.kot,hard,1,hard1
+82,17,m,no,no,1,Gossp,same,цапля,soft,soft,1,1,6,tsaplya.kaplya,soft,2,soft2
+82,17,m,no,no,1,Gossp,different,"хол, -",hard,hard,1,1,6,stol.skol,hard,1,hard1
+82,17,m,no,no,1,Gossp,same,сколько,soft,liquid,1,#N/A,6,stolko.skolko,liquid,2,liquid2
+82,17,m,no,no,1,Gossp,same,"компе, комак",hard,hard,1,1,6,tomik.komik,hard,2,hard2
+82,17,m,no,no,1,Gossp,different,,soft,soft,1,1,6,tonus.konus,soft,2,soft2
+82,17,m,no,no,1,Gossp,different,"торт, корт",soft,liquid,1,#N/A,6,tort.kort,liquid,1,liquid1
+82,17,m,no,no,1,Gossp,different,"торт, корт",hard,hard,1,1,6,tot.kot,hard,1,hard1
+83,17,m,no,yes,2,waises,different,"цапля, капля",hard,soft,1,#N/A,6,tsaplya.kaplya,soft,2,soft2
+83,17,m,no,yes,2,waises,same,стол,liquid,hard,1,#N/A,6,stol.skol,hard,1,hard1
+83,17,m,no,yes,2,waises,same,сколько,soft,liquid,1,#N/A,6,stolko.skolko,liquid,2,liquid2
+83,17,m,no,yes,2,waises,same,комик,liquid,hard,1,#N/A,6,tomik.komik,hard,2,hard2
+83,17,m,no,yes,2,waises,different,"-, кровь",hard,soft,1,#N/A,6,tonus.konus,soft,2,soft2
+83,17,m,no,yes,2,waises,different,"-, горб",soft,liquid,1,#N/A,6,tort.kort,liquid,1,liquid1
+83,17,m,no,yes,2,waises,same,кот,liquid,hard,1,#N/A,6,tot.kot,hard,1,hard1
+84,16,f,no,no,1,Y,same,капля,soft,soft,1,1,6,tsaplya.kaplya,soft,2,soft2
+84,16,f,no,no,1,Y,same,кол,hard,hard,1,1,6,stol.skol,hard,1,hard1
+84,16,f,no,no,1,Y,same,сколько,soft,liquid,1,#N/A,6,stolko.skolko,liquid,2,liquid2
+84,16,f,no,no,1,Y,same,конюх,hard,hard,1,1,6,tomik.komik,hard,2,hard2
+84,16,f,no,no,1,Y,different,"-, гольф",soft,soft,1,1,6,tonus.konus,soft,2,soft2
+84,16,f,no,no,1,Y,different,"-, ор",soft,liquid,1,#N/A,6,tort.kort,liquid,1,liquid1
+84,16,f,no,no,1,Y,same,,hard,hard,1,1,6,tot.kot,hard,1,hard1
+85,56,m,no,no,1,,different,"цапля, капля",hard,soft,1,#N/A,6,tsaplya.kaplya,soft,2,soft2
+85,56,m,no,no,1,,same,стол,hard,hard,1,1,6,stol.skol,hard,1,hard1
+85,56,m,no,no,1,,same,сколько,soft,liquid,1,#N/A,6,stolko.skolko,liquid,2,liquid2
+85,56,m,no,no,1,,same,,hard,hard,1,1,6,tomik.komik,hard,2,hard2
+85,56,m,no,no,1,,different,,hard,soft,1,#N/A,6,tonus.konus,soft,2,soft2
+85,56,m,no,no,1,,same,торт,soft,liquid,1,#N/A,6,tort.kort,liquid,1,liquid1
+85,56,m,no,no,1,,different,,hard,hard,1,1,6,tot.kot,hard,1,hard1
+86,67,f,no,no,2,мм,different,"цапля, капля",hard,soft,1,#N/A,6,tsaplya.kaplya,soft,2,soft2
+86,67,f,no,no,2,мм,same,гол,hard,hard,1,1,6,stol.skol,hard,1,hard1
+86,67,f,no,no,2,мм,same,сколько,soft,liquid,1,#N/A,6,stolko.skolko,liquid,2,liquid2
+86,67,f,no,no,2,мм,same,,hard,hard,1,1,6,tomik.komik,hard,2,hard2
+86,67,f,no,no,2,мм,different,"планер, кол",hard,soft,1,#N/A,6,tonus.konus,soft,2,soft2
+86,67,f,no,no,2,мм,same,торт,soft,liquid,1,#N/A,6,tort.kort,liquid,1,liquid1
+86,67,f,no,no,2,мм,different,,hard,hard,1,1,6,tot.kot,hard,1,hard1
+87,23,f,no,yes,1,Нелля,same,,soft,soft,1,1,6,tsaplya.kaplya,soft,2,soft2
+87,23,f,no,yes,1,Нелля,same,,hard,hard,1,1,6,stol.skol,hard,1,hard1
+87,23,f,no,yes,1,Нелля,same,,hard,liquid,1,#N/A,6,stolko.skolko,liquid,2,liquid2
+87,23,f,no,yes,1,Нелля,same,,hard,hard,1,1,6,tomik.komik,hard,2,hard2
+87,23,f,no,yes,1,Нелля,different,,soft,soft,1,1,6,tonus.konus,soft,2,soft2
+87,23,f,no,yes,1,Нелля,different,,hard,liquid,1,#N/A,6,tort.kort,liquid,1,liquid1
+87,23,f,no,yes,1,Нелля,same,,hard,hard,1,1,6,tot.kot,hard,1,hard1
+88,49,f,no,no,0,-,same,капля,hard,soft,1,#N/A,6,tsaplya.kaplya,soft,2,soft2
+88,49,f,no,no,0,-,different,,liquid,hard,1,#N/A,6,stol.skol,hard,1,hard1
+88,49,f,no,no,0,-,same,сколько,soft,liquid,1,#N/A,6,stolko.skolko,liquid,2,liquid2
+88,49,f,no,no,0,-,same,,liquid,hard,1,#N/A,6,tomik.komik,hard,2,hard2
+88,49,f,no,no,0,-,different,,hard,soft,1,#N/A,6,tonus.konus,soft,2,soft2
+88,49,f,no,no,0,-,same,,soft,liquid,1,#N/A,6,tort.kort,liquid,1,liquid1
+88,49,f,no,no,0,-,same,кот,liquid,hard,1,#N/A,6,tot.kot,hard,1,hard1
+89,21,f,yes,no,2,рысь,same,цапля,hard,soft,1,#N/A,6,tsaplya.kaplya,soft,2,soft2
+89,21,f,yes,no,2,рысь,different,"дом, ком",soft,hard,1,#N/A,6,stol.skol,hard,1,hard1
+89,21,f,yes,no,2,рысь,same,сколько,liquid,liquid,1,1,6,stolko.skolko,liquid,2,liquid2
+89,21,f,yes,no,2,рысь,different,"комок, комик",soft,hard,1,#N/A,6,tomik.komik,hard,2,hard2
+89,21,f,yes,no,2,рысь,same,,hard,soft,1,#N/A,6,tonus.konus,soft,2,soft2
+89,21,f,yes,no,2,рысь,different,,liquid,liquid,1,1,6,tort.kort,liquid,1,liquid1
+89,21,f,yes,no,2,рысь,same,рот,soft,hard,1,#N/A,6,tot.kot,hard,1,hard1
+90,21,f,yes,no,2,kozenasheva,same,,soft,soft,1,1,3,tsaplya.kaplya,soft,2,soft2
+90,21,f,yes,no,2,kozenasheva,different,,soft,hard,1,#N/A,3,stol.skol,hard,1,hard1
+90,21,f,yes,no,2,kozenasheva,same,,hard,liquid,1,#N/A,3,stolko.skolko,liquid,2,liquid2
+90,21,f,yes,no,2,kozenasheva,same,,soft,hard,1,#N/A,3,tomik.komik,hard,2,hard2
+90,21,f,yes,no,2,kozenasheva,same,,soft,soft,1,1,3,tonus.konus,soft,2,soft2
+90,21,f,yes,no,2,kozenasheva,same,,hard,liquid,1,#N/A,3,tort.kort,liquid,1,liquid1
+90,21,f,yes,no,2,kozenasheva,same,,soft,hard,1,#N/A,3,tot.kot,hard,1,hard1
+91,22,f,yes,no,2,panteleeva,different,"холл, -",soft,soft,1,1,3,stol.skol,soft,1,soft1
+91,22,f,yes,no,2,panteleeva,different,,liquid,liquid,1,1,3,stolko.skolko,liquid,2,liquid2
+91,22,f,yes,no,2,panteleeva,different,,soft,soft,1,1,3,tomik.komik,soft,2,soft2
+91,22,f,yes,no,2,panteleeva,different,"-, корт",liquid,liquid,1,1,3,tort.kort,liquid,1,liquid1
+91,22,f,yes,no,2,panteleeva,different,,soft,soft,1,1,3,tot.kot,soft,1,soft1
+92,20,f,yes,yes,2,anapanifica,different,"цапля, капля",soft,soft,1,1,3,tsaplya.kaplya,soft,2,soft2
+92,20,f,yes,yes,2,anapanifica,different,"хол, вкус",soft,hard,1,#N/A,3,stol.skol,hard,1,hard1
+92,20,f,yes,yes,2,anapanifica,same,сколько,hard,liquid,1,#N/A,3,stolko.skolko,liquid,2,liquid2
+92,20,f,yes,yes,2,anapanifica,different,"хобот, -",soft,hard,1,#N/A,3,tomik.komik,hard,2,hard2
+92,20,f,yes,yes,2,anapanifica,different,"сторож, конус",soft,soft,1,1,3,tonus.konus,soft,2,soft2
+92,20,f,yes,yes,2,anapanifica,same,корт,hard,liquid,1,#N/A,3,tort.kort,liquid,1,liquid1
+92,20,f,yes,yes,2,anapanifica,same,корт,soft,hard,1,#N/A,3,tot.kot,hard,1,hard1
+93,22,f,yes,no,2,Kate,same,холл,hard,hard,1,1,3,stol.skol,hard,1,hard1
+93,22,f,yes,no,2,Kate,same,сколько,soft,liquid,1,#N/A,3,stolko.skolko,liquid,2,liquid2
+93,22,f,yes,no,2,Kate,different,,hard,hard,1,1,3,tomik.komik,hard,2,hard2
+93,22,f,yes,no,2,Kate,different,"лоб, корт",soft,liquid,1,#N/A,3,tort.kort,liquid,1,liquid1
+93,22,f,yes,no,2,Kate,same,торт,hard,hard,1,1,3,tot.kot,hard,1,hard1
+94,21,m,no,no,1,Георгий П.,different,"цапля, капля",hard,soft,1,#N/A,3,tsaplya.kaplya,soft,2,soft2
+94,21,m,no,no,1,Георгий П.,same,холл,hard,hard,1,1,3,stol.skol,hard,1,hard1
+94,21,m,no,no,1,Георгий П.,same,сколько,soft,liquid,1,#N/A,3,stolko.skolko,liquid,2,liquid2
+94,21,m,no,no,1,Георгий П.,same,замок,hard,hard,1,1,3,tomik.komik,hard,2,hard2
+94,21,m,no,no,1,Георгий П.,same,конус,hard,soft,1,#N/A,3,tonus.konus,soft,2,soft2
+94,21,m,no,no,1,Георгий П.,same,корт,soft,liquid,1,#N/A,3,tort.kort,liquid,1,liquid1
+94,21,m,no,no,1,Георгий П.,different,"-, класс",hard,hard,1,1,3,tot.kot,hard,1,hard1
+95,22,f,yes,no,2,Пантелеева,different,"цапля, капля",hard,soft,1,#N/A,3,tsaplya.kaplya,soft,2,soft2
+95,22,f,yes,no,2,Пантелеева,different,"холл, в холод",soft,hard,1,#N/A,3,stol.skol,hard,1,hard1
+95,22,f,yes,no,2,Пантелеева,different,"свекла, сколько",liquid,liquid,1,1,3,stolko.skolko,liquid,2,liquid2
+95,22,f,yes,no,2,Пантелеева,different,"хобот, комик",soft,hard,1,#N/A,3,tomik.komik,hard,2,hard2
+95,22,f,yes,no,2,Пантелеева,different,"поезд, конус",hard,soft,1,#N/A,3,tonus.konus,soft,2,soft2
+95,22,f,yes,no,2,Пантелеева,different,"-, корт",liquid,liquid,1,1,3,tort.kort,liquid,1,liquid1
+95,22,f,yes,no,2,Пантелеева,different,"плоть, кот",soft,hard,1,#N/A,3,tot.kot,hard,1,hard1
+96,25,m,no,no,1,Kirilsuperstar,different,,hard,liquid,1,#N/A,3,stolko.skolko,liquid,2,liquid2
+96,25,m,no,no,1,Kirilsuperstar,different,,hard,liquid,1,#N/A,3,tort.kort,liquid,1,liquid1
+97,22,m,no,yes,0,Сань хуй саси,same,,soft,soft,1,1,3,tsaplya.kaplya,soft,2,soft2
+97,22,m,no,yes,0,Сань хуй саси,same,,liquid,hard,1,#N/A,3,stol.skol,hard,1,hard1
+97,22,m,no,yes,0,Сань хуй саси,same,,hard,liquid,1,#N/A,3,stolko.skolko,liquid,2,liquid2
+97,22,m,no,yes,0,Сань хуй саси,different,,liquid,hard,1,#N/A,3,tomik.komik,hard,2,hard2
+97,22,m,no,yes,0,Сань хуй саси,same,,soft,soft,1,1,3,tonus.konus,soft,2,soft2
+97,22,m,no,yes,0,Сань хуй саси,same,,hard,liquid,1,#N/A,3,tort.kort,liquid,1,liquid1
+97,22,m,no,yes,0,Сань хуй саси,different,,liquid,hard,1,#N/A,3,tot.kot,hard,1,hard1
+98,21,f,no,no,1,Псина,same,сколько,hard,liquid,1,#N/A,3,stolko.skolko,liquid,2,liquid2
+98,21,f,no,no,1,Псина,same,корт,hard,liquid,1,#N/A,3,tort.kort,liquid,1,liquid1
+99,25,m,no,no,1,-,same,,hard,soft,1,#N/A,3,tsaplya.kaplya,soft,2,soft2
+99,25,m,no,no,1,-,same,,soft,hard,1,#N/A,3,stol.skol,hard,1,hard1
+99,25,m,no,no,1,-,same,,hard,liquid,1,#N/A,3,stolko.skolko,liquid,2,liquid2
+99,25,m,no,no,1,-,same,,soft,hard,1,#N/A,3,tomik.komik,hard,2,hard2
+99,25,m,no,no,1,-,same,,hard,soft,1,#N/A,3,tonus.konus,soft,2,soft2
+99,25,m,no,no,1,-,different,,hard,liquid,1,#N/A,3,tort.kort,liquid,1,liquid1
+99,25,m,no,no,1,-,different,,soft,hard,1,#N/A,3,tot.kot,hard,1,hard1
+100,10,m,no,no,0,no,different,,liquid,soft,1,#N/A,3,tsaplya.kaplya,soft,2,soft2
+100,10,m,no,no,0,no,same,,soft,hard,1,#N/A,3,stol.skol,hard,1,hard1
+100,10,m,no,no,0,no,same,,hard,liquid,1,#N/A,3,stolko.skolko,liquid,2,liquid2
+100,10,m,no,no,0,no,different,,soft,hard,1,#N/A,3,tomik.komik,hard,2,hard2
+100,10,m,no,no,0,no,different,,liquid,soft,1,#N/A,3,tonus.konus,soft,2,soft2
+100,10,m,no,no,0,no,different,,hard,liquid,1,#N/A,3,tort.kort,liquid,1,liquid1
+100,10,m,no,no,0,no,different,,soft,hard,1,#N/A,3,tot.kot,hard,1,hard1
+101,17,m,no,no,1,-,same,сколько,soft,liquid,1,#N/A,3,stolko.skolko,liquid,2,liquid2
+101,17,m,no,no,1,-,same,горб,soft,liquid,1,#N/A,3,tort.kort,liquid,1,liquid1
+102,16,m,no,no,1,-,same,,soft,soft,1,1,3,tsaplya.kaplya,soft,2,soft2
+102,16,m,no,no,1,-,different,"hope, -",hard,hard,1,1,3,stol.skol,hard,1,hard1
+102,16,m,no,no,1,-,same,сколько,liquid,liquid,1,1,3,stolko.skolko,liquid,2,liquid2
+102,16,m,no,no,1,-,,,hard,hard,1,1,3,tomik.komik,hard,2,hard2
+102,16,m,no,no,1,-,same,,soft,soft,1,1,3,tonus.konus,soft,2,soft2
+102,16,m,no,no,1,-,different,"-, горб",liquid,liquid,1,1,3,tort.kort,liquid,1,liquid1
+102,16,m,no,no,1,-,different,"work, -",hard,hard,1,1,3,tot.kot,hard,1,hard1
+103,16,m,no,no,1,kanishev2003,same,,hard,soft,1,#N/A,3,tsaplya.kaplya,soft,2,soft2
+103,16,m,no,no,1,kanishev2006,different,,liquid,hard,1,#N/A,3,stol.skol,hard,1,hard1
+103,16,m,no,no,1,kanishev2005,different,"-, сколько",liquid,liquid,1,1,3,stolko.skolko,liquid,2,liquid2
+103,16,m,no,no,1,kanishev2007,same,,liquid,hard,1,#N/A,3,tomik.komik,hard,2,hard2
+103,16,m,no,no,1,kanishev2004,same,,hard,soft,1,#N/A,3,tonus.konus,soft,2,soft2
+103,16,m,no,no,1,kanishev2002,same,корт,liquid,liquid,1,1,3,tort.kort,liquid,1,liquid1
+103,16,m,no,no,1,kanishev2008,same,,liquid,hard,1,#N/A,3,tot.kot,hard,1,hard1
+104,16,m,no,no,1,Zaziza,different,"цапля, капля",liquid,soft,1,#N/A,3,tsaplya.kaplya,soft,2,soft2
+104,16,m,no,no,1,Zaziza,different,,soft,hard,1,#N/A,3,stol.skol,hard,1,hard1
+104,16,m,no,no,1,Zaziza,same,,hard,liquid,1,#N/A,3,stolko.skolko,liquid,2,liquid2
+104,16,m,no,no,1,Zaziza,different,,soft,hard,1,#N/A,3,tomik.komik,hard,2,hard2
+104,16,m,no,no,1,Zaziza,same,конус,liquid,soft,1,#N/A,3,tonus.konus,soft,2,soft2
+104,16,m,no,no,1,Zaziza,different,"-, корт",hard,liquid,1,#N/A,3,tort.kort,liquid,1,liquid1
+104,16,m,no,no,1,Zaziza,different,,soft,hard,1,#N/A,3,tot.kot,hard,1,hard1
+105,22,m,yes,yes,6,Женя Л.,different,"цапля, -",soft,liquid,1,#N/A,2,tsaplya.kaplya,liquid,2,liquid2
+105,22,m,yes,yes,6,Женя Л.,different,"стол, школа",hard,soft,1,#N/A,2,stol.skol,soft,1,soft1
+105,22,m,yes,yes,6,Женя Л.,same,сколько,liquid,hard,1,#N/A,2,stolko.skolko,hard,2,hard2
+105,22,m,yes,yes,6,Женя Л.,different,"фоне, комик",hard,soft,1,#N/A,2,tomik.komik,soft,2,soft2
+105,22,m,yes,yes,6,Женя Л.,different,"кванос, кар",liquid,hard,1,#N/A,2,tonus.konus,hard,2,hard2
+105,22,m,yes,yes,6,Женя Л.,different,"тарт, хоф",hard,soft,1,#N/A,2,tort.kort,soft,1,soft1
+105,22,m,yes,yes,6,Женя Л.,different,"тост, кот",soft,liquid,1,#N/A,2,tot.kot,liquid,1,liquid1
