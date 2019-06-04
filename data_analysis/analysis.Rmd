@@ -1,18 +1,19 @@
 План анализа:
 
-+ 1. Общий график + описание. Разных больше, чем одинаковых. Гипотеза не подтвердилась. 
-+ 2. График и таблица по отдельным словам. Видно, что разница в ответах. Фишер говорит, что значимо. Но если сравнивать похожие по ответам столбцы (например, два последних), то стат значимости нет. Вывод: надо соединить столбики с похожими группами и посмотреть, будет ли стат значимость там. 
+1. Общий график + описание. Разных больше, чем одинаковых. Гипотеза не подтвердилась. 
+2. График и таблица по отдельным словам. Видно, что разница в ответах. Фишер говорит, что значимо. Но если сравнивать похожие по ответам столбцы (например, два последних), то стат значимости нет. Вывод: надо соединить столбики с похожими группами и посмотреть, будет ли стат значимость там. 
 3. Проверка стат значимости из п. 2
 4. Когда станет понятно, посмотреть на ответы, которые участники эксперимента предлагают по отдельным стимулам
-+ 5 от пола (нет)
-+ 6. Проверим, есть ли зависимость от муз образ (нет)
-+ 7. Проверим, есть ли зависимость от линг образ (да)
-+ 8. Проверим, есть ли зависимость от колич языков (да)
-+ 9. Проверим, есть ли зависимость от длины слова (да)
-+ 10. Проверим, есть ли зависимость от состояния (да)
-+ 11. Проверим, не скоррелированы ли пп. 7 и 8 (скоррелированы: получаются, они влияют на ответы как один общий фактор, их невозможно разделить).
-+ 12. Проверим, угадывают ли участники состояние (выше ли процент называния, чем случайная вероятность)
+5 от пола (нет)
+6. Проверим, есть ли зависимость от муз образ (нет)
+7. Проверим, есть ли зависимость от линг образ (да)
+8. Проверим, есть ли зависимость от колич языков (да)
+9. Проверим, есть ли зависимость от длины слова (да)
+10. Проверим, есть ли зависимость от состояния (да)
+11. Проверим, не скоррелированы ли пп. 7 и 8 (скоррелированы: получаются, они влияют на ответы как один общий фактор, их невозможно разделить).
+12. Проверим, угадывают ли участники состояние (выше ли процент называния, чем случайная вероятность)
 
+13. Логистическая регрессия
 
 0. Ставим пакеты 
 
@@ -394,12 +395,6 @@ sample estimates:
 
 #логистическая регрессия, модель 
 
-library(tidyverse)
-library(dplyr)
-library(ggplot2)
-library(stringr)
-theme_bw()
-
 data_regression <- read.csv('analysis.csv',header=T,na.strings=c(""))
 data_regression <- data_regression[-c(232, 471, 617),]
 sapply(data_regression,function(x) sum(is.na(x)))
@@ -413,25 +408,15 @@ data_adjusted <- data %>%
   spread(stimulus, n)
 
 data_adjusted[is.na(data_adjusted)] <- 0
-model <- glm(cbind(same, different) ~ really * real_condition_2 + foreign,family=binomial(link='logit'),data=data_adjusted[!(data_adjusted$really %in% c('tonus.konus')),])
+#model <- glm(cbind(same, different) ~ really * real_condition_2 + foreign,family=binomial(link='logit'),data=data_adjusted[!(data_adjusted$really %in% c('tonus.konus')),])
 model <- glm(cbind(same, different) ~ really * real_condition_2 + foreign,family=binomial(link='logit'),data=data_adjusted)
 summary(model)
+
+exp(model$coefficients)
 anova(model, test="Chisq")
 1 - pchisq(36, df=6)
 library(pscl)
 pR2(model)
 model$residuals
 
-
-library(ROCR)
-data_adjusted$prob <- predict(object = model, type = 'response')
-data_adjusted$prob = as.numeric(data_adjusted$prob)
-data_adjusted$same = as.numeric(data_adjusted$same)
-pred_model <- prediction(data_adjusted$prob, data_adjusted$same)
-#Error in prediction(data_adjusted$prob, data_adjusted$same) : 
-#Number of classes is not equal to 2.
-#ROCR currently supports only evaluation of binary classification tasks.
-#
-
-perf_model <- performance(pred_model, 'tpr', 'fpr')
-
+plot(model)
